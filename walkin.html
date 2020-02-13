@@ -1,0 +1,44 @@
+<div class="container-fluid">
+    <div id="walk-in-container">
+    </div>
+</div>
+
+<script type="text/javascript">
+  walkinDescription = [
+    {
+      "walkinDetail" : "Mega Walk-In Drive on 16th November 2019 for Freshers ( Experience upto 12 months )",
+      "walkinTextHref" : " Register Now",
+      "walkinTextLink": "https://forms.office.com/Pages/ResponsePage.aspx?id=vr1cVz6rDUuxUtMhGW0KCs_IWa25rr1FlXvOHENkxiVUMU9VNzRPMVJPQkNGVEhCTVZNTk44WVVSWC4u",
+      "isActive": false
+    }
+  ];
+    $(function(){
+           if(walkinDescription[0].isActive) {
+             $('#walk-in-container').addClass('show');
+             $('body').addClass('show-walkin-banner');
+           }
+           else
+           {
+             $('#walk-in-container').addClass('hide');
+           }
+      });
+
+ var exploreGalleryBtn = function(data) {
+   $.each(data, function(key, value) {
+     var htmlRender =
+       "<marquee class=\"font-bold\">"
+       + value.walkinDetail +
+       "</marquee>"+
+       "<a class='secondary-color font-bold' target='blank' href='"+value.walkinTextLink+"'>" +value.walkinTextHref+
+       "<span class='arrow'> " +
+       "<span>" +
+       "</span>" +
+       "</span>" +
+       "</a>";
+     $(htmlRender).appendTo("#walk-in-container");
+   });
+ };
+$(function(data) {
+  exploreGalleryBtn(walkinDescription);
+});
+</script>

@@ -1,0 +1,40 @@
+<div id="walkindrive-content1">
+</div>
+
+<script type="text/javascript">
+  walkinDriveDetails1= [
+    {
+      "walkinTitle": "MEGA WALK-IN DRIVE ",
+      "walkinDate": "16th Nov 2019",
+      "walkinBtn":"Register Now",
+      "isActive":false
+    }
+  ];
+  $(function(){
+    if(walkinDriveDetails1[0].isActive) {
+      $('#walkindrive-content1').addClass('show');
+      $('body').addClass('show-walkin-banner-details');
+    }
+    else
+    {
+      $('#walkindrive-content1').addClass('hide');
+    }
+  });
+  var backgroundHeader = function(data) {
+    $.each(data, function(key, value) {
+      var htmlRender = "<div class=\"general-banner montserrat-font-family\">" +
+        "<div class=\"walkin-notification-content\">" +
+        "<h1 class=\"main-heading-inner font-size-28 font-bold\">"+value.walkinTitle+"</h1>" +
+        "<h1 class=\"main-heading-inner font-size-28 font-bold\">"+value.walkinDate+"</h1>" +
+        "<div class = \"walkinbtn\">" +
+        "<a href = \"https://forms.office.com/Pages/ResponsePage.aspx?id=vr1cVz6rDUuxUtMhGW0KCs_IWa25rr1FlXvOHENkxiVUMU9VNzRPMVJPQkNGVEhCTVZNTk44WVVSWC4u\" class = \"\" target = \"_blank\">Register Now</a>"+"</div>"+
+        "</div>" +
+        "</div>" +
+        "</div>";
+      $(htmlRender).appendTo("#walkindrive-content1");
+    });
+  };
+  $(function() {
+    backgroundHeader(walkinDriveDetails1);
+  });
+</script>

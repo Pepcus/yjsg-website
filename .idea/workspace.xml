@@ -1,0 +1,632 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5736f2a3-3b51-4358-9c54-535c04362bde" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/images/team/AMITF.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/team/Ajay-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/team/Ajay-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/team/AmitP.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/team/AshutoshF.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/team/AshutoshP.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/team/KuldeepF.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/team/KuldeepP.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/team/NitinF.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/team/PalakF.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/team/PalakP.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/team/RajaF.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/team/RajaP.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/team/RaviF.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/team/Razxc.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/team/SharadF.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/team/SharadP.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/team/ShivajiP.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/team/Sonam-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/team/Sonam-2edit.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/team/ankit-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/team/ankit-3@.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/team/arpit-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/team/arpitedit-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/team/ayush-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/team/ayush-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/team/bhagyashree-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/team/bhagyashree-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/team/dhruv-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/team/dhruv-2edit.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/team/kapilesh-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/team/kapilesh-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/team/maheshP.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/team/mohitF.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/team/mohitP.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/team/nikhilBH-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/team/nikhilMAH-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/team/nikhilMAH-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/team/nikhilP.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/team/nnssnn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/team/nyy.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/team/prateek-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/team/prateekedit-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/team/purvi-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/team/sandeep-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/team/sandeep-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/team/sandeepKUM-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/team/sandeepKUM-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/team/shiva-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/team/shivaP.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/team/shivajiiF.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/team/shubham-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/team/shubham-2edit.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/team/surabhi-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/team/sushil-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/team/sushil-2@.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/team/user-icon8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/team/vinay-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/team/vinay-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/team/vishalF.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/team/vishalP.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/team.html" beforeDir="false" afterPath="$PROJECT_DIR$/team.html" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/team.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="140">
+              <caret line="394" column="43" selection-start-line="394" selection-start-column="43" selection-end-line="394" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>customDataSuccess</find>
+      <find>Slider</find>
+      <find>slider</find>
+      <find>company-pro</find>
+      <find>why</find>
+      <find>modal-content</find>
+      <find>#333332</find>
+      <find>modal-footer</find>
+      <find>#slider</find>
+      <find>modal-heading</find>
+      <find>btn-close</find>
+      <find>#slider2 .owl-wrapper .owl-item</find>
+      <find>console.log</find>
+      <find>dots</find>
+      <find>owl-pagin</find>
+      <find>#slider2</find>
+      <find>owl-pagina</find>
+      <find>stripe</find>
+      <find>.mar-15-0-10</find>
+      <find>#slider .client-section img</find>
+      <find>btn-apply</find>
+      <find>error</find>
+      <find>.modal-content</find>
+      <find>.linkedin-url-box</find>
+      <find>linkedin-url-box</find>
+      <find>linkedin_url</find>
+      <find>linked</find>
+      <find>url_link</find>
+      <find>.card-hover .card-block, .card-hover a</find>
+      <find>loading</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>padding-0</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/js/custom.js" />
+        <option value="$PROJECT_DIR$/css/team.css" />
+        <option value="$PROJECT_DIR$/css/java-engineer.css" />
+        <option value="$PROJECT_DIR$/css/react-engineer.css" />
+        <option value="$PROJECT_DIR$/css/devops-engineer.css" />
+        <option value="$PROJECT_DIR$/css/qa-lead.css" />
+        <option value="$PROJECT_DIR$/css/qa-engineer.css" />
+        <option value="$PROJECT_DIR$/css/php-engineer.css" />
+        <option value="$PROJECT_DIR$/devops-engineer.html" />
+        <option value="$PROJECT_DIR$/java-engineer.html" />
+        <option value="$PROJECT_DIR$/php-engineer.html" />
+        <option value="$PROJECT_DIR$/qa-engineer.html" />
+        <option value="$PROJECT_DIR$/qa-lead.html" />
+        <option value="$PROJECT_DIR$/react-engineer.html" />
+        <option value="$PROJECT_DIR$/css/java-lead.css" />
+        <option value="$PROJECT_DIR$/js/jquery-filestyle.min.js" />
+        <option value="$PROJECT_DIR$/css/jquery.fancybox-transitions.css" />
+        <option value="$PROJECT_DIR$/js/jquery.fancybox-transitions.js" />
+        <option value="$PROJECT_DIR$/js/jquery.fancybox.transitions.js" />
+        <option value="$PROJECT_DIR$/java-lead.html" />
+        <option value="$PROJECT_DIR$/thankyou.html" />
+        <option value="$PROJECT_DIR$/contact.html" />
+        <option value="$PROJECT_DIR$/js/masonry.pkg.min.js" />
+        <option value="$PROJECT_DIR$/js/pycs.layout.jquery.js" />
+        <option value="$PROJECT_DIR$/gridSliderNew.html" />
+        <option value="$PROJECT_DIR$/gridSlider.html" />
+        <option value="$PROJECT_DIR$/js/grid-mosaic.js" />
+        <option value="$PROJECT_DIR$/js/jquery.mosaic.js" />
+        <option value="$PROJECT_DIR$/js/careers.json" />
+        <option value="$PROJECT_DIR$/careers-slider.html" />
+        <option value="$PROJECT_DIR$/company-profile.html" />
+        <option value="$PROJECT_DIR$/why-pepcus.html" />
+        <option value="$PROJECT_DIR$/css/career-form.css" />
+        <option value="$PROJECT_DIR$/careers.html" />
+        <option value="$PROJECT_DIR$/thankyou-careers.html" />
+        <option value="$PROJECT_DIR$/css/careers.css" />
+        <option value="$PROJECT_DIR$/careers.json" />
+        <option value="$PROJECT_DIR$/career-form.html" />
+        <option value="$PROJECT_DIR$/about.html" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/team.html" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="7" />
+    <option name="y" value="43" />
+    <option name="width" value="1379" />
+    <option name="height" value="734" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <autoscrollFromSource ProjectPane="true" />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="pepcus-website" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pepcus-website" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="C:/Program Files/nodejs/node" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\PEPCUS\PepcusWebsite" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5736f2a3-3b51-4358-9c54-535c04362bde" name="Default" comment="" />
+      <created>1545655933560</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1545655933560</updated>
+      <workItem from="1545655935135" duration="13692000" />
+      <workItem from="1546847242336" duration="85000" />
+      <workItem from="1551090186685" duration="50352000" />
+      <workItem from="1551348897329" duration="11394000" />
+      <workItem from="1551705066997" duration="2252000" />
+      <workItem from="1551766880973" duration="6868000" />
+      <workItem from="1551853869248" duration="4438000" />
+      <workItem from="1551939704391" duration="733000" />
+      <workItem from="1552050297471" duration="1589000" />
+      <workItem from="1552290651974" duration="6515000" />
+      <workItem from="1552374416356" duration="17772000" />
+      <workItem from="1552560807540" duration="12302000" />
+      <workItem from="1552632019262" duration="3342000" />
+      <workItem from="1553681052275" duration="12484000" />
+      <workItem from="1553753203345" duration="51257000" />
+      <workItem from="1554103755654" duration="5752000" />
+      <workItem from="1554112655602" duration="20094000" />
+      <workItem from="1554271956215" duration="23228000" />
+      <workItem from="1554357816352" duration="1746000" />
+      <workItem from="1554370151154" duration="6601000" />
+      <workItem from="1554448576838" duration="5843000" />
+      <workItem from="1554705781171" duration="6878000" />
+      <workItem from="1554790941402" duration="10217000" />
+      <workItem from="1554878149044" duration="2286000" />
+      <workItem from="1554884253191" duration="8355000" />
+      <workItem from="1554972291191" duration="5315000" />
+      <workItem from="1567499514192" duration="4092000" />
+      <workItem from="1569480837587" duration="1629000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="297111000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17580965" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.05102041" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.05102041" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/css/react-engineer.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="55" selection-start-line="2" selection-start-column="55" selection-end-line="2" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/qa-lead.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/qa-engineer.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="20" lean-forward="true" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/php-engineer.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/jquery-filestyle.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="7575" selection-start-column="7575" selection-end-column="7575" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/jquery.fancybox-transitions.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="37" column="35" selection-start-line="37" selection-start-column="35" selection-end-line="37" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/webstorm.jar!/resources/html5-schema/html5/embed.rnc" />
+    <entry file="file://$PROJECT_DIR$/java-lead.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="79">
+          <caret line="129" column="30" lean-forward="true" selection-start-line="129" selection-start-column="30" selection-end-line="129" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/java-lead.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="65" column="18" lean-forward="true" selection-start-line="65" selection-start-column="18" selection-end-line="65" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-engineer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="59">
+          <caret line="128" column="43" lean-forward="true" selection-start-line="128" selection-start-column="43" selection-end-line="128" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react-engineer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8">
+          <caret line="112" column="75" selection-start-line="112" selection-start-column="75" selection-end-line="112" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/devops-engineer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="129" column="46" lean-forward="true" selection-start-line="129" selection-start-column="46" selection-end-line="129" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qa-lead.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="102" column="72" selection-start-line="102" selection-start-column="72" selection-end-line="102" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qa-engineer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="428">
+          <caret line="112" column="64" selection-start-line="112" selection-start-column="64" selection-end-line="112" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/pycs.layout.jquery.js" />
+    <entry file="file://$PROJECT_DIR$/js/masonry.pkg.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="8" column="23912" selection-start-line="8" selection-start-column="23912" selection-end-line="8" selection-end-column="23912" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php-engineer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1955">
+          <caret line="115" column="61" selection-start-line="115" selection-start-column="61" selection-end-line="115" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gridSliderNew.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="986">
+          <caret line="58" column="17" selection-start-line="58" selection-start-column="17" selection-end-line="58" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/jquery.mosaic.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5253">
+          <caret line="309" column="34" selection-start-line="309" selection-start-column="34" selection-end-line="309" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/careers.json" />
+    <entry file="file://$PROJECT_DIR$/gridSlider.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1768">
+          <caret line="104" column="28" selection-start-line="104" selection-start-column="28" selection-end-line="104" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/careers-slider.html" />
+    <entry file="file://$PROJECT_DIR$/js/jquery.fancybox.transitions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="986">
+          <caret line="58" column="28" selection-start-line="58" selection-start-column="28" selection-end-line="58" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/jquery.fancybox-transitions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="34" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/jquery-1.9.1.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/why-pepcus.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="7" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/career-form.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="40" lean-forward="true" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/company-profile.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/career-form.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="163" column="42" selection-start-line="163" selection-start-column="42" selection-end-line="163" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/careers.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="403" column="6" selection-start-line="403" selection-start-column="6" selection-end-line="403" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/careers.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="473">
+          <caret line="628" column="7" selection-start-line="628" selection-start-column="7" selection-end-line="628" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/careers.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="109" column="1" selection-start-line="109" selection-start-column="1" selection-end-line="109" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contact.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="335" column="31" selection-start-line="335" selection-start-column="31" selection-end-line="335" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thankyou.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thankyou-careers.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-646">
+          <caret line="19" selection-start-line="19" selection-start-column="4" selection-end-line="21" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/faq.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/goal.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-901">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/custom.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="816">
+          <caret line="48" column="27" selection-start-line="48" selection-start-column="27" selection-end-line="48" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/grid-mosaic.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/init.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/jquery.animateSlider.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/jquery.elgrid.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/jquery.fancybox.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/waterfall-light.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/viewportchecker.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/fastclick.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/Elastic-tiles.jQuery.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/carouseller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="42" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="206" lean-forward="true" selection-start-line="206" selection-end-line="206" />
+          <folding>
+            <element signature="n#nav#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#3;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#4;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/team.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="394" column="43" selection-start-line="394" selection-start-column="43" selection-end-line="394" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

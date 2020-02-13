@@ -1,0 +1,767 @@
+{
+  "navigationWrapper" : [
+    {
+      "navLogoSrc": "images/logo/logonew.png",
+      "navbarNavLink" : [
+        {
+          "navHref" : "index.html",
+          "navLink": "Home"
+        },
+        {
+          "navHref" : "about.html",
+          "navLink":  "About"
+        },
+        {
+          "navHref" : "services.html",
+          "navLink": "Services"
+        },
+        {
+          "navHref" : "careers.html",
+          "navLink": "Careers",
+          "class": "active"
+        },
+        {
+          "navHref" : "team.html",
+          "navLink": "Team"
+        },
+        {
+          "navHref" : "contact.html",
+          "navLink": "Contact"
+        }
+      ]
+    }
+  ],
+  "backgroundHeader": [
+    {
+      "headerTitle": "Let's Join us, Let's Grow Together"
+
+    }
+  ],
+  "headerData": [
+    {
+      "title": "Join Us & Springboard Your Career to New Heights",
+      "description": "We are looking for extraordinary people who are ready to dive into a high growth, fast-paced, super collaborative company. An innovation-driven, a stimulating and fun loving environment and an incredibly talented team are just a small number of reasons why you will love to work here."
+    }
+  ],
+  "currentOpeningsTitle": [
+    {
+      "openingSectionTitle": "Current Openings"
+    }
+  ],
+  "currentOpeningsModalWrapper" : [
+    {
+      "modalContentId": "java-lead",
+      "closeModalText": "java-lead",
+      "modalContentHeading": "JAVA Lead",
+      "modalLocationHeading": "Job Location : ",
+      "modalLocationText": "Indore",
+      "modalContentExperience": "Experience : ",
+      "modalContentExperienceText" :  "5-10 years",
+      "jobDescriptionTitle" : "Job Description : ",
+      "jobDescription": [
+        "4+ years of experience on Struts/Spring and Hibernate and Restful services",
+        "Exposure on UI development and front end technologies like JavaScript, JQuery",
+        "Must have developed at least one project based on Restful Web Services"
+      ],
+      "keyActivitiesTitle": "Key Activities",
+      "keyActivities" : [
+        "Manage and lead a diverse, expert team of 4 - 5 software engineers.",
+        "Design and implementation of innovative enterprise JAVA and J2EE applications",
+        "Ensuring competencies with SDLC processes, Design Patterns, POC development, Environments setup etc.",
+        "Employing of best development practices that ensure high quality delivery and easy maintainability of code"
+      ],
+      "KeySkillsTitle" : "Key Skills",
+      "keySkills" : [
+        "Proficiency in Java Programming",
+        "Skilled in Object Oriented Programming",
+        "Extensive exposure to Spring, Hibernate and open source frameworks",
+        "Hands on experience with Core Java, IO, Collections, REST web services, Servlets, JSP, Spring, Design Patterns, Apache Tomcat, SQL, React",
+        "Excellent problem solving, debugging and troubleshooting skills.",
+        "Understanding of Best Practices and Design Patterns",
+        "Exposure to Build and Deployment processes"
+      ]
+    },
+    {
+      "modalContentId": "java-engineer",
+      "closeModalText": "java-engineer",
+      "modalContentHeading": "JAVA Engineer",
+      "modalLocationHeading": "Job Location : ",
+      "modalLocationText": "Indore",
+      "modalContentExperience" : "Experience : ",
+      "modalContentExperienceText" :  "2-5 years",
+      "jobDescriptionTitle" : "Job Description : ",
+      "jobDescription": [
+        "Hands on experience on Struts/Spring and Hibernate and Restful services",
+        "Exposure on UI development and front end technologies like JavaScript, JQuery",
+        "Must have developed at least one project based on Restful Web Services"
+      ],
+      "keyActivitiesTitle": "Key Activities:",
+      "keyActivities" : [
+        "Manage and lead a diverse, expert team of 4 - 5 software engineers.",
+        "Design and implementation of innovative enterprise JAVA and J2EE applications",
+        "Ensuring competencies with SDLC processes, Design Patterns, POC development, Environments setup etc.",
+        "Employing of best development practices that ensure high quality delivery and easy maintainability of code"
+      ],
+      "KeySkillsTitle" : "Key Skills:",
+      "keySkills" : [
+        "Proficiency in Java Programming",
+        "Skilled in Object Oriented Programming",
+        "Extensive exposure to Spring, Hibernate and open source frameworks",
+        "Hands on experience with Core Java, IO, Collections, REST web services, Servlets, JSP, Spring, Design Patterns, Apache Tomcat, SQL, React",
+        "Excellent problem solving, debugging and troubleshooting skills.",
+        "Understanding of Best Practices and Design Patterns",
+        "Exposure to Build and Deployment processes"
+      ]
+    },
+    {
+      "modalContentId": "react-engineer",
+      "closeModalText": "react-engineer",
+      "modalContentHeading": "React Engineer",
+      "modalLocationHeading": "Job Location : ",
+      "modalLocationText": "Indore",
+      "modalContentExperience": "Experience : ",
+      "modalContentExperienceText": " 3-7 years",
+      "jobDescriptionTitle" : "Responsiblities: ",
+      "jobDescription": [
+        "Contribute to product development, new feature implementation and bug fixes",
+        "Design and develop new user-facing features using React.js",
+        "Discuss requirements, design and implementation with PMs or leads on a daily basis",
+        "Should be an active participant to the daily hurdle and weekly status meetings",
+        "Building reusable components and front-end libraries for future use",
+        "Optimizing components for maximum performance across different web-capable devices and browsers"
+      ],
+      "keyActivitiesTitle": "Key Activities:",
+      "keyActivities" : [
+        "Strong proficiency in JavaScript and HTML, including manipulation of the JavaScript Document Object Model.",
+        "Thorough understanding of React.js and its core principles",
+        "Experience with popular React.js workflows (such as Redux and Sagas)",
+        "Familiarity with newer specifications of EcmaScript",
+        "Familiarity with RESTful APIs",
+        "Knowledge of modern authorization mechanisms, such as JSON Web Token",
+        "Familiarity with modern front-end build pipelines and tools",
+        "Experience with common front-end development tools such as Babel, webpack, npm, Grunt etc.",
+        "Ability to understand business requirements and translate them into technical requirements",
+        "A knack for benchmarking and optimization"
+      ],
+      "KeySkillsTitle" : "",
+      "keySkills" : [
+      ]
+    },
+    {
+      "modalContentId": "devops-engineer",
+      "closeModalText": "devops-engineer",
+      "modalContentHeading": "Devops Engineer",
+      "modalLocationHeading": "Job Location  : ",
+      "modalLocationText": "Indore",
+      "modalContentExperience": "Experience  : ",
+      "modalContentExperienceText": "3+ years",
+      "jobDescriptionTitle" : "Job Description :",
+      "jobDescription": [
+        "DevOps engineer is an important stake holder in the product development process.",
+        " We believe the best outcome of the DevOps is to increase the effective velocity of the engineering team and increase our ability to ship faster with fault tolerant and scalable infrastructure.",
+        " DevOps Engineers at Pepcus develop and execute extensive automated scripts to ensure product deploys on a daily basis.",
+        " DevOps engineer responsibilities include designing and implementing Continuous Integration and Continuous Deployment under mentoring of Senior Devops engineer."
+      ],
+      "keyActivities" : [
+
+      ],
+      "KeySkillsTitle" : "Key Skills:",
+      "keySkills" : [
+        "2+ years of DevOps experience with AWS services (e.g. RDS, Cloudfront, S3, EC2, Lambda, DynamoDB, Cloudwatch)",
+        "Strong understanding of Docker and container orchestrator such as ECS and Kubernetes",
+        "Must have experience with CI/CD Tools (Jenkins, Codebuild, ECS, Ansible, CloudFormation, Terraform, Git, etc.)",
+        "Experience with Linux, Apache, Nginx and building Linux systems",
+        "Experience with Python, Bash/Shell Scripting",
+        "Solid understanding of Git and GitHub",
+        "Excellent communication skills and detail oriented",
+        "Comfortable with a fast-moving organization using Continuous Integration and the Continuous Deployment/Delivery deployment model",
+        "Ability to work with minimal supervision, manage priorities, and stay organized and focused"
+      ]
+    },
+    {
+      "modalContentId": "qa-lead",
+      "closeModalText": "qa-lead",
+      "modalContentHeading": "QA Lead",
+      "modalLocationHeading": "Job Location : ",
+      "modalLocationText": "Indore",
+      "modalContentExperience": "Experience : ",
+      "modalContentExperienceText": "5-10 years",
+      "jobDescriptionTitle" : "Job Description : ",
+      "jobDescription": [
+        "Establish and evolve formal QA processes, ensuring that the team is using industry-accepted best practices.",
+        "Oversee all aspects of quality assurance including establishing metrics, applying industry best practices, and developing new tools and processes to ensure quality goals are met.",
+        "Act as key point of contact for all QA aspects of releases, providing QA services and coordinating QA resources internally and externally.",
+        "Lead and mentor QA team members.",
+        "Hands on experience in performing all aspects of testing, including automation, functional, regression and security testing.",
+        "Web Application Test automation using Open source or license tool (selenium-web driver) or QTP ",
+        "Contribute in Automation Framework Development/Enhancement",
+        "Experience with Web application standards and REST API's (Web services, XML, JSON, HTTP, HTTPs)",
+        "Sound knowledge of Automation Tools",
+        "Experience with Build and Packaging tools like Jenkins, Bamboo etc.",
+        "Experience in any Test Management Tool, Defect Management Tool & Source control tool",
+        "Gather Test Requirements from Functional Specifications, Development Test plans, Design plans, and by learning existing functionality.",
+        "Perform Database validation by executing PL/SQL queries to extract and validate test data",
+        "Conduct cross browser testing, responsive design testing, performance, and compatibility tests on various browsers, operating systems, hardware, and devices.",
+        "Build independent web based tools, microservices and solutions",
+        "Experience in performance, smoke, sanity testing",
+        "Self-directed with ability to work effectively in a highly innovative and fast-paced environment"
+      ],
+      "keyActivitiesTitle": "",
+      "keyActivities" : [
+
+      ],
+      "KeySkillsTitle" : "",
+      "keySkills" : [
+      ]
+    },
+    {
+      "modalContentId": "qa-engineer",
+      "closeModalText": "qa-engineer",
+      "modalContentHeading": "QA Engineer",
+      "modalLocationHeading": "Job Location : ",
+      "modalLocationText": "Indore",
+      "modalContentExperience": "Experience : ",
+      "modalContentExperienceText": "2-6 years",
+      "jobDescriptionTitle" : "Job Description :",
+      "jobDescription": [
+        "Hands on experience in performing all aspects of testing, including automation, functional, regression and security testing, preferably on a Platform product",
+        "Web Application Test automation using Open source or license tool (selenium-web driver) or QTP",
+        "Contribute in Automation Framework Development/Enhancement",
+        "Experience with Web application standards and REST API's (Web services, XML, JSON, HTTP, HTTPs)",
+        "Sound knowledge of Automation Tools",
+        "Experience with Build and Packaging tools like Jenkins, Bamboo etc. ",
+        "Experience in any Test Management Tool, Defect Management Tool & Source control tool",
+        "Gather Test Requirements from Functional Specifications, Development Test plans, Design plans, and by learning existing functionality",
+        "Perform Database validation by executing PL/SQL queries to extract and validate test data.",
+        "Experience with Build and Packaging tools like Jenkins, Bamboo etc.",
+        "Experience in any Test Management Tool, Defect Management Tool & Source control tool",
+        "Conduct cross browser testing, responsive design testing, performance, and compatibility tests on various browsers, operating systems, hardware, and devices.",
+        "Experience in performance, smoke, sanity testing",
+        "Self-directed with ability to work effectively in a highly innovative and fast-paced environment"
+      ],
+      "keyActivitiesTitle": "",
+      "keyActivities" : [
+      ],
+      "KeySkillsTitle" : "",
+      "keySkills" : [
+      ]
+    },
+    {
+      "modalContentId": "php-engineer",
+      "closeModalText": "php-engineer",
+      "modalContentHeading": "PHP Engineer",
+      "modalLocationHeading": "Job Location : ",
+      "modalLocationText": "Indore",
+      "modalContentExperience": "Experience : ",
+      "modalContentExperienceText": "3-7 years",
+      "jobDescriptionTitle" : "Responsibilities : ",
+      "jobDescription": [
+        "Integration of user-facing elements developed by front-end developers",
+        "Build efficient, testable, and reusable PHP modules",
+        "Solve complex performance problems and architectural challenges",
+        "Integration of data storage solutions"
+      ],
+      "keyActivitiesTitle": "Key Activities:",
+      "keyActivities" : [
+        "Strong knowledge of PHP web frameworks",
+        "Understanding the fully synchronous behavior of PHP",
+        "Understanding of MVC design patterns",
+        "Basic understanding of front-end technologies, such as JavaScript, HTML5, and CSS3",
+        "Knowledge of object oriented PHP programming",
+        "Understanding accessibility and security compliance",
+        "Strong knowledge of the common PHP or web server exploits and their solutions",
+        "Understanding fundamental design principles behind a scalable application",
+        "User authentication and authorization between multiple systems, servers, and environments",
+        "Integration of multiple data sources and databases into one system",
+        "Familiarity with limitations of PHP as a platform and its workarounds",
+        "Creating database schemas that represent and support business processes",
+        "Familiarity with SQL/NoSQL databases and their declarative query languages"
+      ],
+      "KeySkillsTitle" : "",
+      "keySkills" : [
+      ]
+    }
+  ],
+  "currentOpeningSection": [
+    {
+      "cardImages" : "images/current-opening-cards/JAVA-Lead.jpg",
+      "onclickOpenModal" : "java-lead",
+      "jobTitle": "JAVA LEAD",
+      "jobExperience": "Experience: 5-10 years",
+      "jobLocation": "Job Location : Indore",
+      "jobBtn":"See more",
+      "jobDivBackgroundClass" : "java-lead-card"
+    },
+    {
+      "cardImages" : "images/current-opening-cards/JAVA-Engineer.jpg",
+      "onclickOpenModal" : "java-engineer",
+      "jobTitle": "JAVA Engineer",
+      "jobExperience": "Experience: 2-5 years",
+      "jobLocation": "Job Location : Indore",
+      "jobBtn":"See more",
+      "jobDivBackgroundClass" : "java-engineer-card"
+    },
+    {
+      "cardImages" : "images/current-opening-cards/React-Engineer.jpg",
+      "onclickOpenModal" : "react-engineer",
+      "jobTitle": "React Engineer",
+      "jobExperience": "Experience: 3-7 years",
+      "jobLocation": "Job Location : Indore",
+      "jobBtn":"See more",
+      "jobDivBackgroundClass" : "react-engineer-card"
+    },
+    {
+      "cardImages" : "images/current-opening-cards/Devops-Engineer.jpg",
+      "onclickOpenModal" : "devops-engineer",
+      "jobTitle": "Devops Engineer",
+      "jobExperience": "Experience: 3+ years",
+      "jobLocation": "Job Location : Indore",
+      "jobBtn":"See more",
+      "jobDivBackgroundClass" : "devops-engineer-card"
+    },
+    {
+      "cardImages" : "images/current-opening-cards/QA-Lead.jpg",
+      "onclickOpenModal" : "qa-lead",
+      "jobTitle": "QA Lead",
+      "jobExperience": "Experience: 5-10 years",
+      "jobLocation": "Job Location : Indore",
+      "jobBtn":"See more",
+      "jobDivBackgroundClass" : "qa-lead-card"
+    },
+    {
+      "cardImages" : "images/current-opening-cards/QA-Engineer.jpg",
+      "onclickOpenModal" : "qa-engineer",
+      "jobTitle": "QA Engineer",
+      "jobExperience": "Experience: 2-6 years",
+      "jobLocation": "Job Location : Indore",
+      "jobBtn":"See more",
+      "jobDivBackgroundClass" : "qa-engineer-card"
+    },
+    {
+      "cardImages" : "images/current-opening-cards/PHP-Engineer.jpg",
+      "onclickOpenModal" : "php-engineer",
+      "jobTitle": "PHP Engineer",
+      "jobExperience": "Experience: 3-7 years",
+      "jobLocation": "Job Location : Indore",
+      "jobBtn":"See more",
+      "jobDivBackgroundClass" : "php-engineer-card"
+    }
+  ],
+  "techExpertiseTitle" : [
+    {
+      "techExpertiseHeader": "Our Tech Expertise"
+    }
+  ],
+  "techExpertise" : [
+    {
+      "iconSliderClass": "java-icon",
+      "img": "images/careers/java-icon.png",
+      "alt": ""
+    },
+    {
+      "iconSliderClass": "",
+      "img": "images/careers/react-icon-neww.png",
+      "alt": ""
+    },
+    {
+      "iconSliderClass": "backbone-icon",
+      "img": "images/careers/spring-icon-6.png",
+      "alt": ""
+    },
+    {
+      "iconSliderClass": "",
+      "img": "images/careers/angular-icon.png",
+      "alt": ""
+    },
+    {
+      "iconSliderClass": "",
+      "img": "images/careers/nodejs-icon-10.png",
+      "alt": ""
+    },
+    {
+      "iconSliderClass": "",
+      "img": "images/careers/jquery-icon-4.png",
+      "alt": ""
+    },
+    {
+      "iconSliderClass": "",
+      "img": "images/careers/css3-icon.png",
+      "alt": ""
+    },
+    {
+      "iconSliderClass": "backbone-icon",
+      "img": "images/careers/struts-icon-3.png",
+      "alt": ""
+    },
+    {
+      "iconSliderClass": "",
+      "img": "images/careers/jsf-icon-5.png",
+      "alt": ""
+    },
+    {
+      "iconSliderClass": "backbone-icon",
+      "img": "images/careers/primefaces-icon-5.png",
+      "alt": ""
+    },
+    {
+      "iconSliderClass": "",
+      "img": "images/careers/jsp-icon.png",
+      "alt": ""
+    },
+    {
+      "iconSliderClass": "backbone-icon",
+      "img": "images/careers/backbone-icon-2.png",
+      "alt": ""
+    }
+  ],
+  "workspaceSliderTitle" : [
+    {
+      "workspaceSliderHeader" : "Let's Get on to your Dream Workplace!"
+    }
+  ],
+  "workspaceSectionSliderWrapper": [
+    {
+      "img":"images/workspace/work-1.jpg",
+      "alt": "slider 1 jpg"
+    },
+    {
+      "img":"images/workspace/work-2.jpg",
+      "alt": "slider 2 jpg"
+    },
+    {
+      "img":"images/workspace/work-3.jpg",
+      "alt": "slider 3 jpg"
+    },
+    {
+      "img":"images/workspace/work-4.jpg",
+      "alt": "slider 4 jpg"
+    },
+    {
+      "img":"images/workspace/work-5.jpg",
+      "alt": "slider 5 jpg"
+    },
+    {
+      "img":"images/workspace/work-6.jpg",
+      "alt": "slider 6 jpg"
+    },
+    {
+      "img":"images/workspace/work-7.jpg",
+      "alt": "slider 7 jpg"
+    },
+    {
+      "img":"images/workspace/work-8.jpg",
+      "alt": "slider 8 jpg"
+    },
+    {
+      "img":"images/workspace/work-9.png",
+      "alt": "slider 9 jpg"
+    }
+  ],
+  "benefitSectionTitle" : [
+    {
+      "benefitSectionHeader" : "Few Reasons to Love Pepcus.."
+    }
+  ],
+  "benefitSectionWrapper": [
+    {
+      "img":"images/newimages/surbhiNEW.jpg",
+      "alt": "img 1 jpg"
+    },
+    {
+      "img":"images/newimages/anktNEW.jpg",
+      "alt": "img 2 jpg"
+    },
+    {
+      "img":"images/newimages/palakNEW.jpg",
+      "alt": "img 3 jpg"
+    },
+    {
+      "img":"images/newimages/shubhmNEW.jpg",
+      "alt": "img 4 jpg"
+    },
+    {
+      "img":"images/newimages/arpitNEW.jpg",
+      "alt": "img 5 jpg"
+    },
+    {
+      "img":"images/newimages/kapilesh.jpg",
+      "alt": "img 6 jpg"
+    },
+    {
+      "img":"images/newimages/nikhil.jpg",
+      "alt": "img 7 jpg"
+    },
+    {
+      "img":"images/newimages/sandeepNEW1.jpg",
+      "alt": "img 8 jpg"
+    }
+  ],
+  "gallerySliderTitle" : [
+    {
+      "gallerySliderHeader" : "If work isn’t FUN, you are NOT playing on the right team"
+    }
+  ],
+  "gallerySliderWrapper": [
+    {
+      "img":"images/sliders/s01.jpg",
+      "alt": "slider 1 jpg"
+    },
+    {
+      "img":"images/sliders/s02.jpg",
+      "alt": "slider 2 jpg"
+    },
+    {
+      "img":"images/sliders/s03.jpg",
+      "alt": "slider 3 jpg"
+    },
+    {
+      "img":"images/sliders/s04.jpg",
+      "alt": "slider 4 jpg"
+    },
+    {
+      "img":"images/sliders/s05.jpg",
+      "alt": "slider 5 jpg"
+    },
+    {
+      "img":"images/sliders/s06.jpg",
+      "alt": "slider 6 jpg"
+    },
+    {
+      "img":"images/sliders/s07.jpg",
+      "alt": "slider 7 jpg"
+    },
+    {
+      "img":"images/sliders/s08.jpg",
+      "alt": "slider 8 jpg"
+    },
+    {
+      "img":"images/sliders/s09.jpg",
+      "alt": "slider 9 jpg"
+    },
+    {
+      "img":"images/sliders/s10.jpg",
+      "alt": "slider 10 jpg"
+    },
+    {
+      "img":"images/sliders/s11.jpg",
+      "alt": "slider 11 jpg"
+    },
+    {
+      "img":"images/sliders/s12.jpg",
+      "alt": "slider 12 jpg"
+    },
+    {
+      "img":"images/sliders/s13.jpg",
+      "alt": "slider 13 jpg"
+    },
+    {
+      "img":"images/sliders/s14.jpg",
+
+      "alt": "slider 14 jpg"
+    },
+    {
+      "img":"images/sliders/s15.jpg",
+      "alt": "slider 15 jpg"
+    },
+    {
+      "img":"images/sliders/s16.jpg",
+      "alt": "slider 16 jpg"
+    },
+    {
+      "img":"images/sliders/s17.jpg",
+      "alt": "slider 17 jpg"
+    },
+    {
+      "img":"images/sliders/s18.jpg",
+      "alt": "slider 18 jpg"
+    },
+    {
+      "img":"images/sliders/s19.jpg",
+      "alt": "slider 19 jpg"
+    },
+    {
+      "img":"images/sliders/s20.jpg",
+      "alt": "slider 20 jpg"
+    },
+    {
+      "img":"images/sliders/s21.jpg",
+      "alt": "slider 21 jpg"
+    },
+    {
+      "img":"images/sliders/s22.jpg",
+      "alt": "slider 22 jpg"
+    },
+    {
+      "img":"images/sliders/s23.jpg",
+      "alt": "slider 23 jpg"
+    },
+    {
+      "img":"images/sliders/s24.jpg",
+      "alt": "slider 24 jpg"
+    },
+    {
+      "img":"images/sliders/s25.jpg",
+      "alt": "slider 25 jpg"
+    },
+    {
+      "img":"images/sliders/s26.jpg",
+      "alt": "slider 26 jpg"
+    },
+    {
+      "img":"images/sliders/s27.jpg",
+      "alt": "slider 27 jpg"
+    },
+    {
+      "img":"images/sliders/s28.jpg",
+      "alt": "slider 28 jpg"
+    },
+    {
+      "img":"images/sliders/s29.jpeg",
+      "alt": "slider 29 jpg"
+    },
+    {
+      "img":"images/sliders/s30.jpg",
+      "alt": "slider 30 jpg"
+    },
+    {
+      "img":"images/sliders/s31.jpg",
+      "alt": "slider 31 jpg"
+    },
+    {
+      "img":"images/sliders/s32.jpg",
+      "alt": "slider 32 jpg"
+    },
+    {
+      "img":"images/sliders/s33.jpg",
+      "alt": "slider 33 jpg"
+    },
+    {
+      "img":"images/sliders/s34.jpg",
+      "alt": "slider 34 jpg"
+    },
+    {
+      "img":"images/sliders/s35.jpg",
+      "alt": "slider 35 jpg"
+    },
+    {
+      "img":"images/sliders/s36.jpg",
+      "alt": "slider 36 jpg"
+    }
+  ],
+  "exploreGalleryButton" : [
+    {
+      "exploreBtnText" : "explore life at Pepcus",
+      "exploreBtnHref" : "https://www.youtube.com/watch?v=CX8l4w6MXXU&list=PLyTyrJ-M-5yqG4WICuL_p9XjvE5YHqsut"
+    }
+  ],
+  "footerWrapper" : [
+    {
+      "footerPrimaryTitle": "Home"
+    },
+    {
+      "footerPrimaryTitle": "About"
+    },
+    {
+      "footerPrimaryTitle": "Services"
+    },
+    {
+      "footerPrimaryTitle": "Careers"
+    },
+    {
+      "footerPrimaryTitle": "Team"
+    },
+    {
+      "footerPrimaryTitle": "Contact"
+    }
+  ],
+  "footerSecondary" : [
+    {
+      "footerSecondaryTitle" : "Services",
+      "linkFooterClass" : "link-footer-services"
+    },
+    {
+      "footerSecondaryTitle" : "Custom Web Development",
+      "linkFooterClass" : ""
+    },
+    {
+      "footerSecondaryTitle" : "Mobile Development",
+      "linkFooterClass" : ""
+    },
+    {
+      "footerSecondaryTitle" : "Software Testing & Automation",
+      "linkFooterClass" : ""
+    },
+    {
+      "footerSecondaryTitle" : "Startups",
+      "linkFooterClass" : ""
+    },
+    {
+      "footerSecondaryTitle" : "Outsourcing Partnership",
+      "linkFooterClass" : ""
+    },
+    {
+      "footerSecondaryTitle" : "Support & Maintenance",
+      "linkFooterClass" : ""
+    }
+  ],
+  "pepcusFooterLogo" : [
+    {
+      "logoSrc" : "images/logo/logo-small.png",
+      "logoHref" : "index.html",
+      "logoWidth" : "50"
+    }
+  ],
+  "pepcusFooterPara" : [
+    {
+      "para" : "We help customers to focus on their core business areas and let their IT needs be OUR RESPONSIBILITY."
+    }
+  ],
+  "footerSocialIcons" : [
+    {
+      "footerSocialClass" : "fa fa-linkedin SocialMediaIcon social-media social-media-linkedin",
+      "footerSocialHref" : "https://www.linkedin.com/company/pepcus-software-services-pvt-ltd-/",
+      "footerLabel" : "Linkedin"
+    },
+    {
+      "footerSocialClass" : "fa fa-facebook SocialMediaIcon social-media social-media-facebook",
+      "footerSocialHref" : "https://www.facebook.com/Pepcus-Software-Services-Private-Limited-449184531801853/",
+      "footerLabel" : "Facebook"
+    },
+    {
+      "footerSocialClass" : "fa fa-instagram SocialMediaIcon social-media social-media-instagram",
+      "footerSocialHref" : "https://www.instagram.com/?hl=en",
+      "footerLabel" : "Instagram"
+    },
+    {
+      "footerSocialClass" : "fa fa-youtube SocialMediaIcon social-media social-media-youtube",
+      "footerSocialHref" : "https://www.youtube.com/channel/UCVIVt_71kI1nWOa7WHN0PhQ",
+      "footerLabel" : "Youtube"
+    },
+    {
+      "footerSocialClass" : "fa fa-twitter SocialMediaIcon social-media social-media-twitter",
+      "footerSocialHref" : "https://twitter.com/Pepcus_Software",
+      "footerLabel" : "Twitter"
+    },
+    {
+      "footerSocialClass" : "fa fa-glassdoor SocialMediaIcon social-media social-media-glassdoor",
+      "footerSocialHref" : "https://www.glassdoor.co.in/Overview/Working-at-Pepcus-EI_IE2032525.11,17.htm",
+      "footerLabel" : "Glassdoor",
+      "childComponent" : "<span class=\"glassicon\"><svg class=\"icon\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"aria-hidden=\"true\" focusable=\"false\" width=\"1em\" height=\"1em\" style=\"-ms-transform: rotate(360deg); -webkit-transform: rotate(360deg); transform: rotate(360deg);\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 24 24\" class=\"iconify icon:simple-icons:glassdoor\" data-inline=\"false\" data-width=\"1em\" data-height=\"1em\" data-icon=\"simple-icons:glassdoor\"> <path d=\"M17.144 20.572H3.43A3.427 3.427 0 0 0 6.856 24h10.286a3.428 3.428 0 0 0 3.428-3.428V6.492a.123.123 0 0 0-.124-.125h-3.18a.125.125 0 0 0-.123.126v14.08zm0-20.572a3.429 3.429 0 0 1 3.427 3.43H6.858v14.078a.126.126 0 0 1-.125.125H3.554a.125.125 0 0 1-.125-.125V3.428A3.429 3.429 0 0 1 6.856 0h10.287\" fill=\"currentColor\"> </path> </svg></span>"
+    }
+  ],
+  "footerDescLink" : [
+
+      "info@pepcus.com",
+      "careers@pepcus.com"
+
+  ],
+  "footerDescText": [
+    {
+      "footerText" : "Copyright ©2019 Pepcus Software Services Pvt. Ltd. All rights reserved. Read our",
+      "footerTextLink" : " Privacy Policy",
+      "footerTextHref": "privacy.html"
+    }
+  ]
+
+
+}
