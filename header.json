@@ -1,0 +1,54 @@
+{
+  "navigationWrapper" : [
+    {
+      "navLogoSrc": "images/logo/logonew.png",
+      "navbarNavLink" : [
+        {
+          "navHref" : "index.html",
+          "navLink": "Home",
+          "class": "active"
+        },
+        {
+          "navHref" : "about.html",
+          "navLink":  "About Us"
+        },
+        {
+          "navHref" : "",
+          "navLink": "Our Activities",
+          "dropdown1": [
+            "Mahavir Jayanti Julus",
+            "Baal & Yuva Sanskar Shivir",
+            "Our Publications",
+            "Gommatsaar Shivir",
+            "Religious Trips",
+            "Diwali Awareness Campaign"
+          ]
+        },
+        {
+          "navHref" : "gallery.html",
+          "navLink": "Gallery"
+        },
+        {
+          "navHref" : "it-initiatives.html",
+          "navLink": "IT Initiatives"
+        },
+        {
+          "navHref" : "study-material.html",
+          "navLink": "Study Material"
+        },
+        {
+          "navHref" : "yjsg-event.html",
+          "navLink": "Event"
+        },
+        {
+          "navHref" : "yjsg-shivir.html",
+          "navLink": "Shivir"
+        },
+        {
+          "navHref" : "contact.html",
+          "navLink": "Contact"
+        }
+      ]
+    }
+  ]
+}

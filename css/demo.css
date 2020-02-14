@@ -356,19 +356,21 @@ a:hover{
     opacity: 1;
 }
 li.anim-slide:nth-of-type(1){
-    background:#fff url("../images/demo2/bg1new.jpg") 100%/cover;
+    /*background:#fff url("../images/demo2/bg1new.jpg") 100%/cover;*/
 }
 li.anim-slide:nth-of-type(2){
-    background:#fff url("../images/demo2/bg2new.jpg") 100%/cover;
+    /*background:#fff url("../images/demo2/bg2new.jpg") 100%/cover;*/
 }
 li.anim-slide:nth-of-type(3){
-    background:#fff url("../images/demo2/bg3new.jpg") 100%/cover;
+    background:#fff url("../images/yjsg/study3-1024x637.jpg");
+    -webkit-background-size: cover;
+    background-size: cover;
 }
 li.anim-slide:nth-of-type(4){
-    background:#fff url("../images/demo2/bg4new.jpg") 100%/cover;
+    /*background:#fff url("../images/demo2/bg4new.jpg") 100%/cover;*/
 }
 li.anim-slide:nth-of-type(5){
-    background:#fff url("../images/demo2/bg5new.jpg") 100%/cover;
+    /*background:#fff url("../images/demo2/bg5new.jpg") 100%/cover;*/
 }
 li.anim-slide:nth-of-type(1)>h1{
     margin: 260px 60px;
@@ -382,16 +384,16 @@ li.anim-slide:nth-of-type(2)>div{
 li.anim-slide:nth-of-type(3)>h1{
     margin: 0;
     font-size:60px;
-    color: #fff;
+    color: #8e7626;
 }
 h1#looks span{
-    color:#fff;
+    color:#8e7626;
     padding:5px 15px;
     font-weight:300;
     width:630px;
 }
 h1#amazing span{
-    color:#fff;
+    color:#8e7626;
     padding:5px 15px;
     font-weight:100;
     width:630px;
@@ -403,7 +405,7 @@ h1#amazing span{
     top:30%;
     left:20%;
     color:#fff;
-    background-color: #D60C0C;
+    background-color: transparent;
     padding: 4px 30px;
 }
 .second_slide{
@@ -412,7 +414,7 @@ h1#amazing span{
 }
 #exp{
     font-size:55px;
-    color: #fff;
+    color: #8e7626;
 }
 #ask{
     margin-top: 120px;
@@ -433,27 +435,27 @@ h1#amazing span{
 #man_image{
     right: 0;
     top: -53px;
-    width: auto;
-    height: 138%;
+    width: 100%;
+    height: 100%;
 }
 #rework_image, #exp_image {
     right: 0;
     top: 0px;
-    width: auto;
+    width: 100%;
     height: 100%;
 }
 #quality_image{
     left:0;
     top:0;
-    width:auto;
-    height:120%;
+    width:100%;
+    height:100%;
 }
 h2#para{
     top: 40%;
     left: 30%;
     text-align: center;
     font-size: 34px;
-    color: #fff;
+    color: #8e7626;
     width:400px;
     font-weight:100;
 }
@@ -516,22 +518,22 @@ h1#rework span{
     width:600px;
 }
 h1#rework{
-    top: 40%;
+    top: 20%;
     left: 5%;
     text-align: center;
     font-size: 34px;
     font-weight:100;
     width:750px;
-    color: #fff;
+    color: #8e7626;
     padding: 40px;
     border-radius: 100px;
 }
 h1#goal{
     top: 26%;
-    right: 14%;
+    left: 14%;
     text-align: center;
     font-size: 65px;
-    color: #fff;
+    color: #8e7626;
     width: 600px;
 }
 h2#goal_para{
@@ -539,7 +541,7 @@ h2#goal_para{
     right: 14%;
     text-align: center;
     font-size: 30px;
-    color: #fff;
+    color: #8e7626;
     text-align:center;
     width:600px;
     font-weight:100;
@@ -572,9 +574,9 @@ h2#goal_para span {
 .mainBack{
     width:100%;
     height:100%;
-    background:#000000;
+    /*background:#000000;*/
     position:absolute;
-    opacity:0.6;
+    /*opacity:0.6;*/
 }
 
 /*--------------------------contact form css----------------------------------------*/
@@ -648,6 +650,12 @@ h2#goal_para span {
     width: 100%;
     vertical-align: middle;
 }
+.content-hide{
+    display:none;
+}
+.blog-post:hover .content-hide{
+    display: block;
+}
 .blog-content {
     position: absolute;
     bottom: 0;
@@ -718,19 +726,24 @@ h2#goal_para span {
     margin-bottom: 30px;
 }
 #portfolio .portfolio-thumb .overlay {
-    opacity: 0;
-    visibility: visible;
-    background: rgba(227, 114, 46, 0.9);
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    -webkit-transition: all 0.2s ease-in-out;
-    -moz-transition: all 0.2s ease-in-out;
-    -ms-transition: all 0.2s ease-in-out;
-    -o-transition: all 0.2s ease-in-out;
-    transition: all 0.2s ease-in-out;
+     opacity: 0;
+     visibility: visible;
+     background: rgba(227, 114, 46, 0.9);
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+     -webkit-transition: all 0.2s ease-in-out;
+     -moz-transition: all 0.2s ease-in-out;
+     -ms-transition: all 0.2s ease-in-out;
+     -o-transition: all 0.2s ease-in-out;
+     transition: all 0.2s ease-in-out;
+    border-radius: 0;
+ }
+
+#portfolio .portfolio-thumb:hover .overlay {
+    opacity: 1;
 }
 #portfolio .portfolio-thumb .overlay .inner {
     position: absolute;
@@ -927,7 +940,11 @@ a.link-footer {
     text-decoration: none;
     margin-bottom: 10px;
     padding: 5px 0;
-    color: floralwhite;
+    color: #666;
+}
+#footerContent{
+    /*background-color: #f3f3f3;*/
+    /*border-top: 4px solid #f78e21;*/
 }
 .footer-image li{
     display: block;
@@ -1008,7 +1025,8 @@ a.link-footer:hover{
     color: #c1c1c1;
 }
 footer{
-    background: #383536;
+    background-color: #f3f3f3;
+    border-top: 4px solid #f78e21;
 }
 .link-footer-services {
     margin-bottom: 20px;
@@ -1681,7 +1699,9 @@ h1.loader-pepcus:before {
     transition-delay: .5s;
 }
 .header-menu.change-height .navbar-brand {
-    height: 50px;
+    /*height: 50px;*/
+    /*overflow: hidden;*/
+    height: 72px;
     overflow: hidden;
 }
 .header-menu.change-height {
@@ -1697,6 +1717,12 @@ h1.loader-pepcus:before {
 }
 .header-menu {
     transition: all 0.7s;
+}
+.change-height .container{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
 }
 .level1-header-link{
     display: inline-block;
@@ -1958,8 +1984,9 @@ h1.loader-pepcus:before {
     /*filter: grayscale(100%);*/
 }
 .fa:hover{
-    -webkit-filter: grayscale(0);
-    filter: grayscale(0);
+    opacity: 0.9;
+    /*-webkit-filter: grayscale(0);*/
+    /*filter: grayscale(0);*/
     text-decoration:none;
 }
 .fa-linkedin{
@@ -1969,7 +1996,8 @@ h1.loader-pepcus:before {
     background: -webkit-linear-gradient(top, #009cda, #0073b2);
     text-shadow: 0 -1px -1px #005486;
 }
-.fa-linkedin:hover{
+.fa-linkedin:hover, .fa-linkedin:focus{
+    text-decoration: none;
     color: white;
     background-color: #0073b2; /* fallback color */
     background: -moz-linear-gradient(top, #009cda, #0073b2);
@@ -1991,6 +2019,15 @@ h1.loader-pepcus:before {
     background: -ms-linear-gradient(top, #2b4170, #3b5998);
     background: -webkit-linear-gradient(top, #2b4170, #3b5998);
 }
+.fa-facebook:hover, .fa-facebook:focus{
+    text-decoration: none;
+    color: white;
+    box-shadow: 2px 3px 10px rgba(0,0,0,.25);
+    background-color: #3b5998; /* fallback color */
+    background: -moz-linear-gradient(top, #2b4170, #3b5998);
+    background: -ms-linear-gradient(top, #2b4170, #3b5998);
+    background: -webkit-linear-gradient(top, #2b4170, #3b5998);
+}
 /*.fa-instagram {*/
 /*    color: white;*/
 /*    background-color: #0073b2; !* fallback color *!*/
@@ -2004,6 +2041,13 @@ h1.loader-pepcus:before {
     box-shadow: 2px 3px 10px rgba(0,0,0,.25);
     background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
 }
+.fa-instagram:hover, .fa-instagram:focus{
+    text-decoration: none;
+    background: #f09433;
+    color: white;
+    box-shadow: 2px 3px 10px rgba(0,0,0,.25);
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+}
 /*.fa-youtube {*/
 /*    color: white;*/
 /*    background-color: #0073b2; !* fallback color *!*/
@@ -2012,6 +2056,16 @@ h1.loader-pepcus:before {
 /*    text-shadow: 0 -1px -1px #005486;*/
 /*}*/
 .fa-youtube{
+    color: white;
+    box-shadow: 2px 3px 10px rgba(0,0,0,.25);
+    background-image: -webkit-linear-gradient(bottom, rgb(109, 2, 2) 22%, rgb(201, 0, 0) 61%);
+    background-image: -moz-linear-gradient(bottom, rgb(109, 2, 2) 22%, rgb(201, 0, 0) 61%);
+    background-image: -o-linear-gradient(bottom, rgb(109, 2, 2) 22%, rgb(201, 0, 0) 61%);
+    background-image: -ms-linear-gradient(bottom, rgb(109, 2, 2) 22%, rgb(201, 0, 0) 61%);
+    background-image: linear-gradient(bottom, #6D0202 22%, rgb(201, 0, 0) 61%);
+}
+.fa-youtube:hover, .fa-youtube:focus{
+    text-decoration: none;
     color: white;
     box-shadow: 2px 3px 10px rgba(0,0,0,.25);
     background-image: -webkit-linear-gradient(bottom, rgb(109, 2, 2) 22%, rgb(201, 0, 0) 61%);
@@ -2665,6 +2719,12 @@ blockquote img{
 }
 .top-header .left-header span i {
     margin-right: 10px;
+}
+.social-icons{
+    display: inline-flex;
+}
+.social-icons li{
+    margin-right: 8px;
 }
 /*---------------------------committed software services css--------------------------*/
 .committed-software-services-section .image-wrapper{
