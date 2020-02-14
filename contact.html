@@ -20,9 +20,6 @@
 <div class="loading">
     <div class="loading-image"><img src="images/loader/newloader.gif" alt="loader" /></div>
 </div>
-<section>
-    <div id="walkin-content"></div>
-</section>
 
 <section>
     <div id="headerContent"></div>
@@ -100,38 +97,38 @@
                         </div>
 
 
-                        <div class="col-sm-6 col-xs-12">
-                            <div class="form-group phone-box">
-                                <label class="control-label xxs-margin-bot-10">Mobile No <span class="primary-color font-size-20">*</span></label>
-                                <div class="inputGroupContainer">
-                                    <div class="input-group">
-                                        <span class="input-group-addon"><i class="glyphicon glyphicon-earphone"></i></span>
-                                        <input name="phone" id="phone" class="form-control" type="text" required>
-                                    </div>
-                                </div>
-                                <div class="pull-right mar-top-10 padding-right-15 error"><span>Mobile no. should be of 10 digit </span></div>
-                            </div>
-                        </div>
+<!--                        <div class="col-sm-6 col-xs-12">-->
+<!--                            <div class="form-group phone-box">-->
+<!--                                <label class="control-label xxs-margin-bot-10">Mobile No <span class="primary-color font-size-20">*</span></label>-->
+<!--                                <div class="inputGroupContainer">-->
+<!--                                    <div class="input-group">-->
+<!--                                        <span class="input-group-addon"><i class="glyphicon glyphicon-earphone"></i></span>-->
+<!--                                        <input name="phone" id="phone" class="form-control" type="text" required>-->
+<!--                                    </div>-->
+<!--                                </div>-->
+<!--                                <div class="pull-right mar-top-10 padding-right-15 error"><span>Mobile no. should be of 10 digit </span></div>-->
+<!--                            </div>-->
+<!--                        </div>-->
                     </div>
 
-                    <div class="row">
-                        <div class="col-sm-6 col-xs-12">
-                            <div class="form-group company-box">
-                                <label class="control-label">Company Name</label>
-                                <div class="inputGroupContainer">
-                                    <div class="input-group">
-                                        <span class="input-group-addon"><i class="glyphicon glyphicon-home"></i></span>
-                                        <input name="company" id="company" class="form-control" type="text">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+<!--                    <div class="row">-->
+<!--                        <div class="col-sm-6 col-xs-12">-->
+<!--                            <div class="form-group company-box">-->
+<!--                                <label class="control-label">Company Name</label>-->
+<!--                                <div class="inputGroupContainer">-->
+<!--                                    <div class="input-group">-->
+<!--                                        <span class="input-group-addon"><i class="glyphicon glyphicon-home"></i></span>-->
+<!--                                        <input name="company" id="company" class="form-control" type="text">-->
+<!--                                    </div>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </div>-->
 
                     <div class="row">
                         <div class="col-sm-12 col-xs-12">
                             <div class="form-group cover-letter-box">
-                                <label class="control-label">Cover Letter </label>
+                                <label class="control-label">Message </label>
                                 <div class="inputGroupContainer">
                                     <div class="input-group">
                                         <span class="input-group-addon"><i class="glyphicon glyphicon-pencil"></i></span>
@@ -213,8 +210,8 @@
         var first_name = document.getElementById("first_name");
         var last_name = document.getElementById("last_name");
         var email = document.getElementById("email");
-        var phone = document.getElementById("phone");
-        var company = document.getElementById("company");
+        // var phone = document.getElementById("phone");
+        // var company = document.getElementById("company");
         var comment = document.getElementById("comment");
         $('#first_name').keyup(function() {
             if (!(first_name.value.length >= 3)) {
@@ -313,7 +310,7 @@
 <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
 <script type="text/javascript">
     (function(){
-        emailjs.init("user_QjC9ZSKm2Rl96TpEZy1Ov");
+        emailjs.init("user_piNGO9Jt39e9rFxCicKNT");
 
         var myform = $("form#contact_form");
         $("#submit").click(function() {
@@ -328,7 +325,7 @@
             }, {});
           // Change to your service ID, or keep using the default service
             var service_id = "default_service";
-          var template_id = "template_WPb3VH3Z";
+          var template_id = "yjsg";
             // myform.find("button").text("loading...");
 
 
@@ -346,9 +343,6 @@
 </script>
 <script src="js/custom.js"></script>
 <script>
-  $(function () {
-    $("#walkin-content").load("walkin.html");
-  });
   $(function () {
     $("#headerContent").load("header.html", function() {
       $('.liContact').addClass('active');
