@@ -14,15 +14,7 @@
         },
         {
           "navHref" : "ourActivities.html",
-          "navLink": "Our Activities",
-          "dropdown1": [
-            "Mahavir Jayanti Julus",
-            "Baal & Yuva Sanskar Shivir",
-            "Our Publications",
-            "Gommatsaar Shivir",
-            "Religious Trips",
-            "Diwali Awareness Campaign"
-          ]
+          "navLink": "Our Activities"
         },
         {
           "navHref" : "gallery.html",
