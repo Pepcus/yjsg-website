@@ -1,0 +1,172 @@
+{
+  "studyMaterial": [
+    {
+      "name": "Level 1",
+      "id": "l1",
+      "books": [
+        {
+          "bookName": "Namokaar Mantra",
+          "bookLink": "studyMaterial/Level_1/1_Namokaar Mantra.pdf"
+        },
+        {
+          "bookName": "Chatari Mangal",
+          "bookLink": "studyMaterial/Level_1/2_Chatari Mangal.pdf"
+        },
+        {
+          "bookName": "Bhagwan-Tirthankar",
+          "bookLink": "studyMaterial/Level_1/3_Bhagwan-Tirthankar.pdf"
+        },
+        {
+          "bookName": "Dev Darshan",
+          "bookLink": "studyMaterial/Level_1/4_Dev Darshan.pdf"
+        },
+        {
+          "bookName": "Jeev-Ajeev",
+          "bookLink": "studyMaterial/Level_1/5_Jeev-Ajeev.pdf"
+        },
+        {
+          "bookName": "Din Charya",
+          "bookLink": "studyMaterial/Level_1/6_Din Charya_print.pdf"
+        },
+        {
+          "bookName": "Bhagwan-Baneyge-Stuti",
+          "bookLink": "studyMaterial/Level_1/7_Bhagwan Baneyge Stuti.pdf"
+        }
+      ]
+    },
+    {
+      "name": "Level 2",
+      "id": "l2",
+      "books": [
+        {
+          "bookName": "Paap",
+          "bookLink": "studyMaterial/Level_2/1_Paap.pdf"
+        },
+        {
+          "bookName": "Kashaye",
+          "bookLink": "studyMaterial/Level_2/2_Kashaye.pdf"
+        },
+        {
+          "bookName": "Sadachaar",
+          "bookLink": "studyMaterial/Level_2/3_Sadachaar.pdf"
+        },
+        {
+          "bookName": "Gati",
+          "bookLink": "studyMaterial/Level_2/4_Gati.pdf"
+        },
+        {
+          "bookName": "Dravya",
+          "bookLink": "studyMaterial/Level_2/5_Dravya.pdf"
+        },
+        {
+          "bookName": "Vitraag-Sarvagya-Stuti",
+          "bookLink": "studyMaterial/Level_2/6_Vitraag Sarvagya Stuti.pdf"
+        }
+      ]
+    },
+    {
+      "name": "Level 3",
+      "id": "l3",
+      "books": [
+        {
+          "bookName": "Panch Parmeshthi",
+          "bookLink": "studyMaterial/Level_3/1_Panch Parmeshthi.pdf"
+        },
+        {
+          "bookName": "Asht MoolGun",
+          "bookLink": "studyMaterial/Level_3/2_Asht MoolGun.pdf"
+        },
+        {
+          "bookName": "Indree",
+          "bookLink": "studyMaterial/Level_3/3_Indree.pdf"
+        },
+        {
+          "bookName": "Bhaksh-Abhaksh",
+          "bookLink": "studyMaterial/Level_3/4_Bhaksh-Abhaksh.pdf"
+        },
+        {
+          "bookName": "Dravya,Gun,Paryay",
+          "bookLink": "studyMaterial/Level_3/5_Dravya,Gun ,Paryay.pdf"
+        },
+        {
+          "bookName": "Aati-Punya-Uday-Stuti",
+          "bookLink": "studyMaterial/Level_3/6_Aati Punya Uday Stuti.pdf"
+        }
+      ]
+    },
+    {
+      "name": "Level 4",
+      "id": "l4",
+      "books": [
+        {
+          "bookName": "Aatmaa-Parmatmaa",
+          "bookLink": "studyMaterial/Level_4/1_Aatmaa-Parmatmaa.pdf"
+        },
+        {
+          "bookName": "Saat Tatva",
+          "bookLink": "studyMaterial/Level_4/2_Saat Tatva.pdf"
+        },
+        {
+          "bookName": "Shat Avashak",
+          "bookLink": "studyMaterial/Level_4/3_Shat Avashak.pdf"
+        },
+        {
+          "bookName": "Karm",
+          "bookLink": "studyMaterial/Level_4/4_Karm.pdf"
+        },
+        {
+          "bookName": "Sakal-Gyey",
+          "bookLink": "studyMaterial/Level_4/5_Sakal Gyey.pdf"
+        }
+      ]
+    },
+    {
+      "name": "Level 5",
+      "id": "l5",
+      "books": [
+        {
+          "bookName": "Dev Shastra Guru",
+          "bookLink": "studyMaterial/Level_5/1_Dev Shastra Guru.pdf"
+        },
+        {
+          "bookName": "Saat Taatv Sambandhi Bhool",
+          "bookLink": "studyMaterial/Level_5/2_Saat Taatv Sambandhi Bhool.pdf"
+        },
+        {
+          "bookName": "Chaar Anuyoog",
+          "bookLink": "studyMaterial/Level_5/3_Chaar Anuyoog.pdf"
+        },
+        {
+          "bookName": "Saat Vyasaan",
+          "bookLink": "studyMaterial/Level_5/4_Saat Vyasaan.pdf"
+        },
+        {
+          "bookName": "12-Bhavana",
+          "bookLink": "studyMaterial/Level_5/5_12 Bhavana.pdf"
+        }
+      ]
+    },
+    {
+      "name": "Chadhala",
+      "id": "l6",
+      "books": [
+        {
+          "bookName": "Chadhala Dhal 1",
+          "bookLink": "studyMaterial/Dhal/Chadhala_Dhal 1.pdf"
+        },
+        {
+          "bookName": "Chadhala Dhal 2",
+          "bookLink": "studyMaterial/Dhal/Chadhala_Dhal 2.pdf"
+        },
+        {
+          "bookName": "Chadhala Dhal 3",
+          "bookLink": "studyMaterial/Dhal/Chadhala_Dhal 3.pdf"
+        },
+        {
+          "bookName": "Chadhala Dhal 4",
+          "bookLink": "studyMaterial/Dhal/Chadhala_Dhal 4.pdf"
+        }
+      ]
+    }
+  ]
+}

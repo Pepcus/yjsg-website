@@ -1,7 +1,7 @@
 {
   "navigationWrapper" : [
     {
-      "navLogoSrc": "images/logo/logonew.png",
+      "navLogoSrc": "images/yjsg/logo-final.png",
       "navbarNavLink" : [
         {
           "navHref" : "index.html",
@@ -13,7 +13,7 @@
           "navLink":  "About Us"
         },
         {
-          "navHref" : "",
+          "navHref" : "ourActivities.html",
           "navLink": "Our Activities",
           "dropdown1": [
             "Mahavir Jayanti Julus",
