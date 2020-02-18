@@ -10,7 +10,8 @@
         },
         {
           "navHref" : "about.html",
-          "navLink":  "About Us"
+          "navLink":  "About Us",
+          "className": "liAbout"
         },
         {
           "navHref" : "ourActivities.html",
