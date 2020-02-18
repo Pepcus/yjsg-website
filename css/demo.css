@@ -1640,6 +1640,12 @@ h1.loader-pepcus:before {
     max-width: 290px;
     overflow: hidden;
 }
+@media (max-width:768px) {
+    .activity-content {
+        width: 100%;
+        max-width: 100%;
+    }
+}
 .activity-content .activity-content-overlay {
     background: rgba(227, 114, 46, 0.8);
     position: absolute;
@@ -1767,7 +1773,6 @@ h1.loader-pepcus:before {
 .navbar-brand {
     width: 90px;
     height: 90px;
-    padding: 10px;
 }
 .navbar-brand img{
     height: 100%;
@@ -1779,17 +1784,17 @@ h1.loader-pepcus:before {
 }
 .nav {
     font-size: 18px;
-    margin-top: 5px;
+    margin-top: 5px !important;
 }
 .navbar-nav>li>a {
     padding: 28px 10px;
 }
-.change-height .navbar-nav>li>a {
-    padding: 28px 10px;
-}
-.change-height .nav {
-    font-size: 18px;
-}
+/*.change-height .navbar-nav>li>a {*/
+/*    padding: 28px 10px;*/
+/*}*/
+/*.change-height .nav {*/
+/*    font-size: 18px;*/
+/*}*/
 .header-menu{
     height: 100px;
     display: flex;
@@ -1942,15 +1947,14 @@ table:not(#wp-calendar) > tbody > tr > td{
     opacity: 1;
     transition-delay: .5s;
 }
-.header-menu.change-height .navbar-brand {
-    /*margin-right: 193px;*/
-    height: 72px;
-    overflow: hidden;
-}
+/*.header-menu.change-height .navbar-brand {*/
+/*    !*margin-right: 193px;*!*/
+/*    height: 72px;*/
+/*    overflow: hidden;*/
+/*}*/
 .header-menu.change-height {
     height: 63px;
     background: #fff;
-    box-shadow: 0 1.25rem 1.25rem rgba(34,35,36,.05);
 }
 .header-menu.change-height .nav {
     margin-top: 0;
@@ -2003,9 +2007,13 @@ table:not(#wp-calendar) > tbody > tr > td{
     transition-property: all;
     transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
 }
+.navbar {
+    box-shadow: 0 3px 1px -3px rgba(0,0,0,.35);
+}
 .navbar-inverse {
     background-color: rgba(255, 253, 252, 0.39);
     border-color: transparent;
+
 }
 .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
     background-color: transparent;
@@ -2166,6 +2174,13 @@ table:not(#wp-calendar) > tbody > tr > td{
     width: 250px;
     height: 300px;
     perspective: 1000px;
+}
+
+@media(max-width: 768px) {
+    .flip-card {
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
 }
 
 .flip-card-inner {
@@ -2908,11 +2923,9 @@ blockquote img{
 }
 
 .imageceo img{
-    /*border-radius:100%;*/
-    /*width: 100%;*/
-    width: 190px;
-    border-radius: 150%;
-    height: 257px;
+    width: 200px;
+    border-radius: 100%;
+    height: 200px;
 }
 .ceo-name{
     color:#e3722e;
@@ -4616,12 +4629,12 @@ a:active, a:focus{
     .SocialMediaIcon {
         padding: 6px;
         font-size: 12px;
-        width: 25px;
+        width: 35px;
         text-align: center;
         text-decoration: none;
         margin: 2px;
         border-radius: 50px;
-        height: 25px;
+        height: 35px;
         -webkit-filter: grayscale(100%);
         filter: grayscale(100%);
     }
@@ -4633,6 +4646,8 @@ a:active, a:focus{
     }
     #footerContent ul li{
         border-bottom:1px solid grey;
+        display: block;
+        width: 100%;
     }
     #footerContent ul li:last-child{
         border-bottom: none;
@@ -4758,9 +4773,6 @@ a:active, a:focus{
     .scroll-top-section{
         display: block;
     }
-    .banner .content {
-        padding-top: 50px;
-    }
     .service-content-block1 {
         height: 606px;
     }
@@ -4800,9 +4812,6 @@ a:active, a:focus{
     .general-team {
         min-height: 400px;
     }
-    .banner .content {
-        margin-bottom: 45px;
-    }
     #secondary_team div:nth-child(n+0) .service-content-block1 {
         height: auto;
     }
@@ -4839,6 +4848,7 @@ a:active, a:focus{
     }
     .footer-primary-link{
         width:100%;
+        padding: 0;
     }
     .footer-primary-link li{
         padding:0 ;
@@ -5660,9 +5670,6 @@ a:active, a:focus{
         margin-top: 0px;
     }
 
-    .banner .content {
-        margin-bottom: -70px;
-    }
 
     .services-section-head .font-size-32 {
                font-size: 20px;
@@ -5999,7 +6006,6 @@ a:active, a:focus{
     .header-menu.change-height, .header-menu {
         height: auto;
         transition-delay: 0s;
-        box-shadow: 0 1.25rem 1.25rem rgba(34, 35, 36, .05);
     }
 
     .top-20 {
@@ -6083,11 +6089,11 @@ a:active, a:focus{
         font-size: 16px;
         margin-top: -78px;
     }
-    .change-height .navbar-nav>li>a {
-        margin-top: 24px;
-        padding: 5px 5px;
-        font-size: 17px;
-    }
+    /*.change-height .navbar-nav>li>a {*/
+    /*    margin-top: 24px;*/
+    /*    padding: 5px 5px;*/
+    /*    font-size: 17px;*/
+    /*}*/
     .anim-slider{
         height:546px!important;
     }
