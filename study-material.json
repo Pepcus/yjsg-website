@@ -1,0 +1,172 @@
+{
+  "studyMaterial": [
+    {
+      "name": "Level 1",
+      "id": "l1",
+      "books": [
+        {
+          "bookName": "Namokaar Mantra",
+          "bookLink": "assets/studyMaterial/Level_1/1_Namokaar Mantra.pdf"
+        },
+        {
+          "bookName": "Chatari Mangal",
+          "bookLink": "assets/studyMaterial/Level_1/2_Chatari Mangal.pdf"
+        },
+        {
+          "bookName": "Bhagwan-Tirthankar",
+          "bookLink": "assets/studyMaterial/Level_1/3_Bhagwan-Tirthankar.pdf"
+        },
+        {
+          "bookName": "Dev Darshan",
+          "bookLink": "assets/studyMaterial/Level_1/4_Dev Darshan.pdf"
+        },
+        {
+          "bookName": "Jeev-Ajeev",
+          "bookLink": "assets/studyMaterial/Level_1/5_Jeev-Ajeev.pdf"
+        },
+        {
+          "bookName": "Din Charya",
+          "bookLink": "assets/studyMaterial/Level_1/6_Din Charya_print.pdf"
+        },
+        {
+          "bookName": "Bhagwan-Baneyge-Stuti",
+          "bookLink": "assets/studyMaterial/Level_1/7_Bhagwan Baneyge Stuti.pdf"
+        }
+      ]
+    },
+    {
+      "name": "Level 2",
+      "id": "l2",
+      "books": [
+        {
+          "bookName": "Paap",
+          "bookLink": "assets/studyMaterial/Level_2/1_Paap.pdf"
+        },
+        {
+          "bookName": "Kashaye",
+          "bookLink": "assets/studyMaterial/Level_2/2_Kashaye.pdf"
+        },
+        {
+          "bookName": "Sadachaar",
+          "bookLink": "assets/studyMaterial/Level_2/3_Sadachaar.pdf"
+        },
+        {
+          "bookName": "Gati",
+          "bookLink": "assets/studyMaterial/Level_2/4_Gati.pdf"
+        },
+        {
+          "bookName": "Dravya",
+          "bookLink": "assets/studyMaterial/Level_2/5_Dravya.pdf"
+        },
+        {
+          "bookName": "Vitraag-Sarvagya-Stuti",
+          "bookLink": "assets/studyMaterial/Level_2/6_Vitraag Sarvagya Stuti.pdf"
+        }
+      ]
+    },
+    {
+      "name": "Level 3",
+      "id": "l3",
+      "books": [
+        {
+          "bookName": "Panch Parmeshthi",
+          "bookLink": "assets/studyMaterial/Level_3/1_Panch Parmeshthi.pdf"
+        },
+        {
+          "bookName": "Asht MoolGun",
+          "bookLink": "assets/studyMaterial/Level_3/2_Asht MoolGun.pdf"
+        },
+        {
+          "bookName": "Indree",
+          "bookLink": "assets/studyMaterial/Level_3/3_Indree.pdf"
+        },
+        {
+          "bookName": "Bhaksh-Abhaksh",
+          "bookLink": "assets/studyMaterial/Level_3/4_Bhaksh-Abhaksh.pdf"
+        },
+        {
+          "bookName": "Dravya,Gun,Paryay",
+          "bookLink": "assets/studyMaterial/Level_3/5_Dravya,Gun ,Paryay.pdf"
+        },
+        {
+          "bookName": "Aati-Punya-Uday-Stuti",
+          "bookLink": "assets/studyMaterial/Level_3/6_Aati Punya Uday Stuti.pdf"
+        }
+      ]
+    },
+    {
+      "name": "Level 4",
+      "id": "l4",
+      "books": [
+        {
+          "bookName": "Aatmaa-Parmatmaa",
+          "bookLink": "assets/studyMaterial/Level_4/1_Aatmaa-Parmatmaa.pdf"
+        },
+        {
+          "bookName": "Saat Tatva",
+          "bookLink": "assets/studyMaterial/Level_4/2_Saat Tatva.pdf"
+        },
+        {
+          "bookName": "Shat Avashak",
+          "bookLink": "assets/studyMaterial/Level_4/3_Shat Avashak.pdf"
+        },
+        {
+          "bookName": "Karm",
+          "bookLink": "assets/studyMaterial/Level_4/4_Karm.pdf"
+        },
+        {
+          "bookName": "Sakal-Gyey",
+          "bookLink": "assets/studyMaterial/Level_4/5_Sakal Gyey.pdf"
+        }
+      ]
+    },
+    {
+      "name": "Level 5",
+      "id": "l5",
+      "books": [
+        {
+          "bookName": "Dev Shastra Guru",
+          "bookLink": "assets/studyMaterial/Level_5/1_Dev Shastra Guru.pdf"
+        },
+        {
+          "bookName": "Saat Taatv Sambandhi Bhool",
+          "bookLink": "assets/studyMaterial/Level_5/2_Saat Taatv Sambandhi Bhool.pdf"
+        },
+        {
+          "bookName": "Chaar Anuyoog",
+          "bookLink": "assets/studyMaterial/Level_5/3_Chaar Anuyoog.pdf"
+        },
+        {
+          "bookName": "Saat Vyasaan",
+          "bookLink": "assets/studyMaterial/Level_5/4_Saat Vyasaan.pdf"
+        },
+        {
+          "bookName": "12-Bhavana",
+          "bookLink": "assets/studyMaterial/Level_5/5_12 Bhavana.pdf"
+        }
+      ]
+    },
+    {
+      "name": "Chadhala",
+      "id": "l6",
+      "books": [
+        {
+          "bookName": "Chadhala Dhal 1",
+          "bookLink": "assets/studyMaterial/Dhal/Chadhala_Dhal 1.pdf"
+        },
+        {
+          "bookName": "Chadhala Dhal 2",
+          "bookLink": "assets/studyMaterial/Dhal/Chadhala_Dhal 2.pdf"
+        },
+        {
+          "bookName": "Chadhala Dhal 3",
+          "bookLink": "assets/studyMaterial/Dhal/Chadhala_Dhal 3.pdf"
+        },
+        {
+          "bookName": "Chadhala Dhal 4",
+          "bookLink": "assets/studyMaterial/Dhal/Chadhala_Dhal 4.pdf"
+        }
+      ]
+    }
+  ]
+}
