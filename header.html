@@ -37,7 +37,6 @@
       var currentPath = location.pathname;
       var currentPathSplit = currentPath.split("/");
       var currentPathSplit = currentPathSplit[2];
-      console.log('ww', currentPathSplit)
       $('.nav li a').each(function(){
         var $this = $(this);
         if($this.attr('href').indexOf(currentPathSplit) !== -1 || $this.attr('href').indexOf(currentPath) !== -1){
