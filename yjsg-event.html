@@ -8,7 +8,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" href="images/yjsg/favicon-yjsg.ico" type="image/x-icon">
+    <link rel="icon" href="assets/images/logos/favicon-yjsg.ico" type="image/x-icon">
     <title>YJSG: Events</title>
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -18,33 +18,27 @@
 </head>
 <body>
 <div class="loading">
-    <div class="loading-image"><img src="images/yjsg/yjsg-loader.gif" alt="loader" /></div>
+    <div class="loading-image"><img src="assets/images/loader/yjsg-loader.gif" alt="loader" /></div>
 </div>
 <section>
     <div id="headerContent"></div>
 </section>
 
 <section>
-    <div class="general-banner montserrat-font-family">
-        <div class="banner parallax general2-img white-color flex-center text-center">
-            <div class="container">
-                <div class="content">
-                    <h1 class="main-heading-inner font-bold font-size-60">YJSG Events</h1>
-                    </P>
-                </div>
-            </div>
-        </div>
+    <div class="headbg event-bgimage"></div>
+    <div class="title-heading">
+        <p>OUR EVENTS</p>
     </div>
 </section>
-<section>
-    <div class="conatiner">
-        <h4 style="text-align: left; color: #567;
-    line-height: 1.4;
-    font-size: 1.5em;
-    font-weight: bold;
-    margin: 40px;">Information will be uploading soon...</h4>
+
+<section class="mar-top-50" style="display: grid;">
+    <div id="opening-title-wrapper"></div>
+    <div id="modal-content-wrapper"></div>
+    <div>
+        <div id="jobopening"></div>
     </div>
 </section>
+
 <section>
     <div class="scroll-top-section">
         <a href="#" class="scrollup"><i class="fa fa-arrow-up arrow-up-icon" aria-hidden="true"></i></a>
@@ -58,14 +52,186 @@
 <script src="js/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <script src="js/custom.js"></script>
-<script>
+<script type="text/javascript" charset="utf-8">
+  var renderOpeningHeader = function(openingTitle) {
+    $.each(openingTitle, function(key, value) {
+      var htmlRender = "<div class = \"heading-section\">" +
+        "<h2>" +
+        value.openingSectionTitle +
+        "</h2>" +
+        "<img src='assets/images/logos/under-heading.png'>"+
+
+        "</div>";
+      $(htmlRender).appendTo("#opening-title-wrapper");
+    });
+  };
+  var renderModalContent = function(modalContent) {
+
+    $.each(modalContent, function(key, value) {
+      var htmlRenderJobList = "", htmlRenderKeyList = "", htmlRenderSkillList = "";
+      $.each(value.jobDescription, function(key,desc){
+        htmlRenderJobList += "<li>"+desc+"</li>";
+      });
+      $.each(value.keyActivities, function(key,desc){
+        htmlRenderKeyList += "<li>"+desc+"</li>";
+      });
+      $.each(value.keySkills, function(key,desc){
+        htmlRenderSkillList += "<li>"+desc+"</li>";
+      });
+      var htmlRender = "<div id=\""+value.modalContentId+"\" class=\"modal\">" +
+        " <div class=\"modal-content\">" +
+        "  <div class=\"modal-heading\">" +
+        " <span class=\"close modal-close\" onclick=\"closeModal(\'"+value.closeModalText+"\')\">&times</span>" +
+        " <span class=\"font-size-20\">"+value.modalContentHeading+"</span>" +
+        " </div>" +
+        " <div class=\"modal-wrapper\">" +
+        "  <div\">" +
+        " <div class = \"wrapper-text-para\">" +
+        " <h3 class = \"font-size-16 grey-color font-bold\"> "+value.modalLocationHeading+"<span>"+value.modalLocationText+"</span></h3>" +
+        " </div>" +
+        " <div>" +
+        " <h3 class = \"font-size-16 grey-color mar-15-0-10 font-bold\">"+value.modalContentExperience+"<span>"+value.modalContentExperienceText+"</span></h3>" +
+        " </div>" +
+        " <div>" +
+        " <h3 class = \"font-size-16 grey-color mar-15-0-10 font-bold\">"+value.jobDescriptionTitle+"</h3>" +
+        " <div class = \"list-block\">" +
+        " <ul class = \"padding-left-50\">" +htmlRenderJobList+
+        " </ul>" +
+        " </div>" +
+        " </div>" +
+        " <div>" +
+        " <h3 class = \"font-size-16 grey-color mar-15-0-10 font-bold\">"+ (value.keyActivitiesTitle ? value.keyActivitiesTitle : '') +"</h3>" +
+        " <div class = \"list-block\">" +
+        "  <ul class = \"padding-left-50\">" +htmlRenderKeyList+
+        "</ul>" +
+        "  </div>" +
+        "  </div>" +
+        "<div>" +
+        "<h3 class = \"font-size-16 grey-color mar-15-0-10 font-bold\">"+value.KeySkillsTitle+"</h3>" +
+        " <div class = \"list-block\">" +
+        " <ul class = \"padding-left-50\">" +htmlRenderSkillList+
+        " </ul>" +
+        "<div class=\"container2\">\n" +
+        "<a href = \"https://forms.office.com/Pages/ResponsePage.aspx?id=vr1cVz6rDUuxUtMhGW0KCs_IWa25rr1FlXvOHENkxiVUNjJZMVhDRTg4WEdTWEZIUlQ0MExDR0tPTy4u\" class = \"btn btn-apply white-color text-uppercase font-weight-600\" target = \"_blank\">Apply now</a>"+"</div>"+
+        "</div>"+
+        "</div>" +
+        "</div>" +
+        "</div>" +
+        " </div>" +
+        " </div>";
+
+      $(htmlRender).appendTo("#modal-content-wrapper");
+      // Get the modal
+      // When the user clicks the button, open the modal
+      function openModal(clicked_id) {
+        var modalnew = document.getElementById(clicked_id);
+        modalnew.style.display = "block";
+      }
+      function closeModal(clicked_id) {
+        var modalClose = document.getElementById(clicked_id);
+        modalClose.style.display = "none";
+      }
+      // When the user clicks anywhere outside of the modal, close it
+      window.onclick = function(event) {
+        if (event.target.className === "modal") {
+          event.target.style.display = "none";
+        }
+      };
+    });
+  };
+  function toChunkArray(array, chunkSize){
+    var arrayLength = array.length;
+    var chunkArray = [];
+    for (var index = 0; index < arrayLength; index += chunkSize) {
+      chunkArray.push(array.slice(index, index+chunkSize));
+    }
+    return chunkArray;
+  }
+  var renderOpeningSection = function(openingBlock) {
+    if (window.matchMedia("(max-width: 768px)").matches) {
+      var jobOpeningRows = toChunkArray(openingBlock, 1);
+    } else if (window.matchMedia("(max-width: 992px)").matches) {
+      var jobOpeningRows = toChunkArray(openingBlock, 2);
+    }else {
+      var jobOpeningRows = toChunkArray(openingBlock, 3);
+    }
+    jobOpeningRows.forEach(
+      function (openingRow, index) {
+        var rowLength = openingRow.length;
+        var columnSize = 12 / rowLength;
+        openingRow.forEach(
+          function(opening) {
+            var htmlRender =
+              "<div class='col-sm-"+columnSize+" col-xs-12 col-md-"+columnSize+" col-lg-"+columnSize+" padding-0'>" +
+              "<div class='job-opening-image card-hover' style='background-image:url(" + opening.cardImages + ")'>" +
+              "<a onclick=\"openModal(\'" + opening.onclickOpenModal + "\')\" target=\"_self\" >" +
+              "<div class=\"card\">" +
+              "<div class = \"card-heading\">" +
+              "<h2 class = \"font-size-40 card-head-hover font-bold\">" + opening.jobTitle + "</h2>" +
+              "<p class = \"font-size-28 mar-top-15 card-head-hover\">" + opening.jobExperience + "</p>" +
+              "<h3 class = \"font-size-20 mar-top-15\">" + opening.jobLocation + "</h3>" +
+              "<div class = \"card-btn\">" +
+              "<span class=\"font-size-20\">" + opening.jobBtn + "</span>" +
+              "<span class=\"register-btn font-size-20\">" + opening.jobBtn1 + "</span>" +
+              "</div>" +
+              "</div>" +
+              "</div>" +
+              "</a>" +
+              "</div>" +
+              "</div>";
+            $(htmlRender).appendTo("#jobopening");
+          }
+        );
+      }
+    );
+  };
+
+  // Get the modal
+  // When the user clicks the button, open the modal
+  function openModal(clicked_id) {
+    var modalnew = document.getElementById(clicked_id);
+    modalnew.style.display = "block";
+    document.body.style.overflow = "hidden";
+  }
+  function closeModal(clicked_id) {
+    var modalClose = document.getElementById(clicked_id);
+    modalClose.style.display = "none";
+    document.body.style.overflow = "auto";
+  }
+  // When the user clicks anywhere outside of the modal, close it
+  window.onclick = function(event) {
+    if (event.target.className === "modal") {
+      event.target.style.display = "none";
+      document.body.style.overflow = "auto";
+    }
+  };
+
+  var renderJOpage = function (data) {
+    renderOpeningHeader(data.currentOpeningsTitle);
+    renderModalContent(data.currentOpeningsModalWrapper);
+    renderOpeningSection(data.currentOpeningSection);
+  };
+  var fetchConfigAndRender = function () {
+    $.ajax({
+      url: 'careers.json',
+      dataType: 'json',
+      success: function( data ) {
+        renderJOpage(data);
+      },
+      error: function( data ) {
+        alert("ERROR: Not received JSON file  " + data );
+        $("#error-wrapper").css("display","none");
+        renderErrorPage();
+      }
+    });
+  };
+  fetchConfigAndRender();
+
   $(function () {
     $("#headerContent").load("header.html", function() {
       $('.liEvent').addClass('active');
     });
-  });
-  $(function () {
-    $("#footerContent").load("footer.html")
+    $("#footerContent").load("footer.html");
 
   });
 </script>

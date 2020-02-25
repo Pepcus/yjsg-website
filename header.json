@@ -1,7 +1,7 @@
 {
   "navigationWrapper" : [
     {
-      "navLogoSrc": "images/yjsg/logo-final.png",
+      "navLogoSrc": "assets/images/logos/logo-final.png",
       "navbarNavLink" : [
         {
           "navHref" : "index.html",
@@ -18,24 +18,12 @@
           "navLink": "Our Activities"
         },
         {
-          "navHref" : "gallery.html",
-          "navLink": "Gallery"
-        },
-        {
-          "navHref" : "it-initiatives.html",
-          "navLink": "IT Initiatives"
-        },
-        {
           "navHref" : "study-material.html",
           "navLink": "Study Material"
         },
         {
           "navHref" : "yjsg-event.html",
           "navLink": "Event"
-        },
-        {
-          "navHref" : "yjsg-shivir.html",
-          "navLink": "Shivir"
         },
         {
           "navHref" : "contact.html",

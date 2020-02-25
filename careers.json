@@ -1,0 +1,96 @@
+{
+
+  "currentOpeningsTitle": [
+    {
+      "openingSectionTitle": "Event & Detail"
+    }
+  ],
+  "currentOpeningsModalWrapper" : [
+    {
+      "modalContentId": "java-lead",
+      "closeModalText": "java-lead",
+      "modalContentHeading": "JAVA Lead",
+      "modalLocationHeading": "Job Location : ",
+      "modalLocationText": "Indore",
+      "modalContentExperience": "Experience : ",
+      "modalContentExperienceText" :  "5-10 years",
+      "jobDescriptionTitle" : "Job Description : ",
+      "jobDescription": [
+        "4+ years of experience on Struts/Spring and Hibernate and Restful services",
+        "Exposure on UI development and front end technologies like JavaScript, JQuery",
+        "Must have developed at least one project based on Restful Web Services"
+      ],
+      "keyActivitiesTitle": "Key Activities",
+      "keyActivities" : [
+        "Manage and lead a diverse, expert team of 4 - 5 software engineers.",
+        "Design and implementation of innovative enterprise JAVA and J2EE applications",
+        "Ensuring competencies with SDLC processes, Design Patterns, POC development, Environments setup etc.",
+        "Employing of best development practices that ensure high quality delivery and easy maintainability of code"
+      ],
+      "KeySkillsTitle" : "Key Skills",
+      "keySkills" : [
+        "Proficiency in Java Programming",
+        "Skilled in Object Oriented Programming",
+        "Extensive exposure to Spring, Hibernate and open source frameworks",
+        "Hands on experience with Core Java, IO, Collections, REST web services, Servlets, JSP, Spring, Design Patterns, Apache Tomcat, SQL, React",
+        "Excellent problem solving, debugging and troubleshooting skills.",
+        "Understanding of Best Practices and Design Patterns",
+        "Exposure to Build and Deployment processes"
+      ]
+    },
+    {
+      "modalContentId": "java-engineer",
+      "closeModalText": "java-engineer",
+      "modalContentHeading": "JAVA Engineer",
+      "modalLocationHeading": "Job Location : ",
+      "modalLocationText": "Indore",
+      "modalContentExperience" : "Experience : ",
+      "modalContentExperienceText" :  "2-5 years",
+      "jobDescriptionTitle" : "Job Description : ",
+      "jobDescription": [
+        "Hands on experience on Struts/Spring and Hibernate and Restful services",
+        "Exposure on UI development and front end technologies like JavaScript, JQuery",
+        "Must have developed at least one project based on Restful Web Services"
+      ],
+      "keyActivitiesTitle": "Key Activities:",
+      "keyActivities" : [
+        "Manage and lead a diverse, expert team of 4 - 5 software engineers.",
+        "Design and implementation of innovative enterprise JAVA and J2EE applications",
+        "Ensuring competencies with SDLC processes, Design Patterns, POC development, Environments setup etc.",
+        "Employing of best development practices that ensure high quality delivery and easy maintainability of code"
+      ],
+      "KeySkillsTitle" : "Key Skills:",
+      "keySkills" : [
+        "Proficiency in Java Programming",
+        "Skilled in Object Oriented Programming",
+        "Extensive exposure to Spring, Hibernate and open source frameworks",
+        "Hands on experience with Core Java, IO, Collections, REST web services, Servlets, JSP, Spring, Design Patterns, Apache Tomcat, SQL, React",
+        "Excellent problem solving, debugging and troubleshooting skills.",
+        "Understanding of Best Practices and Design Patterns",
+        "Exposure to Build and Deployment processes"
+      ]
+    }
+  ],
+  "currentOpeningSection": [
+    {
+      "cardImages" : "assets/images/events/IMG_0353.jpg",
+      "onclickOpenModal" : "java-lead",
+      "jobTitle": "SHIVIR 1",
+      "jobExperience": "Date: 3rd MAY 2020 to 11th MAY 2020",
+      "jobLocation": "Location : Indore",
+      "jobBtn":"View Details",
+      "jobBtn1":"Register",
+      "jobDivBackgroundClass" : "java-lead-card"
+    },
+    {
+      "cardImages" : "assets/images/events/RSL_1080.jpg",
+      "onclickOpenModal" : "java-engineer",
+      "jobTitle": "SHIVIR 2",
+      "jobExperience": "Date: 3rd MAY 2020 to 11th MAY 2020",
+      "jobLocation": "Location : Indore",
+      "jobBtn":"View Details",
+      "jobBtn1":"Register",
+      "jobDivBackgroundClass" : "java-engineer-card"
+    }
+  ]
+}
