@@ -37,14 +37,14 @@
                     <div class="row">
                         <div class="col-sm-12 col-xs-12">
                             <div class="first-name-box">
-                                <input class="form-control, contactForm-input" placeholder="Full Name*" name="Name" maxlength="60" required="required">
+                                <input class="form-control contactForm-input" placeholder="Full Name*" name="first_name" id="first_name" maxlength="60" required="required">
                                 <!--                                                <input name="first_name" id="first_name" type="text" required>-->
                                 <div class="pull-right mar-top-10 padding-right-15 error"><span>First name should be of minimum 3 letter</span></div>
                             </div>
                         </div>
                         <div class="col-sm-6 col-xs-12">
                             <div class="last-name-box">
-                                <input class="form-control, contactForm-input" placeholder="Phone Number*" name="Name" maxlength="60" required="required">
+                                <input class="form-control contactForm-input" placeholder="Phone Number*" name="last_name" id="last_name" maxlength="60" required="required">
 
                                 <!--                                                <input name="last_name" id="last_name" class="form-control" type="text" required>-->
                                 <div class="pull-right mar-top-10 padding-right-15 error"><span>Last name should be of minimum 3 letter</span></div>
@@ -52,7 +52,7 @@
                         </div>
                         <div class="col-sm-6 col-xs-12">
                             <div class="email-box">
-                                <input class="form-control, contactForm-input" placeholder="Email*" name="Name" maxlength="60" required="required">
+                                <input class="form-control contactForm-input" placeholder="Email*" name="email" id="email" maxlength="60" required="required">
 
                                 <!--                                        <label class="control-label xxs-margin-bot-10">E-Mail <span class="primary-color font-size-20">*</span></label>-->
                                 <!--                                                <input name="email" id="email" class="form-control" type="text" required>-->
@@ -64,7 +64,7 @@
 
                         <div class="col-sm-12 col-xs-12">
                             <div class="cover-letter-box">
-                                <input class="form-control, contactForm-input" placeholder="Message" name="Name" maxlength="60" required="required">
+                                <input class="form-control contactForm-input" placeholder="Message" name="comment" id="comment" maxlength="60" required="required">
 
                             </div>
                         </div>
@@ -92,7 +92,7 @@
                         </div>
                         <div>
                             <div class="col-md-12 text-center">
-                                <button type="submit" id="submit" class="openDetails btn-send"  disabled>SUBMIT</button>
+                                <button type="submit" id="submit" class="openDetails btn-send">SUBMIT</button>
                             </div>
                         </div>
                     </div>
@@ -103,7 +103,10 @@
 </section>
 
 
-<script src="js/jquery.min.js"></script>
+<script
+  src="https://code.jquery.com/jquery-2.2.4.js"
+  integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="
+  crossorigin="anonymous"></script>
 <script type="text/javascript">
     var a = Math.ceil(Math.random() * 9) + " ";
     var b = Math.ceil(Math.random() * 9) + " ";
@@ -221,8 +224,8 @@
                 return obj;
             }, {});
           // Change to your service ID, or keep using the default service
-            var service_id = "default_service";
-          var template_id = "yjsg";
+            var service_id = "gmail";
+            var template_id = "test";
             // myform.find("button").text("loading...");
 
 
