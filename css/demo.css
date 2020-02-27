@@ -241,8 +241,11 @@ a:hover{
     padding: 100px 0;
 }
 .padding-75-0 {
-    padding: 75px 0;
+    padding-top: 30px;
+    padding-bottom: 75px;
+    /*padding: 75px 0;*/
 }
+
 .padding-75-0-0 {
     padding: 75px 0 0;
 }
@@ -396,29 +399,14 @@ h1#looks span{
     /*font-weight:300;*/
     width:630px;
 }
-h1#amazing span{
-    color:#8e7626;
-    padding:5px 15px;
-    font-weight:100;
-    width:630px;
-    margin-top:130px;
-    font-size:30px;
-}
-#big_no{
-    font-size:55px;
-    top:30%;
-    left:20%;
-    color:#fff;
-    background-color: transparent;
-    padding: 4px 30px;
-}
+
 .second_slide{
     margin:180px 100px;
     color:#fff;
 }
 #exp{
     color: oldlace;
-    top:145px;
+    top:50px;
     line-height: 84px;
     font-weight: 600;
     font-size: 70px;
@@ -431,22 +419,7 @@ h1#amazing span{
     /*font-size:65px;*/
     /*color: #ffffffs;*/
 }
-#ask{
-    margin-top: 120px;
-    font-size: 25px;
-    font-weight:100;
-    color: #fff;}
-#cap{
-    margin-top:175px;
-    font-size:30px;
-    font-weight:100;
-    color: #fff;
-}
-#now{
-    margin-top:230px;
-    font-size:30px;
-    color: #fff;
-}
+
 #man_image{
     right: 0;
     top: -53px;
@@ -466,67 +439,19 @@ h1#amazing span{
     height:100%;
 }
 h2#para{
-    top: 40%;
-    left: 30%;
+
+    color: #e3722e;
+    line-height: 84px;
+    font-weight: 600;
+    font-size: 70px;
+    font-family: Raleway,Arial,Helvetica,sans-serif;
+
+    top: 16%;
+    left: 14%;
     text-align: center;
-    font-size: 34px;
-    color: #8e7626;
-    width:400px;
-    font-weight:100;
 }
 h2#para span{
-    display:block;}
-h1#a1{
-    top: 12%;
-    left: 61%;
-}
-h1#r1{
-    top: 12%;
-    left: 64%;
-}
-h1#c1{
-    top: 12%;
-    left: 67%;
-}
-h1#h1{
-    top: 12%;
-    left: 70%;
-}
-h1#i1{
-    top: 12%;
-    left: 73%;
-}
-h1#t1{
-    top: 22%;
-    left: 66%;
-}
-h1#e1{
-    top: 22%;
-    left: 69.5%;
-}
-h1#c2{
-    top: 22%;
-    left: 72%;
-}
-h1#t2{
-    top: 22%;
-    left: 74.5%;
-}
-h1#u1{
-    top: 22%;
-    left: 77%;
-}
-h1#r2{
-    top: 22%;
-    left: 80%;
-}
-h1#e2{
-    top: 22%;
-    left: 81.5%;
-}
-h1#mark{
-    top: 22%;
-    left: 84.5%;
+    display:block;
 }
 h1#rework span{
     display:block;
@@ -553,8 +478,8 @@ h1#goal{
     font-family: Raleway,Arial,Helvetica,sans-serif;
     padding: 5px 15px;
 
-    top: 21%;
-    left: 4%;
+    top: 39%;
+    left: 1.5%;
     text-align: center;
     width: 600px;
 }
@@ -2445,7 +2370,7 @@ top-0{
 
 /*YJSG activitiess comiited soft serv css*/
 .section-content{
-    padding-bottom: 100px;
+    /*padding-bottom: 100px;*/
     background-color: #fbfbfb;
 }
 .committed-services-content {
@@ -3060,14 +2985,6 @@ a:active, a:focus{
     .captcha-box{
         margin-top:35px;
     }
-
-    /*.owl-item{*/
-    /*    width:200px;*/
-    /*}*/
-
-    /*.file-wrapper {*/
-    /*    padding: 45px 0 0;*/
-    /*}*/
     .form-group{
         margin-bottom:0;
     }
@@ -3615,30 +3532,9 @@ a:active, a:focus{
     .anim-dots{
         bottom: 5px;
     }
-    h1#amazing span{
-        margin-top: 70px;
-        font-size: 25px;
-        left:10%;
-        width: 80%;
-    }
     #exp {
         font-size: 35px;
     }
-    #now {
-        margin-top: 170px;
-        font-size: 25px;
-    }
-    #cap {
-        margin-top: 120px;
-        font-size: 25px;
-    }
-    #ask {
-        margin-top: 80px;
-        font-size: 20px;
-    }
-    /*.second_slide {*/
-    /*    margin: 80px 0px 0 40px;*/
-    /*}*/
     li.anim-slide:nth-of-type(3) > h1 {
         font-size: 30px;
     }
@@ -3655,10 +3551,6 @@ a:active, a:focus{
         font-size: 20px;
         width: 90%;
     }
-    #big_no{
-        font-size: 30px;
-        left:25%;
-    }
     h1#goal {
         right: auto;
         left: 25%;
@@ -3666,115 +3558,22 @@ a:active, a:focus{
     }
 }
 @media(max-width:480px) {
-    #now {
-        margin-top: 140px;
-        font-size: 18px;
-    }
-
-    #cap {
-        margin-top: 100px;
-        font-size: 18px;
-    }
-
-    #ask {
-        margin-top: 60px;
-        font-size: 18px;
-    }
-
     #exp {
         font-size: 22px;
     }
-
-    h1#a1 {
-        top: 30%;
-        left: 21%;
-    }
-
-    h1#r1 {
-        top: 30%;
-        left: 26%;
-    }
-
-    h1#c1 {
-        top: 30%;
-        left: 31%;
-    }
-
-    h1#h1 {
-        top: 30%;
-        left: 36%;
-    }
-
-    h1#i1 {
-        top: 30%;
-        left: 42%;
-    }
-
-    h1#t1 {
-        top: 30%;
-        left: 44.5%;
-    }
-
-    h1#e1 {
-        top: 30%;
-        left: 49%;
-    }
-
-    h1#c2 {
-        top: 30%;
-        left: 53%;
-    }
-
-    h1#t2 {
-        top: 30%;
-        left: 58%;
-    }
-
-    h1#u1 {
-        top: 30%;
-        left: 63%;
-    }
-
-    h1#r2 {
-        top: 30%;
-        left: 68%;
-    }
-
-    h1#e2 {
-        top: 30%;
-        left: 73%;
-    }
-
-    h1#mark {
-        top: 30%;
-        left: 78%;
-    }
-
     h1#goal {
         right: auto;
         left: 0;
         font-size: 30px;
         width: 100%;
     }
-
     h1#looks span {
         width: 100%;
         font-size: 20px;
     }
 
-    h1#amazing span {
-        font-size: 20px;
-        left: 0;
-        width: 100%;
-    }
-
     h2#para span {
         width: 100%;
-    }
-
-    #big_no {
-        left: 50%;
-        margin-left: -104px;
     }
     li.anim-slide:nth-of-type(3) {
         background-position: 79% 36%;
@@ -4308,58 +4107,6 @@ a:active, a:focus{
         background: #fff url(../assets/images/sliders/study3-1024x637.jpg);
         background-position: 70% 0%;
     }
-    h1#a1 {
-        top: 30%;
-        left: 7%;
-    }
-    h1#r1 {
-        top: 30%;
-        left: 10%;
-    }
-    h1#c1 {
-        top: 30%;
-        left: 13%;
-    }
-    h1#h1 {
-        top: 30%;
-        left: 17%;
-    }
-    h1#i1 {
-        top: 30%;
-        left: 21%;
-    }
-    h1#t1 {
-        top: 43%;
-        left: 17.5%;
-    }
-    h1#e1 {
-        top: 43%;
-        left: 22.5%;
-    }
-    h1#c2 {
-        top: 43%;
-        left: 26%;
-    }
-    h1#t2 {
-        top: 43%;
-        left: 29.5%;
-    }
-    h1#u1 {
-        top: 43%;
-        left: 33%;
-    }
-    h1#r2 {
-        top: 43%;
-        left: 37%;
-    }
-    h1#e2 {
-        top: 43%;
-        left: 38.5%;
-    }
-    h1#mark {
-        top: 43%;
-        left: 42.5%;
-    }
     h1#goal {
         font-size: 30px;
         left: 0%;
@@ -4394,58 +4141,7 @@ a:active, a:focus{
         font-weight: 300;
         width: 297px;
     }
-    h1#a1 {
-        top: 44%;
-        left: 18%;
-    }
-    h1#r1 {
-        top: 44%;
-        left: 22%;
-    }
-    h1#c1 {
-        top: 44%;
-        left: 26%;
-    }
-    h1#h1 {
-        top: 44%;
-        left: 31%;
-    }
-    h1#i1 {
-        top: 44%;
-        left: 36%;
-    }
-    h1#t1 {
-        top: 56%;
-        left: 6.5%;
-    }
-    h1#e1 {
-        top: 56%;
-        left: 12.5%;
-    }
-    h1#c2 {
-        top: 56%;
-        left: 17%;
-    }
-    h1#t2 {
-        top: 56%;
-        left: 21.5%;
-    }
-    h1#u1 {
-        top: 56%;
-        left: 26%;
-    }
-    h1#r2 {
-        top: 56%;
-        left: 31%;
-    }
-    h1#e2 {
-        top: 56%;
-        left: 33.5%;
-    }
-    h1#mark {
-        top: 56%;
-        left: 38.5%;
-    }
+
     h1#rework {
         top: 20%;
         left: 0%;
@@ -4481,58 +4177,7 @@ a:active, a:focus{
     h1#goal {
         top: 17%;
     }
-    h1#a1 {
-        top: 30%;
-        left: 9%;
-    }
-    h1#r1 {
-        top: 30%;
-        left: 15%;
-    }
-    h1#c1 {
-        top: 30%;
-        left: 21%;
-    }
-    h1#h1 {
-        top: 30%;
-        left: 27%;
-    }
-    h1#i1 {
-        top: 30%;
-        left: 33%;
-    }
-    h1#t1 {
-        top: 43%;
-        left: 5.5%;
-    }
-    h1#e1 {
-        top: 43%;
-        left: 13%;
-    }
-    h1#c2 {
-        top: 43%;
-        left: 18%;
-    }
-    h1#t2 {
-        top: 43%;
-        left: 23%;
-    }
-    h1#u1 {
-        top: 43%;
-        left: 27%;
-    }
-    h1#r2 {
-        top: 43%;
-        left: 32%;
-    }
-    h1#e2 {
-         top: 43%;
-         left: 35%;
-     }
-    h1#mark {
-        top: 43%;
-        left: 41%;
-    }
+
     .second_slide{
         margin: 0;
         top: 70px;
