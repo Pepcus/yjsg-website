@@ -3,6 +3,7 @@
     {
       "name": "Level 1",
       "id": "l1",
+      "class": "level-1",
       "books": [
         {
           "bookName": "Namokaar Mantra",
@@ -37,6 +38,7 @@
     {
       "name": "Level 2",
       "id": "l2",
+      "class": "level-2",
       "books": [
         {
           "bookName": "Paap",
@@ -67,6 +69,7 @@
     {
       "name": "Level 3",
       "id": "l3",
+      "class": "level-3",
       "books": [
         {
           "bookName": "Panch Parmeshthi",
@@ -97,6 +100,7 @@
     {
       "name": "Level 4",
       "id": "l4",
+      "class": "level-4",
       "books": [
         {
           "bookName": "Aatmaa-Parmatmaa",
@@ -123,6 +127,7 @@
     {
       "name": "Level 5",
       "id": "l5",
+      "class": "level-5",
       "books": [
         {
           "bookName": "Dev Shastra Guru",
@@ -149,6 +154,7 @@
     {
       "name": "Chadhala",
       "id": "l6",
+      "class": "level-6",
       "books": [
         {
           "bookName": "Chadhala Dhal 1",

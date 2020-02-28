@@ -1455,6 +1455,14 @@ h1.loader-pepcus:before {
     background-color:transparent;
 }
 
+.navbar-nav>li>.dropdown-menu li a {
+    padding: 10px 10px;
+}
+
+.dropdown-menu>.active>a, .dropdown-menu>.active>a:focus, .dropdown-menu>.active>a:hover {
+    background-color: #e67f41;
+}
+
 /*------------------------------------------YJSG OUR PUBLICATIONS CSS----------------------------------------*/
 .flip-card {
     background-color: transparent;
@@ -1859,13 +1867,13 @@ footer ul.simple li:before {
     background-image: url(../assets/images/backgrounds/photo-of-ocean-waves-near-seashore-during-sunset-982673.jpg);
 }
 .studymaterial-bgimage{
-    background-image: url(../assets/images/backgrounds/newkelli-tungay-2LJ4rqK2qfU-unsplash.jpg);
+    background-image: url(../assets/images/backgrounds/study-material.jpg);
 }
 .contact-bgimage{
     background-image: url(../assets/images/backgrounds/plant-2004483_1920.jpg);
 }
 .event-bgimage{
-    background-image: url(../assets/images/backgrounds/photo-of-seaside-during-daytime-3511543.jpg);
+    background-image: url(../assets/images/backgrounds/event-banner.jpg);
 }
 .ourclasses-bgimage{
     background-image: url(../assets/images/backgrounds/amanda-phung-1w2xsyc2wwI-unsplash.jpg);
@@ -4090,7 +4098,7 @@ a:active, a:focus{
     width: 101%;
     position: fixed;
     top: 42px;
-    z-index: 1200;
+    z-index: 1000;
     margin-top: 64px;
     height: auto;
     clear: both;
@@ -4143,8 +4151,7 @@ a:active, a:focus{
 }
 .tab-menu aside .active:before {
     opacity: 1;
-    background: #3f902d;
-    outline: #3f902d solid 1px;
+    background: #e27533 !important;
 }
 .tab-menu aside .tab-menu-icon:before {
     content: '';
@@ -4159,12 +4166,11 @@ a:active, a:focus{
     transition: all .4s ease;
     opacity: 1;
     z-index: 2;
+    pointer-events: none;
 }
 .tab-menu aside .column-6 .tab-menu-icon a {
     display: table-cell;
     vertical-align: middle;
-}
-.tab-menu aside .tab-menu-icon .tab-menu-icon-wrapper {
     padding: 20px 5px;
 }
 .tab-menu aside .tech-icon .tab-menu-icon-image {
@@ -4200,9 +4206,157 @@ a:active, a:focus{
     display: flex;
     align-items: center;
 }
+.tab-menu aside .active .tab-menu-icon-icon.services-icon-icon div {
+    color: #fff !important;
+}
 .top-0{
     top:0;
 }
 
 
 /*-------------------------------------- tab menu -------------------------------------------*/
+
+/*---------------------------------------- study card start -----------------------------------*/
+
+.study-card-row {
+    margin: 0 auto;
+    margin-top: 74px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+}
+.study-card-row .study-card-col {
+    width: 30.33%;
+    float: left;
+    background-color: #fff;
+    border: 1px solid #ebebeb;
+    margin: 1.5%;
+    margin-bottom: 30px;
+}
+@media screen and (max-width: 768px) {
+    .study-card-row .study-card-col {
+        width: 96%;
+        margin: 2%;
+        margin-bottom: 30px;
+    }
+}
+.study-card-row .study-card-item {
+    min-height: 150px;
+    position: relative;
+}
+.study-card-row .study-card-wrapper {
+    position: relative;
+    text-align: left;
+    padding: 10px;
+    height: 100%;
+    z-index: 2;
+}
+.study-card-row .study-card-header {
+    background: #333;
+    color: #fff;
+    margin: -32px -10px 40px;
+    padding: 20px 20px 10px;
+}
+
+.study-card-row .study-card-header.level-1 {
+    background: #5c5c5c;
+}
+.study-card-row .study-card-header.level-2 {
+    background: #97d02d;
+}
+.study-card-row .study-card-header.level-3 {
+    background: #26c7f7;
+}
+.study-card-row .study-card-header.level-4 {
+    background: #f45b52;
+}
+.study-card-row .study-card-header.level-5 {
+    background: #e2a11c;
+}
+.study-card-row .study-card-header.level-6 {
+    background: #c552bf;
+}
+.study-card-row .study-card-header.level-7 {
+    background: #51c336;
+}
+
+.study-card-row .study-card-header h4 {
+    margin-top: 0;
+    margin-bottom: 22px;
+    text-transform: uppercase;
+    font-size: 35px;
+    font-weight: 400;
+    text-align: left;
+}
+
+.study-card-row .study-card-body {
+    position: relative;
+    font-size: 17px;
+    line-height: 30px;
+    text-align: left;
+}
+
+.study-card-row .study-card-body p {
+    line-height: 30px;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 300;
+}
+
+.study-card-row .study-card-body ul {
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: left;
+}
+
+.study-card-row .study-card-body ul li {
+    position: relative;
+    padding-left: 45px;
+    margin-bottom: 20px;
+    line-height: 1.7;
+    font-weight: 400;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.study-card-row .study-card-body ul li div{
+    position: relative;
+    width: 100%;
+}
+.study-card-row .study-card-body ul li div:before{
+    content: "\f00c";
+    font-family: FontAwesome;
+    display: block;
+    position: absolute;
+    width: 15px;
+    height: 11px;
+    top: 0;
+    left: -25px;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    /*background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAALCAYAAACgR9dcAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAANlJREFUeNqU0T8LQVEYx3EXSVaTxW6ymf1PiO7gJRgMMhlMTAaTxeoNUGIwKNMti8WglFlJBklJJt9Tz61DqHvqU+fp3t/pnOcxTCvmcriqiKLudRisYQADHreDYEMLPrG0w0H4/gSb6GvBCsYqHIKF0Y8DWujJ/gETM1Wo8BARlDCBXwt20JX9HWXM7Y9u6d5e6jymCEiorQWLWOhXUt0+IK4aIDfIYoew/HNDQZ72tuyGHZHAVmo7eEXuW1APq3VCEhupL8hg9WsEn3M+IyVvS2P9b/AvAQYAvxkoInbfMQUAAAAASUVORK5CYII=)!important*/
+}
+
+.study-card-row .study-card-body ul li a{
+    float: left;
+    width: calc(100% - 40px);
+    display: block;
+    margin-right: 40px;
+    position: relative;
+    color: #555;
+}
+
+.study-card-row .study-card-body ul li a svg{
+    width: 14px;
+    height: 14px;
+    margin-left: 10px;
+    margin-right: 10px;
+    fill: #333;
+    position: absolute;
+    right: -35px;
+    margin-top: 10px;
+}
+/*---------------------------------------- study card end -----------------------------------*/
