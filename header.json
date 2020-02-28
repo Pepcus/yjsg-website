@@ -6,28 +6,61 @@
         {
           "navHref" : "index.html",
           "navLink": "Home",
-          "class": "active"
+          "class": "active",
+          "dropdown": false
         },
         {
           "navHref" : "about.html",
           "navLink":  "About Us",
-          "className": "liAbout"
+          "class": "liAbout",
+          "dropdown": false
         },
         {
           "navHref" : "ourActivities.html",
-          "navLink": "Our Activities"
+          "navLink": "Our Activities",
+          "class": "liActivities",
+          "dropdown": true,
+          "dropdownItem": [
+            {
+              "dropdownName":"Our Classes",
+              "dropdownHref":"our-classes.html"
+            },
+            {
+              "dropdownName":"Shivir",
+              "dropdownHref":"yjsg-shivir.html"
+            },
+            {
+              "dropdownName":"Mahavir Jayanti Julus",
+              "dropdownHref":"ourActivities.html"
+            },
+            {
+              "dropdownName":"Religious Trips",
+              "dropdownHref":"religious-trips.html"
+            },
+            {
+              "dropdownName":"Diwali & Awareness Campaign",
+              "dropdownHref":"diwali-awareness-campaign.html"
+            },
+            {
+              "dropdownName":"Our Publications",
+              "dropdownHref":"our-Publications.html"
+            }
+          ]
         },
         {
           "navHref" : "study-material.html",
-          "navLink": "Study Material"
+          "navLink": "Study Material",
+          "dropdown": false
         },
         {
           "navHref" : "yjsg-event.html",
-          "navLink": "Event"
+          "navLink": "Event",
+          "dropdown": false
         },
         {
           "navHref" : "contact.html",
-          "navLink": "Contact"
+          "navLink": "Contact",
+          "dropdown": false
         }
       ]
     }
