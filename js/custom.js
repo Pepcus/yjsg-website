@@ -13,7 +13,7 @@ $(document).ready(function(e) {
         }
     });
     $(window).scroll(function() {
-        if ($(this).scrollTop() > 1500) {
+        if ($(this).scrollTop() > 400) {
             $('.scrollup').stop(!0, !0).fadeIn()
         } else {
             $('.scrollup').stop(!0, !0).fadeOut()
