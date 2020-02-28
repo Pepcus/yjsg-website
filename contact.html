@@ -8,7 +8,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" href="images/yjsg/favicon-yjsg.ico" type="image/x-icon">
+    <link rel="icon" href="assets/images/logos/favicon-yjsg.ico" type="image/x-icon">
     <title>Pepcus: Contact</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" crossorigin="anonymous">
@@ -18,116 +18,95 @@
 </head>
 <body>
 <div class="loading">
-    <div class="loading-image"><img src="images/yjsg/yjsg-loader.gif" alt="loader" /></div>
+    <div class="loading-image"><img src="assets/images/loader/yjsg-loader.gif" alt="loader" /></div>
 </div>
 
 <section>
     <div id="headerContent"></div>
 </section>
+
 <section>
-    <div class="general-banner montserrat-font-family">
-        <div class="banner parallax general-contact white-color flex-center text-center">
-            <div class="container">
-                <div class="content">
-                    <h1 class="main-heading-inner font-size-60 font-bold"> Contact Us </h1>
-                </div>
+    <div class="headbg contact-bgimage">
+        <div class="contactus-container">
+
+            <div class="col-md-12">
+
+                <form class="form-horizontal padding-50-25 xxs-padding-20-10" method="post" id="contact_form">
+                    <h1>CONTACT US</h1>
+                    <!-- Text input-->
+                    <div class="row">
+                        <div class="col-sm-12 col-xs-12">
+                            <div class="first-name-box">
+                                <input class="form-control contactForm-input" placeholder="Full Name*" name="first_name" id="first_name" maxlength="60" required="required">
+                                <!--                                                <input name="first_name" id="first_name" type="text" required>-->
+                                <div class="pull-right mar-top-10 padding-right-15 error"><span>First name should be of minimum 3 letter</span></div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-xs-12">
+                            <div class="last-name-box">
+                                <input class="form-control contactForm-input" placeholder="Phone Number*" name="last_name" id="last_name" maxlength="60" required="required">
+
+                                <!--                                                <input name="last_name" id="last_name" class="form-control" type="text" required>-->
+                                <div class="pull-right mar-top-10 padding-right-15 error"><span>Last name should be of minimum 3 letter</span></div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-xs-12">
+                            <div class="email-box">
+                                <input class="form-control contactForm-input" placeholder="Email*" name="email" id="email" maxlength="60" required="required">
+
+                                <!--                                        <label class="control-label xxs-margin-bot-10">E-Mail <span class="primary-color font-size-20">*</span></label>-->
+                                <!--                                                <input name="email" id="email" class="form-control" type="text" required>-->
+                                <div class="pull-right mar-top-10 padding-right-15 error"><span>Email format should be like <span class="font-bold">test@test.com</span></span></div>
+                            </div>
+                        </div>
+
+
+
+                        <div class="col-sm-12 col-xs-12">
+                            <div class="cover-letter-box">
+                                <input class="form-control contactForm-input" placeholder="Message" name="comment" id="comment" maxlength="60" required="required">
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="form-group mar-top-15 captcha-box">
+                            <label class="col-md-12 mar-bot-15 font-size-14 captcha-label text-center">Please complete the security check <span class="primary-color font-size-20">*</span></label>
+                            <div class="col-md-12 col-sm-8 col-xxs-12 inputGroupContainer">
+                                <div class="row">
+                                    <div class="col-md-4 col-sm-6 col-xxs-12 text-right font-size-40 xxs-align-center xxs-margin-bot-15">
+                                        <div class="captcha-label Fascinate-font-family" id="txtCaptchaDiv">
+                                            <span></span>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-sm-6 col-xxs-12">
+                                        <input type="hidden" id="txtCaptcha">
+                                        <div>
+                                            <input type="text" class="form-control" name="txtInput" id="txt_captcha_input" required>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="text-center mar-top-10 error"><span>Please fill correct captcha </span></div>
+                        </div>
+                        <div>
+                            <div class="col-md-12 text-center">
+                                <button type="submit" id="submit" class="openDetails btn-send">SUBMIT</button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
             </div>
         </div>
     </div>
 </section>
 
-<section class="contactForm mar-bot-100 mar-top-100 xxs-margin-top-50 montserrat-font-family">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <form class="form-horizontal sky-light padding-50-25 xxs-padding-20-10" method="post" id="contact_form">
-                    <!-- Text input-->
-                    <div class="row">
-                        <div class="col-sm-6 col-xs-12">
-                            <div class="form-group first-name-box">
-                                <label class="control-label xxs-margin-bot-10">First Name <span class="primary-color font-size-20">*</span></label>
-                                <div class="inputGroupContainer">
-                                    <div class="input-group">
-                                        <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
-                                        <input name="first_name" id="first_name" class="form-control" type="text" required>
-                                    </div>
-                                </div>
-                                <div class="pull-right mar-top-10 padding-right-15 error"><span>First name should be of minimum 3 letter</span></div>
-                            </div>
-                        </div>
-                        <div class="col-sm-6 col-xs-12">
-                            <div class="form-group last-name-box">
-                                <label class="control-label xxs-margin-bot-10">Last Name <span class="primary-color font-size-20">*</span></label>
-                                <div class="inputGroupContainer">
-                                    <div class="input-group">
-                                        <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
-                                        <input name="last_name" id="last_name" class="form-control" type="text" required>
-                                    </div>
-                                </div>
-                                <div class="pull-right mar-top-10 padding-right-15 error"><span>Last name should be of minimum 3 letter</span></div>
-                            </div>
-                        </div>
-                        <div class="col-sm-6 col-xs-12">
-                            <div class="form-group email-box">
-                                <label class="control-label xxs-margin-bot-10">E-Mail <span class="primary-color font-size-20">*</span></label>
-                                <div class="inputGroupContainer">
-                                    <div class="input-group">
-                                        <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
-                                        <input name="email" id="email" class="form-control" type="text" required>
-                                    </div>
-                                </div>
-                                <div class="pull-right mar-top-10 padding-right-15 error"><span>Email format should be like <span class="font-bold">test@test.com</span></span></div>
-                            </div>
-                        </div>
-                    </div>
 
-                    <div class="row">
-                        <div class="col-sm-12 col-xs-12">
-                            <div class="form-group cover-letter-box">
-                                <label class="control-label">Message </label>
-                                <div class="inputGroupContainer">
-                                    <div class="input-group">
-                                        <span class="input-group-addon"><i class="glyphicon glyphicon-pencil"></i></span>
-                                        <textarea name="comment" id="comment" class="form-control" type="text" required></textarea>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="row">
-                    <div class="form-group captcha-box">
-                        <label class="col-md-12 mar-bot-15 font-size-14 captcha-label text-center">Please complete the security check <span class="primary-color font-size-20">*</span></label>
-                        <div class="col-md-12 col-sm-8 col-xxs-12 inputGroupContainer">
-                            <div class="row">
-                                <div class="col-md-4 col-sm-6 col-xxs-12 text-right font-size-40 xxs-align-center xxs-margin-bot-15">
-                                    <div class="captcha-label Fascinate-font-family" id="txtCaptchaDiv">
-                                        <span></span>
-                                    </div>
-                                </div>
-                                <div class="col-md-4 col-sm-6 col-xxs-12">
-                                    <input type="hidden" id="txtCaptcha">
-                                    <div>
-                                        <input type="text" class="form-control" name="txtInput" id="txt_captcha_input" required>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="text-center mar-top-10 error"><span>Please fill correct captcha </span></div>
-                    </div>
-                    <div class="form-group">
-                        <div class="col-md-12 text-center">
-                            <button type="submit" id="submit" class="btn btn-warning openDetails btn-send"  disabled>Send <span class="glyphicon glyphicon-send"></span></button>
-                        </div>
-                    </div>
-                    </div>
-              </form>
-            </div>
-      </div>
-    </div>
-</section>
-
-<script src="js/jquery.min.js"></script>
+<script
+  src="https://code.jquery.com/jquery-2.2.4.js"
+  integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="
+  crossorigin="anonymous"></script>
 <script type="text/javascript">
     var a = Math.ceil(Math.random() * 9) + " ";
     var b = Math.ceil(Math.random() * 9) + " ";
@@ -245,8 +224,8 @@
                 return obj;
             }, {});
           // Change to your service ID, or keep using the default service
-            var service_id = "default_service";
-          var template_id = "yjsg";
+            var service_id = "gmail";
+            var template_id = "test";
             // myform.find("button").text("loading...");
 
 

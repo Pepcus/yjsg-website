@@ -5,13 +5,15 @@ $(document).ready(function(e) {
 
     $(window).scroll(function() {
         if ($(this).scrollTop() > 90) {
-            $('.header-menu').addClass("change-height")
+            $('.header-menu').addClass("change-height");
+            $('.tab-menu').addClass("change-height");
         } else {
-            $('.header-menu').removeClass("change-height")
+            $('.header-menu').removeClass("change-height");
+            $('.tab-menu').removeClass("change-height");
         }
     });
     $(window).scroll(function() {
-        if ($(this).scrollTop() > 1500) {
+        if ($(this).scrollTop() > 400) {
             $('.scrollup').stop(!0, !0).fadeIn()
         } else {
             $('.scrollup').stop(!0, !0).fadeOut()
@@ -31,7 +33,7 @@ $(document).ready(function(e) {
         }, 1000)
     });
 });
-     
+
 var page = document.getElementById('page');
 
 function slideDown(e) {
