@@ -1,6 +1,21 @@
 
 <section>
-    <div id="nav-header"></div>
+    <nav class="navbar navbar-inverse navbar-fixed-top header-menu">
+    <div class="container">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            </button>
+        <a class="navbar-brand" href="#" active="\" id="navbar-brand"></a>
+        </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+    <ul class="nav navbar-nav navbar-right text-uppercase" id="nav-header">
+    </ul>
+    </div>
+    </div>
+    </nav>
 </section>
 
 <script type="text/javascript">
@@ -8,32 +23,29 @@
   var renderNavWrapper = function(navWrapper) {
     $.each(navWrapper, function(key, value) {
       var htmlNavLink = "";
-      $.each(value.dropdown1, function(key,desc){
-        htmlRenderDropdown1 += "<li>"+desc+"</li>";
-      });
-      $.each(value.navbarNavLink, function(key,desc) {
-        className = desc.class ? desc.class : '' ;
-        htmlNavLink += "<li class=\""+className+"\"><a href=\""+desc.navHref+"\">"+desc.navLink+"</a>" +
-          "</li>";
-      });
-      var htmlRender = "<nav class=\"navbar navbar-inverse navbar-fixed-top header-menu\">" +
-        "<div class=\"container\">" +
-        "<div class=\"navbar-header\">" +
-        "<button type=\"button\" class=\"navbar-toggle\" data-toggle=\"collapse\" data-target=\"#myNavbar\">" +
-        "<span class=\"icon-bar\"></span>" +
-        "<span class=\"icon-bar\"></span>" +
-        "<span class=\"icon-bar\"></span>" +
-        "</button>" +
-        "<a class=\"navbar-brand\" href=\"#\" active=\"\"><img src=\""+value.navLogoSrc+"\" alt=\"Logo-new\" /></a>" +
-        "</div>" +
-        "<div class=\"collapse navbar-collapse\" id=\"myNavbar\">" +
-        "<ul class=\"nav navbar-nav navbar-right text-uppercase\">" +
-        htmlNavLink +
-        "</ul>" +
-        "</div>" +
-        "</div>" +
-        "</nav>";
+      var htmlNavDropLink = "";
+      var navBrand = "<img src=\""+value.navLogoSrc+"\" alt=\"Logo-new\" />"
+        $.each(value.navbarNavLink, function(key,desc) {
+            $.each(desc.dropdownItem, function(key,dropItem) {
+                htmlNavDropLink += "<li><a active='' data-target='.navbar-toggle collapsed' href=\""+dropItem.dropdownHref+"\" title='SSN Group'>"+dropItem.dropdownName+"</a></li>";
+            });
+            className = desc.class ? desc.class : '' ;
+            if(desc.dropdown === true) {
+                htmlNavLink += "<li class=\""+className+" dropdown\">"+
+                  "<a href=\""+desc.navHref+"\" active='' class='dropdown-toggle' data-toggle='dropdown' role='button' aria-expanded='false'>"+desc.navLink+"&nbsp;<span class='fa fa-angle-down'></span></a>"+
+                  "<ul class='dropdown-menu' resource='button'>"+
+                  htmlNavDropLink+
+                  "</ul>"+
+                  "</li>";
+            }else {
+                htmlNavLink += "<li class=\""+className+"\"><a href=\""+desc.navHref+"\">"+desc.navLink+"</a>" +
+                  "</li>";
+            }
+        });
+
+      var htmlRender = htmlNavLink;
       $(htmlRender).appendTo("#nav-header");
+      $(navBrand).appendTo("#navbar-brand");
       var currentPath = location.pathname;
       var currentPathSplit = currentPath.split("/");
       var currentPathSplit = currentPathSplit[2];
