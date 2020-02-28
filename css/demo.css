@@ -1178,7 +1178,73 @@ h1.loader-pepcus:before {
     /*background-image: url("../images/deleted/theme-bg.jpg");*/
 }
 
+/*modal*/
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 9999; /* Sit on top */
+    padding-top: 5px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgba(41, 41, 41, 0.77);
 
+}
+.modal-content {
+    background-color: #fefefe;
+    margin: 85px auto;
+    padding: 0;
+    border: 1px solid #464642;
+    width: 70%;
+}
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+.modal-heading {
+    background: #e3722e;
+    padding: 25px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+.modal-wrapper {
+    max-height: 450px;
+    overflow: auto;
+    padding:25px;
+    min-height: 100%;
+    background: #fbfbfb;
+}
+.modal-footer {
+    padding: 15px 40px;
+    text-align: right;
+    background: #f3f3f7;
+    border-top: 1px solid #e5e5e5;
+}
+.modal-close {
+    opacity: 1;
+    color: #d4c7c7;
+    margin-top: -10px;
+    font-size: 37px;
+}
+.modal-close:hover {
+    color: #ffffff;
+    opacity:1;
+    transition:0.3s all;
+}
+.list-block li{
+    line-height: 1.9;
+}
 /*-------------------------- header and navbar css--------------------------------------------------- */
 .navbar-brand {
     width: 95px;
@@ -1804,13 +1870,13 @@ footer ul.simple li:before {
 
 /*full banner*/
 .aboutus-bgimage{
-    background-image: url(../assets/images/backgrounds/davide-cantelli-H3giJcTw__w-unsplash.jpg);
+    background-image: url(../assets/images/backgrounds/1frank-mckenna-4V8JxijgZ_c-unsplash.jpg);
 }
 .activities-bgimage{
     background-image: url(../assets/images/backgrounds/chang-qing-2YQoKbyGvDc-unsplash.jpg);
 }
 .studymaterial-bgimage{
-    background-image: url(../assets/images/backgrounds/sm.jpg);
+    background-image: url(../assets/images/backgrounds/kelli-tungay-2LJ4rqK2qfU-unsplash.jpg);
 }
 .contact-bgimage{
     background-image: url(../assets/images/backgrounds/plant-2004483_1920.jpg);
@@ -1856,7 +1922,7 @@ footer ul.simple li:before {
 }
 .job-opening-image{
     background-size: cover;
-    min-height: 450px;
+    min-height: 470px;
 }
 @media(max-width:767px){
 .job-opening-image{
@@ -2508,8 +2574,6 @@ input.contactForm-input, textarea.contactForm-input {
 .hover-toggle {
     opacity: 1;
 }
-
-
 .heading-section-yjsggames {
     text-align: center;
     padding: 55px 0 0px 0;
@@ -2558,8 +2622,6 @@ input.contactForm-input, textarea.contactForm-input {
     width: 100%;
     height: 278px;
 }
-
-
 .hover{
     transition: all .4s;
     position: absolute;
@@ -2657,9 +2719,6 @@ div#demo>a>h4{
     background-color: #e3722e;
     border: 1px solid #e3722e;
     color: #fff;
-}
-.services-section-main-content{
-    padding: 10px 10px 10px;
 }
 .text {
     color: white;
@@ -2930,66 +2989,23 @@ a:active, a:focus{
         margin: 0 auto;
         float: none;
     }
-    /*.benefit-section-slider {*/
-    /*    display: flex;*/
-    /*    float: none;*/
-    /*    margin: 20px auto;*/
-    /*}*/
-    /*.gallerypepcus-slider{*/
-    /*    display: block;*/
-    /*    margin: 0 auto;*/
-    /*    float: none;*/
-    /*}*/
-    /*.clients{*/
-    /*    padding: 20px 0;*/
-    /*}*/
-
-    /*.modal-content {*/
-    /*    margin: 190px auto;*/
-    /*    width: 90%;*/
-    /*    height: 50%;*/
-    /*}*/
+    .modal-content {
+        margin: 190px auto;
+        width: 90%;
+        height: 50%;
+    }
 }
 @media (min-width:768px) and (max-width:992px) {
     .nicescroll-rails-hr ,.nicescroll-cursors{
         display: none;
     }
-    /*.react-engineer-card {*/
-    /*    width: 250px;*/
-    /*}*/
-    /*.stripe1 {*/
-    /*    width: 500px;*/
-    /*    height: 331px;*/
-    /*}*/
-
-    /*.stripe2 {*/
-    /*    width: 300px;*/
-    /*    height: 300px;*/
-    /*}*/
-
-    /*.stripe3 {*/
-    /*    width: 400px;*/
-    /*    height: 200px;*/
-    /*}*/
-
-    /*.stripe4 {*/
-    /*    width: 300px;*/
-    /*    height: 300px;*/
-    /*}*/
-
-    /*.qa-engineer-card {*/
-    /*    width: 500px;*/
-    /*}*/
     .banner .content{
         margin-top: 20px;
         padding-top:-4px;
     }
-
     /*.owl-item {*/
     /*    width: 200px;*/
     /*}*/
-
-
     /*.owl-carousel .owl-wrapper-outer {*/
     /*    overflow: hidden;*/
     /*    position: relative;*/
@@ -3027,10 +3043,10 @@ a:active, a:focus{
         margin-top: 1px;
     }
 
-    /*.modal-content {*/
-    /*    margin: 200px auto;*/
-    /*    width: 90%;*/
-    /*}*/
+    .modal-content {
+        margin: 200px auto;
+        width: 90%;
+    }
 
     /*.owl-item {*/
     /*    width: 250px;*/
@@ -3050,76 +3066,59 @@ a:active, a:focus{
     }
 }
 @media (min-width: 481px) and (max-width: 600px) {
-
-
-    /*.modal-content {*/
-    /*    width: 90%;*/
-    /*}*/
-
+    .modal-content {
+        width: 90%;
+    }
     .form-group {
         margin-bottom: 0;
         padding-bottom: 0;
     }
-
     .mar-35-0 {
         margin: 20px 0;
     }
     .btn-close {
         padding: 5px;
     }
-
     .mar-15-0-10 {
         margin: 19px 0 10px;
     }
-
     .card-mobile-height {
         min-height: 300px !important;
     }
 
-    /*.modal-content {*/
-    /*    margin: 50px auto;*/
-    /*    width: 85%;*/
-    /*}*/
+    .modal-content {
+        margin: 50px auto;
+        width: 85%;
+    }
+    .modal-wrapper {
+        padding: 15px 25px;
+        max-height: 410px;
+    }
+    .modal-wrapper .padding-50 {
+        padding: 0;
+    }
+    .modal-heading {
+        padding: 20px;
+    }
 
-    /*.modal-wrapper {*/
-    /*    padding: 15px 25px;*/
-    /*    max-height: 410px;*/
-    /*}*/
-
-    /*.modal-wrapper .padding-50 {*/
-    /*    padding: 0;*/
-    /*}*/
-
-    /*.modal-heading {*/
-    /*    padding: 20px;*/
-    /*}*/
-
-    /*.list-block .padding-left-50 {*/
-    /*    padding-left: 25px;*/
-    /*}*/
-
-
-
-    /*.modal-footer {*/
-    /*    padding: 15px 25px;*/
-    /*}*/
-
+    .list-block .padding-left-50 {
+        padding-left: 25px;
+    }
+    .modal-footer {
+        padding: 15px 25px;
+    }
     .card-block-box {
         width: 289px;
     }
-
     .padding-50 {
         padding: 0px;
     }
-
     .owl-prev {
         display: none;
     }
-
     .owl-next-icon {
         display: none;
     }
-
     .fa-angle-left {
         font-size: 40px;
         top: 40%;
@@ -3135,14 +3134,10 @@ a:active, a:focus{
     }
 }
 @media (min-width: 320px) and (max-width: 480px) {
-
-    /*.modal-content {*/
-    /*    width: 90%;*/
-    /*    margin: 70px 24px;*/
-    /*}*/
-    /*.file-wrapper {*/
-    /*    padding: 45px 0 0;*/
-    /*}*/
+    .modal-content {
+        width: 90%;
+        margin: 70px 24px;
+    }
     .form-group {
         margin-bottom: 0;
     }
@@ -4054,6 +4049,12 @@ a:active, a:focus{
     }
 }
 @media (max-width:767px){
+    .services-section-main-content{
+        margin-bottom: 20px;
+    }
+    .services-section-new-content {
+        min-height: 218px;
+    }
     .card-head-hover{
         font-size: 18px;
     }
