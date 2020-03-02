@@ -26,7 +26,7 @@
 
 <section>
     <div class="headbg event-bgimage"></div>
-    <div class="title-heading">
+    <div class="title-heading ">
         <p>OUR EVENTS</p>
     </div>
 </section>
@@ -35,7 +35,7 @@
     <div id="opening-title-wrapper"></div>
     <div id="modal-content-wrapper"></div>
     <div>
-        <div id="jobopening"></div>
+        <div id="eventsList"></div>
     </div>
 </section>
 
@@ -55,7 +55,7 @@
 <script type="text/javascript" charset="utf-8">
   var renderOpeningHeader = function(openingTitle) {
     $.each(openingTitle, function(key, value) {
-      var htmlRender = "<div class = \"heading-section\">" +
+      var htmlRender = "<div class = \"heading-section heading-section-with-banner\">" +
         "<h2>" +
         value.openingSectionTitle +
         "</h2>" +
@@ -158,8 +158,8 @@
         openingRow.forEach(
           function(opening) {
             var htmlRender =
-              "<div class='col-sm-"+columnSize+" col-xs-12 col-md-"+columnSize+" col-lg-"+columnSize+" padding-0'>" +
-              "<div class='job-opening-image card-hover' style='background-image:url(" + opening.cardImages + ")'>" +
+              "<div class='col-sm-"+columnSize+" col-xs-12 col-md-"+columnSize+" col-lg-"+columnSize+" padding-0' style='background-image:url(" + opening.cardImages + ")'>" +
+              "<div class='job-opening-image card-hover' >" +
               "<a onclick=\"openModal(\'" + opening.onclickOpenModal + "\')\" target=\"_self\" >" +
               "<div class=\"card\">" +
               "<div class = \"card-heading\">" +
@@ -175,7 +175,7 @@
               "</a>" +
               "</div>" +
               "</div>";
-            $(htmlRender).appendTo("#jobopening");
+            $(htmlRender).appendTo("#eventsList");
           }
         );
       }

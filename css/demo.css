@@ -1729,7 +1729,7 @@ blockquote img{
     background-color: #101010;
 }
 footer {
-    padding: 65px 0 0 0;
+    padding: 15px 0 0 0;
     line-height: 18px;
     overflow: hidden;
     -webkit-transition: -webkit-transform .5s;
@@ -1910,6 +1910,9 @@ footer ul.simple li:before {
     background-color: #e3722e;
     color: #ffffff;
 }
+#eventsList {
+    display: flex;
+}
 .job-opening-image{
     background-size: cover;
     min-height: 470px;
@@ -2005,7 +2008,7 @@ footer ul.simple li:before {
 }
 .title-bg {
     background: rgba(0, 0, 0, 0.4);
-    padding: 60px !important;
+    padding: 40px !important;
     border-radius: 10px;
     text-align: center;
 }
@@ -2239,11 +2242,6 @@ input.contactForm-input, textarea.contactForm-input {
     padding-bottom: 80px;
     display: flex;
     flex-wrap: wrap;
-}
-@media(min-width: 1024px) and (max-width: 1366px){
-    .contactus-container{
-        padding-top: 280px;
-    }
 }
  .form-horizontal{
     background-color: rgba(0,0,0,0.5);
@@ -2536,6 +2534,10 @@ input.contactForm-input, textarea.contactForm-input {
 .heading-section {
     text-align: center;
     padding: 50px 0 50px 0;
+}
+.heading-section-with-banner {
+    text-align: center;
+    padding: 0 0 50px 0;
 }
 @media (max-width:767px){
     .heading-section img, .heading-section-yjsggames img{
@@ -4220,7 +4222,7 @@ a:active, a:focus{
 
 .study-card-row {
     margin: 0 auto;
-    margin-top: 74px;
+    margin-top: 40px;
     display: flex;
     flex-wrap: wrap;
     width: 100%;
@@ -4233,6 +4235,9 @@ a:active, a:focus{
     border: 1px solid #ebebeb;
     margin: 1.5%;
     margin-bottom: 30px;
+    -webkit-box-shadow: 0px 3px 8px -1px rgba(138,136,128,1);
+    -moz-box-shadow: 0px 3px 8px -1px rgba(138,136,128,1);
+    box-shadow: 0px 3px 8px -1px rgba(138,136,128,1);
 }
 @media screen and (max-width: 768px) {
     .study-card-row .study-card-col {
@@ -4255,7 +4260,7 @@ a:active, a:focus{
 .study-card-row .study-card-header {
     background: #333;
     color: #fff;
-    margin: -32px -10px 40px;
+    margin: -32px -10px 10px;
     padding: 20px 20px 10px;
 }
 
@@ -4283,11 +4288,11 @@ a:active, a:focus{
 
 .study-card-row .study-card-header h4 {
     margin-top: 0;
-    margin-bottom: 22px;
+    margin-bottom: 10px;
     text-transform: uppercase;
-    font-size: 35px;
+    font-size: 22px;
     font-weight: 400;
-    text-align: left;
+    text-align: center;
 }
 
 .study-card-row .study-card-body {
@@ -4315,7 +4320,7 @@ a:active, a:focus{
 .study-card-row .study-card-body ul li {
     position: relative;
     padding-left: 45px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     line-height: 1.7;
     font-weight: 400;
     display: flex;
