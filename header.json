@@ -31,7 +31,7 @@
             },
             {
               "dropdownName":"Mahavir Jayanti Julus",
-              "dropdownHref":"ourActivities.html"
+              "dropdownHref":"mahavir-jayanti-julus.html"
             },
             {
               "dropdownName":"Religious Trips",
@@ -44,6 +44,10 @@
             {
               "dropdownName":"Our Publications",
               "dropdownHref":"our-Publications.html"
+            },
+            {
+              "dropdownName":"IT Initiatives",
+              "dropdownHref":"it-initiatives.html"
             }
           ]
         },
@@ -54,7 +58,7 @@
         },
         {
           "navHref" : "yjsg-event.html",
-          "navLink": "Event",
+          "navLink": "Events",
           "dropdown": false
         },
         {

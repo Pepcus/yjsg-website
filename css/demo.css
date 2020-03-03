@@ -563,10 +563,10 @@ h1#goal{
     -o-transition: all .5s;
     transition: all .5s;
 }
-.shivirbg-one {background-image: url(http://s1.it.atcdn.net/wp-content/uploads/2015/08/2-London.jpg);}
-.shivirbg-two {background-image: url(http://s1.it.atcdn.net/wp-content/uploads/2015/08/2-London.jpg);}
-.shivirbg-three {background-image: url(http://s1.it.atcdn.net/wp-content/uploads/2015/08/2-London.jpg);}
-.shivirbg-four {background-image: url(http://s1.it.atcdn.net/wp-content/uploads/2015/08/2-London.jpg);}
+.shivirbg-one {background-image: url(../assets/images/shivirs/2019.JPG);}
+.shivirbg-two {background-image: url(../assets/images/shivirs/2018.JPG);}
+.shivirbg-three {background-image: url(../assets/images/shivirs/2017.JPG);}
+.shivirbg-four {background-image: url(../assets/images/shivirs/2016.jpg);}
 .shivirparent a {
     display: none;
     font-size: 35px;
@@ -1859,7 +1859,18 @@ footer ul.simple li:before {
     }
 }
 .servicer-section-content{
-    height: 250px;
+    height: 270px;
+}
+.servicer-section-content p{
+    height: 135px;
+}
+@media(max-width: 767px){
+    .servicer-section-content p{
+        height: 105px;
+    }
+    .servicer-section-content {
+        height: 220px;
+    }
 }
 .diwali-img{
     background-image: url(../assets/images/activities/diwali.jpg);
@@ -1925,7 +1936,7 @@ footer ul.simple li:before {
 
 }
 .card-heading{
-    padding: 120px;
+    padding-top: 120px;
     text-align: center;
     color: #ffffff;
 }
