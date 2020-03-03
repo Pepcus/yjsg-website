@@ -408,7 +408,6 @@ h1#looks span{
 
 #man_image{
     right: 0;
-    top: -53px;
     width: 100%;
     height: 100%;
 }
@@ -4431,25 +4430,28 @@ a:active, a:focus{
 }
 
 .study-card-row .study-card-header.level-1 {
-    background: #5c5c5c;
+    background: #5c5c5c!important;
 }
 .study-card-row .study-card-header.level-2 {
-    background: #97d02d;
+    background: #97d02d!important;
 }
 .study-card-row .study-card-header.level-3 {
-    background: #26c7f7;
+    background: #26c7f7!important;
 }
 .study-card-row .study-card-header.level-4 {
-    background: #f45b52;
+    background: #f45b52!important;
 }
 .study-card-row .study-card-header.level-5 {
-    background: #e2a11c;
+    background: #e2a11c!important;
 }
 .study-card-row .study-card-header.level-6 {
-    background: #c552bf;
+    background: #816ed0!important;
 }
 .study-card-row .study-card-header.level-7 {
-    background: #51c336;
+    background: #51c336!important;
+}
+.study-card-row .study-card-header.chadhala {
+    background: #c552bf!important;
 }
 
 .study-card-row .study-card-header h4 {
