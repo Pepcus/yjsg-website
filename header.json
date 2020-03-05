@@ -16,10 +16,10 @@
           "dropdown": false
         },
         {
-          "navHref" : "ourActivities.html",
+          "navHref" : "our-classes.html",
           "navLink": "Our Activities",
           "class": "liActivities",
-          "dropdown": true,
+          "dropdown": false,
           "dropdownItem": [
             {
               "dropdownName":"Our Classes",

@@ -9,34 +9,30 @@
     {
       "modalContentId": "java-engineer",
       "closeModalText": "java-engineer",
-      "modalContentHeading": "Baal & Yuva Sanskar Shivir",
+      "modalContentHeading": "बाल एवं युवा शिक्षण शिविर - 2020",
       "modalLocationHeading": "Location : ",
       "modalLocationText": "Indore",
       "jobDescriptionTitle" : "Job Description : ",
       "jobDescription": [
-        "आचार्य नेमीचन्द्र के सान्निध्य में श्रवणबेलागोला में राजा चामुण्डराय के द्वारा 57 फीट उत्तुंग भगवान् बाहुबली की स्थापना की गई थी | उन्हीं आचार्य नेमीचन्द्र के द्वारा राजा चामुण्डराय के प्रश्न पर विशाल गोम्मटसार ग्रन्थ की रचना की गयी थी | हम सब श्रवणबेलागोला तीर्थ से परिचित हैं, परन्तु गोम्मटसार ग्रन्थ से अब भी अपरिचित हैं | आइये, श्रवणबेलागोला के समान अब हम उन्हीं आचार्य-शिष्य के द्वारा रचित-व्याख्यायित गोम्मटसार को भी जानें |",
+        "YJSG's Baal & Yuva Sanskar Shivir started with the aim of incalculating the religious and moral education to the next generation of society.",
 
-        "गोम्मटसार ग्रन्थ के अध्ययन के उद्देश्य से हमने गोम्मटसार के शिविरों का आयोजन किया था जिसमें पिछले चार शिविरों के माध्यम से आपने जीवकाण्डजी ग्रन्थ का आद्योपांत स्वाध्याय किया, परीक्षा दी और अनुभव किया कि जिनागम कितना अद्भुत है, ज्ञान कितना विशाल है, कैसे-कैसे जीव संसार में कहाँ-कहाँ पाए जाते हैं इत्यादि । इस ग्रन्थ की पूर्णता के पश्चात् इसी का अगला भाग कर्मकांडजी ग्रन्थ है जिसका प्रथम शिविर आगामी दिसम्बर माह में प्रारंभ किया जा रहा है । इसमें जीव और कर्म के बारे में हम विशेष रूप से सीखेंगे जिससे कर्म के चक्र से छुटकारा पा सकें ।"
+        "The learning imparted in the shivir are a great aid in the overall development of a child & also make them a good individual "
       ],
       "keyActivitiesTitle": "Key Activities:",
       "keyActivities" : [
-        "इसमें 9 दिनों तक प्रतिदिन सुबह, दोपहर और रात्रि को 2-2 घंटे, इस तरह प्रतिदिन 6 घंटे कर्मकांडजी का अध्ययन कराया जाएगा |",
-
-        "पूरे शिविर में एक ही ग्रन्थ का अध्ययन कराया जाएगा – यह इस शिविर की सबसे ख़ास बात है |",
-
-        "नवीनतम साधनों जैसे प्रोजेक्टर, टेबल्स आदि के द्वारा अध्ययन कराया जाएगा |",
-
-        "Software Engineer, विदेशों में सेवायें दे चुके युवा विद्वानों के द्वारा अत्यंत सरल और सुन्दर विधि से पढ़ाया जाएगा |",
-
-        "आकर्षक नवीनतम स्टडी मटेरियल",
-
-        " शिविर के बाद भी प्रश्न-पत्रों के माध्यम से ग्रन्थ का अभ्यास चालु रहता है |"
+        "Teaching with the help of Projector",
+        "Attractive Study Material",
+        "Highly Qualified, professional team of Teachers",
+        "Bus Facility from almost every Jain Temple",
+        "GPS System in the bus so that parents could track the live location of their kids",
+        " Whole Shivir is maintained with the help of software starting from Registration till Result Declaration",
+        "More than 2000 students become the part of our last shivir"
       ]
     },
     {
       "modalContentId": "java-lead",
       "closeModalText": "java-lead",
-      "modalContentHeading": "Gommatsaar Shivir",
+      "modalContentHeading": "गोम्मटसार शिविर -  2020",
       "modalLocationHeading": "Location : ",
       "modalLocationText": "Indore",
       "jobDescriptionTitle" : "Description : ",
@@ -63,10 +59,10 @@
   ],
   "currentOpeningSection": [
     {
-      "cardImages" : "assets/images/events/RSL_1080.jpg",
+      "cardImages" : "assets/images/activities/gommat.jpg",
       "onclickOpenModal" : "java-engineer",
-      "jobTitle": "BAAL & YUVA SANSKAR SHIVIR",
-      "jobExperience": "Date: 3rd MAY 2020 to 11th MAY 2020",
+      "jobTitle": "बाल एवं युवा शिक्षण शिविर - 2020",
+      "jobExperience": "Date: 4th MAY 2020 to 11th MAY 2020",
       "jobLocation": "Location : Indore",
       "jobBtn":"View Details",
       "jobBtn1":"Register",
@@ -75,8 +71,8 @@
     {
       "cardImages" : "assets/images/events/IMG_0353.jpg",
       "onclickOpenModal" : "java-lead",
-      "jobTitle": "GOMMATSAAR SHIVIR",
-      "jobExperience": "Date: 3rd MAY 2020 to 11th MAY 2020",
+      "jobTitle": "गोम्मटसार शिविर -  2020",
+      "jobExperience": "Date: MAY 2020",
       "jobLocation": "Location : Indore",
       "jobBtn":"View Details",
       "jobBtn1":"Register",
