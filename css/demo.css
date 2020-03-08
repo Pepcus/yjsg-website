@@ -639,6 +639,168 @@ h1#goal{
         height: 175px;
     }
 }
+/*json carousel*/
+#owl-demo .item{
+    background: #a1def8;
+    padding: 30px 0px;
+    display: block;
+    margin: 5px;
+    color: #FFF;
+    /*-webkit-border-radius: 3px;*/
+    /*-moz-border-radius: 3px;*/
+    border-radius: 3px;
+    text-align: center;
+
+    width: 400px;
+    height: 800px;
+}
+
+/*blue card*/
+.section-container {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: white;
+}
+.heading-about {
+    text-align: center;
+}
+.heading-about-title h1 {
+    margin: 0;
+    font-size: 45px;
+    line-height: 70px;
+    color: #fff !important;
+    text-transform: uppercase;
+    text-align: center;
+}
+.heading-description p {
+    margin: 0;
+    font-weight: 300;
+    line-height: 35px;
+    text-align: center;
+}
+.page-section-bg-image {
+    margin-top: 50px;
+}
+.page-section-bg-image ul {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+}
+.page-section-bg-image ul li {
+    width: 23%;
+    margin-left: 1.4%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.about-box-li {
+    box-shadow: 1px 12px 36px rgba(0,0,0,.2);
+}
+.cards-item-1 {
+    margin: 0;
+}
+.cards-item, .cards-item-1 {
+    display: block;
+    background: #555;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    position: relative;
+    height: 300px;
+    text-align: center;
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,.15);
+    transform: translateZ(0);
+}
+.cards-wrapper-about {
+    padding: 100px 20px 80px;
+}
+.cards-item-link-image {
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    background-size: cover;
+    background-position: 50% 50%;
+    transition: all .6s ease;
+}
+.bg-julus {
+    background-image: url(../assets/images/activities/Mj.jpg);
+}
+.bg-shivir {
+    background-image: url(../assets/images/activities/balyuva.jpg);
+}
+.bg-trips {
+    background-image: url(../assets/images/activities/religious.jpg);
+}
+.bg-diwali {
+    background-image: url(../assets/images/activities/diwali.jpg);
+}
+
+.page-section-bg-image1 .box {
+    text-align: left;
+    padding: 20px;
+    background: #fff;
+    margin-bottom: 0;
+    height: 250px;
+}
+.page-section-bg-image1 .box h1 {
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 35px;
+    color: #e3722e !important;
+}
+.page-section-bg-image1 .box p {
+    text-align: center;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0;
+    text-transform: none;
+    margin: 0;
+    padding-bottom: 10px;
+}
+.cards-item-1:hover .cards-item-link-image {
+    transform: scale(1.1);
+}
+@media (min-width: 1024px) and (max-width: 1366px) {
+    .page-section-bg-image ul li {
+        width: 45%;
+    }
+    .page-section-bg-image1 .box{
+        height: 207px;
+    }
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+    .page-section-bg-image ul li {
+        width: 45%;
+    }
+    .page-section-bg-image {
+         margin-top: 0px;
+    }
+}
+@media (max-width: 767px) {
+    .page-section-bg-image ul li {
+        width: 100%;
+    }
+    .page-section-bg-image {
+        margin-top: 0px;
+    }
+}
+/*    !*@media (min-width: 992px) {*!*/
+    /*    .section-container {*/
+    /*        width: 970px;*/
+    /*    }*/
+    /*}*/
+
 /*--------------------------contact form css----------------------------------------*/
 .form-horizontal .form-group{
     margin-right:0;
@@ -937,7 +1099,7 @@ footer{
 }
 
 .our-classes{
-    margin-top: 190px !important;
+    margin-top: 240px !important;
     /*margin-bottom: 100px;*/
 }
 #tableClassesRun{
@@ -999,6 +1161,11 @@ table:not(#wp-calendar) > tbody > tr > td{
     padding: 15px;
     vertical-align: top;
     border: 1px solid #e1e1e1;
+}
+@media(max-width: 767px){
+    table:not(#wp-calendar) > tbody > tr > td{
+        padding: 8px!important;
+    }
 }
 
 
@@ -1812,6 +1979,25 @@ footer ul.simple {
     footer ul.simple {
         padding: 0px;
     }
+    footer h5{
+        padding-left: 17px;
+    }
+    #footerContent ul li a{
+        padding-left: 20px;
+    }
+    #footerContent p {
+        padding-left: 10px;
+    }
+    .footer-description p{
+        padding-left: 10px;
+        font-size: 20px;
+    }
+    .footer-logo{
+        padding-left: 20px;
+    }
+    footer img {
+        width: 90px;
+    }
 }
 footer ul.simple li {
     line-height: 29px;
@@ -2456,7 +2642,7 @@ input.contactForm-input, textarea.contactForm-input {
         display: flex;
     }
     footer .footer-photos{
-        width: 45%;
+        width: 30%;
     }
 }
 @media(max-width: 767px){
@@ -2853,10 +3039,15 @@ input.contactForm-input, textarea.contactForm-input {
 }
 @media (max-width:767px){
     .heading-section{
-        padding: 20px 0 20px 0;
+        padding: 50px 0 20px 0;
+        /*padding: 20px 0 20px 0;*/
     }
     .heading-section img, .heading-section-yjsggames img{
         width: 100%;
+    }
+    .our-classes {
+        margin-top: 205px !important;
+        /* margin-bottom: 100px; */
     }
 }
 .heading-section h2 {
@@ -4582,6 +4773,12 @@ a:active, a:focus{
     }
     .tab-menu aside div.tab-menu-container.column-6 {
         width: 14.2%;
+    }
+    .tab-menu{
+        top: 20px!important;
+    }
+    .tab-body-page {
+        margin-top: 152px;
     }
 }
 
