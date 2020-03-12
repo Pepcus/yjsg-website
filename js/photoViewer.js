@@ -3,9 +3,6 @@
 //
 var albumBucketName = 'yjsg-website-cdn';
 
-// **DO THIS**:
-//   Replace this block of code with the sample code located at:
-//   Cognito -- Manage Identity Pools -- [identity_pool_name] -- Sample Code -- JavaScript
 //
 // Initialize the Amazon Cognito credentials provider
 AWS.config.region = 'ap-south-1'; // Region
@@ -75,8 +72,8 @@ function viewAlbum(albumsList){
             "<path d=\"M12.1 0h-9c-.3 0-.5.2-.5.5s.2.5.5.5h7.8L.2 11.6c-.2.2-.2.5 0 .7.1.1.2.1.4.1s.3 0\n" +
             ".4-.1L11.6 1.7v7.8c0 .3.2.5.5.5s.5-.2.5-.5v-9c0-.3-.2-.5-.5-.5z\"></path>\n" +
             "</svg></a></div></li>";
+          // console.log("bookname---",bookName);
         }
-
         var bookHTML = $(
           "<div class='study-card-col'>"+
           "<div class='study-card-item'>"+
@@ -97,4 +94,35 @@ function viewAlbum(albumsList){
         $("#study-card-detail").append(bookHTML);
       }
   }
+}
+
+function listAlbums1() {
+  s3.listObjects({Delimiter: '/', Prefix: 'assets/gallary/shivir/'}, function(err, data) {
+    // console.log('data-gallary', data);
+    for (var q = 1; q < data.CommonPrefixes.length; q++) {
+      var albumName1 = (data.CommonPrefixes[q].Prefix).split('/')[3];
+
+      var htmltest = '';
+      htmltest += "<div class='shivirwrapper'>"+
+        "<div class='shivirparent' onclick=''>"+
+        "<div class='shivirchild shivirbg-balyuva'>"+
+        "<a href='#' onclick='test("+albumName1+")'>"+albumName1+"</a>"+
+        "</div>"+
+        "</div>"+
+        "</div>";
+      $('#test').append(htmltest);
+    }
+  });
+}
+listAlbums1();
+
+function test(albumName1) {
+  s3.listObjects({Delimiter: '/', Prefix: 'assets/gallary/shivir/' + albumName1 + '/'}, function() {
+    var htmltest1 = '';
+    htmltest1 += "<div>"+
+                  "<a>testing</a>"+
+                "</div>";
+    // $('#test').text('Hi I am replace');
+    $('#test1').append(htmltest1);
+  });
 }
