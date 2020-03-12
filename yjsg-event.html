@@ -53,6 +53,26 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <script src="js/custom.js"></script>
 <script type="text/javascript" charset="utf-8">
+    var fetchConfigAndRender = function () {
+        $.ajax({
+            url: 'careers.json',
+            dataType: 'json',
+            success: function( data ) {
+                renderJOpage(data);
+            },
+            error: function( data ) {
+                alert("ERROR: Not received JSON file  " + data );
+                $("#error-wrapper").css("display","none");
+                renderErrorPage();
+            }
+        });
+    };
+    fetchConfigAndRender();
+    var renderJOpage = function (data) {
+        renderOpeningHeader(data.currentOpeningsTitle);
+        renderModalContent(data.currentOpeningsModalWrapper);
+        renderOpeningSection(data.currentOpeningSection);
+    };
   var renderOpeningHeader = function(openingTitle) {
     $.each(openingTitle, function(key, value) {
       var htmlRender = "<div class = \"heading-section\">" +
@@ -161,7 +181,7 @@
               "<div class = \"card-heading\">" +
               "<h2 class = \"font-size-40 card-head-hover font-bold\">" + opening.jobTitle + "</h2>" +
               "<p class = \"font-size-28 mar-top-15 card-head-hover\">" + opening.jobExperience + "</p>" +
-              "<h3 class = \"font-size-20 mar-top-15\">" + opening.jobLocation + "</h3>" +
+              "<h3 class = \"font-size-20 mar-top-15 card-head-hover\">" + opening.jobLocation + "</h3>" +
               "<div class = \"card-btn\">" +
               "<span class=\"font-size-20\">" + opening.jobBtn + "</span>" +
               "</div>" +
@@ -197,26 +217,7 @@
     }
   };
 
-  var renderJOpage = function (data) {
-    renderOpeningHeader(data.currentOpeningsTitle);
-    renderModalContent(data.currentOpeningsModalWrapper);
-    renderOpeningSection(data.currentOpeningSection);
-  };
-  var fetchConfigAndRender = function () {
-    $.ajax({
-      url: 'careers.json',
-      dataType: 'json',
-      success: function( data ) {
-        renderJOpage(data);
-      },
-      error: function( data ) {
-        alert("ERROR: Not received JSON file  " + data );
-        $("#error-wrapper").css("display","none");
-        renderErrorPage();
-      }
-    });
-  };
-  fetchConfigAndRender();
+
 
   $(function () {
     $("#headerContent").load("header.html", function() {

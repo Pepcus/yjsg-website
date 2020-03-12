@@ -59,7 +59,7 @@
   ],
   "currentOpeningSection": [
     {
-      "cardImages" : "assets/images/activities/gommat.jpg",
+      "cardImages" : "assets/images/events/class11.jpg",
       "onclickOpenModal" : "java-engineer",
       "jobTitle": "बाल एवं युवा शिक्षण शिविर - 2020",
       "jobExperience": "Date: 4th MAY 2020 to 11th MAY 2020",
@@ -69,7 +69,7 @@
       "jobDivBackgroundClass" : "java-engineer-card"
     },
     {
-      "cardImages" : "assets/images/events/IMG_0353.jpg",
+      "cardImages" : "assets/images/events/class22.jpg",
       "onclickOpenModal" : "java-lead",
       "jobTitle": "गोम्मटसार शिविर -  2020",
       "jobExperience": "Date: MAY 2020",
