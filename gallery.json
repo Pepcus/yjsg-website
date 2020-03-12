@@ -1,0 +1,24 @@
+{
+  "galleryImages": [
+    {
+      "imageSrc": "assets/images/activities/balyuva.jpg",
+      "imageThumbSrc": "assets/images/activities/balyuva.jpg"
+    },
+    {
+      "imageSrc": "assets/images/activities/diwali.jpg",
+      "imageThumbSrc": "assets/images/activities/diwali.jpg"
+    },
+    {
+      "imageSrc": "assets/images/activities/gommat.jpg",
+      "imageThumbSrc": "assets/images/activities/gommat.jpg"
+    },
+    {
+      "imageSrc": "assets/images/activities/Mj.jpg",
+      "imageThumbSrc": "assets/images/activities/Mj.jpg"
+    },
+    {
+      "imageSrc": "assets/images/activities/ourpublic.jpg",
+      "imageThumbSrc": "assets/images/activities/ourpublic.jpg"
+    }
+  ]
+}
