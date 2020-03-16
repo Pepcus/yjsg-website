@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]><html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--><html class="no-js"><!--<![endif]-->
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="assets/images/logos/favicon-yjsg.ico" type="image/x-icon">
+  <title>YJSG: Philosophy</title>
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/demo.css">
+
+</head>
+<body>
+<div class="loading">
+  <div class="loading-image"><img src="assets/images/loader/yjsg-loader.gif" alt="loader" /></div>
+</div>
+<section>
+  <div id="headerContent"></div>
+</section>
+<section>
+  <div class="inner-services-description">
+
+    <div class="inner-services-title philosophy_banner">
+      <div class="inner-section-container">
+        <h1>Our Philosophies</h1>
+      </div>
+    </div>
+    <div class="inner-services-content">
+      <section>
+        <div class="inner-section-container">
+          <p>Young Jain Study Group believes in the philosophies of Jainism.The philosophies of Jainism are:</p>
+          <ul>
+            <li>Belief on independent existence of soul and matter.</li>
+            <li>Nobody is the creator, owner, preserver or destroyer of the universe. Every element is self-made.</li>
+            <li>Faith in the concept of Anekantwad & Syadwad </li>
+            <li>Potency of karma, eternal universe</li>
+            <li>The real happiness lies in liberation of soul. </li>
+            <li>Whatever we do result in Karmas as action and reaction: if we sow goodness, we will reap goodness & vice versa </li>
+          </ul>
+        </div>
+      </section>
+    </div>
+  </div>
+</section>
+  <section>
+    <div class="scroll-top-section">
+      <a href="#" class="scrollup"><i class="fa fa-arrow-up arrow-up-icon" aria-hidden="true"></i></a>
+    </div>
+  </section>
+
+  <section>
+    <div id="footerContent"></div>
+  </section>
+
+  <script src="js/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="js/custom.js"></script>
+  <script>
+    $(function () {
+      $("#headerContent").load("header.html", function() {
+        $('.liAbout').addClass('active');
+      });
+    });
+    $(function () {
+      $("#footerContent").load("footer.html")
+
+    });
+  </script>
+</body>
+</html>
+
