@@ -31,7 +31,7 @@
     </div>
 </section>
 
-<section class="mar-top-50 eventgpage">
+<section class="mar-bot-50 eventgpage">
     <div id="opening-title-wrapper"></div>
     <div id="modal-content-wrapper"></div>
     <div>
@@ -199,31 +199,31 @@
       );
     };
 
-    // Get the modal
-    // When the user clicks the button, open the modal
-    function openModal(clicked_id) {
-      var modalnew = document.getElementById(clicked_id);
-      modalnew.style.display = "block";
-      document.body.style.overflow = "hidden";
-    }
-    function closeModal(clicked_id) {
-      var modalClose = document.getElementById(clicked_id);
-      modalClose.style.display = "none";
-      document.body.style.overflow = "auto";
-    }
-    // When the user clicks anywhere outside of the modal, close it
-    window.onclick = function(event) {
-      if (event.target.className === "modal") {
-        event.target.style.display = "none";
-        document.body.style.overflow = "auto";
-      }
-    };
-
     $("#headerContent").load("header.html", function() {
       $('.liEvent').addClass('active');
     });
     $("#footerContent").load("footer.html");
   });
+
+  // Get the modal
+  // When the user clicks the button, open the modal
+  function openModal(clicked_id) {
+      var modalnew = document.getElementById(clicked_id);
+      modalnew.style.display = "block";
+      document.body.style.overflow = "hidden";
+  }
+  function closeModal(clicked_id) {
+      var modalClose = document.getElementById(clicked_id);
+      modalClose.style.display = "none";
+      document.body.style.overflow = "auto";
+  }
+  // When the user clicks anywhere outside of the modal, close it
+  window.onclick = function(event) {
+      if (event.target.className === "modal") {
+          event.target.style.display = "none";
+          document.body.style.overflow = "auto";
+      }
+  };
 </script>
 </body>
 </html>
