@@ -367,8 +367,8 @@ a:hover{
     position: fixed;
     bottom: 0;
     left: 5px;
-    height: 500px;
-    width: 350px;
+    height: 380px;
+    width: 300px;
     z-index: 5000;
     transition: all 0.25s ease 0s;
     display: none;
@@ -378,9 +378,9 @@ a:hover{
     color: #e3722e;
     font-size: 20px;
     line-height: 1.6;
-    padding-left: 40px;
-    padding-right: 40px;
-    padding-top: 39px;
+    padding-left: 20px;
+    padding-right:20px;
+    padding-top: 18px;
 
 }
 .registerDetail .main-heading-register{
@@ -391,10 +391,10 @@ a:hover{
     background-color: #e3722e;
     text-align: center;
     color: white;
-    font-size: 22px;
+    font-size: 20px;
     line-height: 1.6;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
     padding-top: 30px;
     padding-bottom: 30px;
     font-weight: 700;
@@ -406,14 +406,17 @@ a:hover{
     padding: 13px;
     font-size: 17px;
     position: relative;
-    top: 60px;
-    left: 30%;
+    top: 50px;
+    /*left: 25%;*/
     color:#7f7979;
     border-radius: 10px;
 
 }
 .registerDetail a:hover{
     transition-delay: 0.6s;
+    color:#fff;
+    background-color:#e3722e;
+    border: 2px solid #fff;
 }
 .registerDetail span{
     color: #ffffff;
@@ -432,6 +435,9 @@ a:hover{
 .registerDetail span:hover {
     opacity: 1;
     color: #ffffff;
+}
+.register-button{
+    text-align: center;
 }
 .inDetail{
     padding-top: 90px;
@@ -625,7 +631,15 @@ width: 139px;
 
 
 
-
+.coming-soon{
+    text-align: center;
+}
+.coming-soon h1{
+    color: grey;
+    font-size: 30px;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
 
 .activity-container{
     margin: 0 auto;
@@ -6713,7 +6727,9 @@ a:active, a:focus{
 .gallery-sub-tab ul li {
     display: inline-block;
     padding: 30px;
-    border-right: 1px solid #cbcbcb;
+    margin-left: -2px;
+    margin-right: -2px;
+    /*border-right: 1px solid #cbcbcb;*/
 }
 
 .gallery-sub-tab ul li a{
