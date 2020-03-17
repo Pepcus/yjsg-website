@@ -167,33 +167,41 @@
         function (openingRow, index) {
           var rowLength = openingRow.length;
           var columnSize = 12 / rowLength;
+          var htmlName = '';
           openingRow.forEach(
             function(opening) {
+                if(opening.jobName === 'BaalShivir') {
+                    htmlName =
+                        "<a href=\"https://yjsg.in/reg\" target=\"_blank\" >" +
+                        "<span class=\"font-size-20\">" + opening.jobBtn1 + "</span>" +
+                        "</a>"
+                }
+                else if (opening.jobName === 'GommatsaarShivir'){
+                    htmlName =
+                        "<a href=\"http://ec2-3-6-184-205.ap-south-1.compute.amazonaws.com:81/#/gms\" target=\"_blank\" >" +
+                        "<span class=\"font-size-20\">" + opening.jobBtn1 + "</span>" +
+                        "</a>"
+                }
               var htmlRender =
                 "<div class='col-sm-"+columnSize+" col-xs-12 col-md-"+columnSize+" col-lg-"+columnSize+" padding-0'>" +
                 "<div class='job-opening-image card-hover' style='background-image:url(" + opening.cardImages + ")'>" +
-
                 "<div class=\"card\">" +
                 "<div class = \"card-heading\">" +
                 "<h2 class = \"font-size-40 card-head-hover font-bold\">" + opening.jobTitle + "</h2>" +
                 "<p class = \"font-size-28 mar-top-15 card-head-hover\">" + opening.jobExperience + "</p>" +
                 "<h3 class = \"font-size-20 mar-top-15 card-head-hover\">" + opening.jobLocation + "</h3>" +
-                  "<div class=\"btnSection\">"+
-                  "<a onclick=\"openModal(\'" + opening.onclickOpenModal + "\')\" target=\"_self\" >" +
+                "<div class=\"btnSection\">"+
+                "<a onclick=\"openModal(\'" + opening.onclickOpenModal + "\')\" target=\"_self\" >" +
                 "<div class = \"card-btn\">" +
                 "<span class=\"font-size-20\">" + opening.jobBtn + "</span>" +
-                 "</div>" +
-                  "</a>" +
-                  "<div class = \"card-btn\">" +
-                  "<a href=\"https://yjsg.in/reg\" target=\"_self\" >" +
-                  "<span class=\"font-size-20\">" + opening.jobBtn1 + "</span>" +
-                  "</a>" +
-                  "</div>" +
+                "</div>" +
+                "</a>" +
+                "<div class = \"card-btn\">" +
+                  htmlName +
                 "</div>" +
                 "</div>" +
-                  "</div>"+
-
-
+                "</div>" +
+                "</div>"+
                 "</div>" +
                 "</div>";
               $(htmlRender).appendTo("#jobopening");

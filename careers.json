@@ -60,6 +60,7 @@
   "currentOpeningSection": [
     {
       "cardImages" : "assets/images/events/class11.jpg",
+      "jobName": "BaalShivir",
       "onclickOpenModal" : "java-engineer",
       "jobTitle": "बाल एवं युवा शिक्षण शिविर - 2020",
       "jobExperience": "Date: 4th May to 12th May 2020",
@@ -70,6 +71,7 @@
     },
     {
       "cardImages" : "assets/images/events/class22.jpg",
+      "jobName": "GommatsaarShivir",
       "onclickOpenModal" : "java-lead",
       "jobTitle": "गोम्मटसार शिविर -  2020",
       "jobExperience": "Date: 23rd May to 31st May 2020",

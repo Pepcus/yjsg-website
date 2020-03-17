@@ -71,14 +71,12 @@ function viewAlbum(albumsList){
         var randomColor = Math.floor(Math.random()*16777215).toString(16);
         var books = bookListSorted[q].Contents;
         var bookList = '';
-        console.log('bucketUrl', bucketUrl);
         for (var r = 1; r < books.length; r++) {
           var bookName = books[r].Key.split('/')[3].split("_")[1];
           bookList += "<li><div><a target='_blank' href='"+bucketUrl+books[r].Key+"'>"+ bookName +"<svg viewBox=\"0 0 12.600000381469727 12.40000057220459\">\n" +
             "<path d=\"M12.1 0h-9c-.3 0-.5.2-.5.5s.2.5.5.5h7.8L.2 11.6c-.2.2-.2.5 0 .7.1.1.2.1.4.1s.3 0\n" +
             ".4-.1L11.6 1.7v7.8c0 .3.2.5.5.5s.5-.2.5-.5v-9c0-.3-.2-.5-.5-.5z\"></path>\n" +
             "</svg></a></div></li>";
-          // console.log("bookname---",bookName);
         }
         var bookHTML = $(
           "<div class='study-card-col'>"+
