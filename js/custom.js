@@ -138,3 +138,14 @@ $(function () {
     //     };
 });
 
+$('#click').click(function()
+{
+    $("#panel").toggle();
+});
+$('.close').click(function (e) {
+    console.log('test');
+    $("#panel").toggle();
+});
+$('.round').click(function(e) {
+    $('.arrow1').toggleClass('bounceAlpha');
+});

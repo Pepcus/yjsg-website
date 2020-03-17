@@ -401,6 +401,7 @@ a:hover{
     padding-top: 30px;
     padding-bottom: 30px;
     font-weight: 700;
+    margin-top: 0;
 }
 .registerDetail a{
     /*background-color: #fff;*/
@@ -505,7 +506,14 @@ a:hover{
     }
 }
 
-
+.btnSection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btnSection a{
+    color: #fff;
+}
     /*display: none;*/
 .wrapper-AtBcr {
     font-size: 1rem;
