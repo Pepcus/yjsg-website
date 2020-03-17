@@ -360,22 +360,34 @@ a:hover{
     font-size: 22px;
 }
 .registerDetail{
-    background-color: rgba(0,0,0,1);
+    background-color: rgba(0,0,0,0.9);
     position: fixed;
     top: 85px;
     left: 0;
-    height: 550px;
+    height: 512px;
     width: 600px;
     z-index: 5000;
     border-radius: 5px;
 }
-.registerDetail p{
+
+
+.registerDetail p {
+    text-align: center;
     color: white;
     font-size: 24px;
     line-height: 1.6;
     padding-left: 40px;
     padding-right: 40px;
-    padding-top: 10px;
+    padding-top: 20px;
+}
+.registerDetail .p1 {
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    line-height: 1.6;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 70px;
 }
 .registerDetail a{
     /*background-color: #fff;*/
@@ -383,8 +395,8 @@ a:hover{
     padding: 20px;
     font-size: 20px;
     position: relative;
-    top: 250px;
-    left: 35%;
+    top: 60px;
+    left: 30%;
     border-radius: 10px;
     color: #fff;
 
@@ -409,6 +421,7 @@ a:hover{
     margin: 30px;
 }
 #Embed button{
+    transition-duration: 0.4s;
     padding: 24px;
     outline-color: #e3722e;
     /*box-shadow: none;*/
@@ -419,7 +432,14 @@ a:hover{
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
 
 }
-
+input[type="button"]{
+    outline:none;
+    border: none;
+    text-decoration: none;
+}
+input[type="button"]::-moz-focus-inner {
+    border: 0;
+}
 #panel{
     display: none;
 }

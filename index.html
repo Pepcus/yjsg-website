@@ -34,10 +34,9 @@
         <span class="label-3kk12 Arrange-sizeFit u-textInheritColor u-inlineBlock">Register</span>
     </button>
     </div>
-
     <div id="panel" class="registerDetail">
-        <span id='close' onclick='this.parentNode.parentNode.parentNode.removeChild(this.parentNode.parentNode); return false;'>x</span>
-        <p>Registrations are Now Open!!<p><br>
+<!--        <span id='close' onclick='this.parentNode.parentNode.parentNode.removeChild(this.parentNode.parentNode); return false;'>x</span>-->
+        <p class="p1">Registrations are Now Open!!<p><br>
         <p>Register here for Baal and Yuva Sanskar Shivir-2020</p>
         <p>Date : 4th May to 11th May 2020</p>
         <a href="">REGISTER NOW</a>
@@ -512,13 +511,13 @@
   {
       $("#panel").toggle();
   });
-  window.onload = function(){
-      document.getElementById('close').onclick = function(){
-          this.parentNode.parentNode.parentNode
-          .removeChild(this.parentNode.parentNode);
-          return false;
-      };
-  };
+  // window.onload = function(){
+  //     document.getElementById('close').onclick = function(){
+  //         this.parentNode.parentNode.parentNode
+  //         .removeChild(this.parentNode.parentNode);
+  //         return false;
+  //     };
+  // };
   $('.round').click(function(e) {
       $('.arrow1').toggleClass('bounceAlpha');
   });
