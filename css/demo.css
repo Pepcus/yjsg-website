@@ -367,8 +367,8 @@ a:hover{
     position: fixed;
     bottom: 0;
     left: 5px;
-    height: 500px;
-    width: 350px;
+    height: 380px;
+    width: 300px;
     z-index: 5000;
     transition: all 0.25s ease 0s;
     display: none;
@@ -378,9 +378,9 @@ a:hover{
     color: #e3722e;
     font-size: 20px;
     line-height: 1.6;
-    padding-left: 40px;
-    padding-right: 40px;
-    padding-top: 39px;
+    padding-left: 20px;
+    padding-right:20px;
+    padding-top: 18px;
 
 }
 .registerDetail .main-heading-register{
@@ -391,10 +391,10 @@ a:hover{
     background-color: #e3722e;
     text-align: center;
     color: white;
-    font-size: 22px;
+    font-size: 20px;
     line-height: 1.6;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
     padding-top: 30px;
     padding-bottom: 30px;
     font-weight: 700;
@@ -406,14 +406,17 @@ a:hover{
     padding: 13px;
     font-size: 17px;
     position: relative;
-    top: 60px;
-    left: 30%;
+    top: 50px;
+    /*left: 25%;*/
     color:#7f7979;
     border-radius: 10px;
 
 }
 .registerDetail a:hover{
     transition-delay: 0.6s;
+    color:#fff;
+    background-color:#e3722e;
+    border: 2px solid #fff;
 }
 .registerDetail span{
     color: #ffffff;
@@ -432,6 +435,9 @@ a:hover{
 .registerDetail span:hover {
     opacity: 1;
     color: #ffffff;
+}
+.register-button{
+    text-align: center;
 }
 .inDetail{
     padding-top: 90px;
@@ -625,7 +631,15 @@ width: 139px;
 
 
 
-
+.coming-soon{
+    text-align: center;
+}
+.coming-soon h1{
+    color: grey;
+    font-size: 30px;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
 
 .activity-container{
     margin: 0 auto;
@@ -6395,18 +6409,26 @@ a:active, a:focus{
 /*---------------------------------------- study card end -----------------------------------*/
 
 
-.card-container {
+.card-container-shivir {
     width: 33.33%;
     float: left;
     padding: 50px;
 }
-.card-container .card {
+
+@media(max-width: 768px) {
+    .card-container-shivir {
+        width: 100%;
+        float: left;
+        padding: 50px;
+    }
+}
+.card-container-shivir .card-shivir {
     font-weight: bold;
     position: relative;
     width: 100%;
 
 }
-.card-container .card a {
+.card-container-shivir .card-shivir a {
     padding: 30px;
     width: 100%;
     height: 300px;
@@ -6420,56 +6442,66 @@ a:active, a:focus{
     display: flex;
     align-items: center;
     text-align: center;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
 }
 
-.card-container .card a.balyuvaa {
+.card-container-shivir .card-shivir a.balyuvaa {
     background: linear-gradient(rgba(226, 117, 51,0.75), rgba(226, 117, 51,0.75)),url(../assets/images/shivirs-card-bg/balyuvaa.jpg);
 }
 
-.card-container .card a.gommatsaar {
+.card-container-shivir .card-shivir a.gommatsaar {
     background: linear-gradient(rgba(226, 117, 51,0.75), rgba(226, 117, 51,0.75)),url(../assets/images/shivirs-card-bg/gommatsaar.jpg);
 }
 
-.card-container .card a.mondhyan {
+.card-container-shivir .card-shivir a.mondhyan {
     background: linear-gradient(rgba(226, 117, 51,0.75), rgba(226, 117, 51,0.75)),url(../assets/images/shivirs-card-bg/mondhyan.jpg);
 }
 
-
-
-.card-container .card a:hover {
+.card-container-shivir .card-shivir a:hover {
     transform: translate(-30px, -30px);
     border-color: #e27533;
 }
-.card-container .card a:hover .card--display {
+.card-container-shivir .card--display {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.card-container-shivir .card-shivir a:hover .card--display {
     display: none;
 }
-.card-container .card a:hover .card--hover {
-    display: block;
+.card-container-shivir .card-shivir a:hover .card--hover {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
 }
-.card-container .card a .card--display i {
+.card-container-shivir .card-shivir a .card--display i {
     font-size: 36px;
     line-height: 60px;
 }
-.card-container .card a .card--display h2 {
+.card-container-shivir .card-shivir a .card--display h2 {
     margin: 20px 0 0;
 }
-.card-container .card a .card--hover {
+.card-container-shivir .card-shivir a .card--hover {
     display: none;
 }
-.card-container .card a .card--hover h2 {
+.card-container-shivir .card-shivir a .card--hover h2 {
     margin: 20px 0;
 }
-.card-container .card a .card--hover p {
+.card-container-shivir .card-shivir a .card--hover p {
     font-weight: normal;
     line-height: 1.5;
 }
-.card-container .card a .card--hover p.link {
+.card-container-shivir .card-shivir a .card--hover p.link {
     margin: 20px 0 0;
     font-weight: bold;
     color: #fff;
     font-size: 24px;
 }
-.card-container .card .card--border {
+.card-container-shivir .card-shivir .card--border {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -6478,12 +6510,12 @@ a:active, a:focus{
     border: 2px dashed black;
     z-index: -1;
 }
-.card-container .card.card--dark a {
+.card-container-shivir .card-shivir.card--dark a {
     color: white;
     background-color: black;
     border-color: black;
 }
-.card-container .card.card--dark a .card--hover .link {
+.card-container-shivir .card-shivir.card--dark a .card--hover .link {
     color: #fde74c;
 }
 /*----------------------------------------------------------*/
@@ -6615,11 +6647,13 @@ a:active, a:focus{
 .photoGallery {
     position: relative;
     padding-top: 80px;
+    padding-bottom: 80px;
 }
 
 @media(max-width:768px) {
     .photoGallery {
         padding-top: 60px;
+        padding-bottom: 60px;
     }
 }
 
@@ -6653,6 +6687,7 @@ a:active, a:focus{
 @media(max-width:768px) {
     .gallery-sub-tab {
         margin-top: 52px;
+        margin-bottom: 50px;
     }
 
 }
@@ -6685,11 +6720,16 @@ a:active, a:focus{
     }
 }
 
+.gallery-sub-tab ul {
+    display: flex;
+}
 
 .gallery-sub-tab ul li {
     display: inline-block;
     padding: 30px;
-    border-right: 1px solid #cbcbcb;
+    margin-left: -2px;
+    margin-right: -2px;
+    /*border-right: 1px solid #cbcbcb;*/
 }
 
 .gallery-sub-tab ul li a{
@@ -6707,6 +6747,10 @@ a:active, a:focus{
         padding-top: 15px;
         padding-bottom: 15px;
         font-size: 16px;
+    }
+
+    .gallery-sub-tab ul li a{
+        padding: 0;
     }
 }
 
@@ -6738,4 +6782,174 @@ a:active, a:focus{
 .gallery-sub-tab ul li:last-child {
     border-top-right-radius:10px;
     border-bottom-right-radius:10px;
+}
+/*---------------------------------------*/
+
+/*.wrap-container {*/
+/*    width: calc(33.33% - 200px);*/
+/*    margin:100px;*/
+/*    margin-bottom: 80px;*/
+/*    margin-top: 10px;*/
+/*    float: left;*/
+/*}*/
+
+/*@media(max-width: 768px) {*/
+/*    .wrap-container {*/
+/*        width: calc(100% - 200px);*/
+/*    }*/
+/*}*/
+
+/*.wrapper1 {*/
+/*    position: relative;*/
+/*    perspective: 40em;*/
+/*    display: grid;*/
+/*    transform-style: preserve-3d;*/
+/*    width: 100%;*/
+/*}*/
+
+/*@media(max-width: 768px) {*/
+/*    .wrapper1 {*/
+/*        width: 100%;*/
+/*        margin: 0 auto;*/
+/*        margin-left: 40px;*/
+/*    }*/
+/*}*/
+
+/*.card1 {*/
+/*    grid-area: 1 / 1;*/
+/*    height: 200px;*/
+/*    width: 200px;*/
+/*    transform: translateX(10px) rotateY(25deg) rotateX(10deg);*/
+/*    background: url("https://images.unsplash.com/photo-1583442590229-8044f7dde750?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjF9&auto=format&fit=crop&w=750&q=80");*/
+/*    display: flex;*/
+/*    justify-content: flex-start;*/
+/*    align-items: center;*/
+/*    padding: 30px;*/
+/*    color: #000;*/
+/*    text-transform: uppercase;*/
+/*    font-size: 60px;*/
+/*    font-weight: 900;*/
+/*    backface-visibility: hidden;*/
+/*    box-shadow: 0 10px 30px -3px rgba(0,0,0,.1);*/
+/*}*/
+
+/*h1 {*/
+/*    font-size: 60px;*/
+/*    font-weight: 900;*/
+/*}*/
+
+/*.card1 .enclosed1 {*/
+/*    background: #000;*/
+/*    line-height: 1;*/
+/*    color: rgba(249, 198, 26, 1);*/
+/*    padding: 0 5px;*/
+/*    display: inline-block;*/
+/*    transform: translate(-1px, 1px) scale(0.75);*/
+/*    transform-origin: right center;*/
+/*}*/
+
+/*.wrapper1:before {*/
+/*    --bw: 2px;*/
+/*    grid-area: 1 / 1;*/
+/*    content: '';*/
+/*    backface-visibility: hidden;*/
+/*    height: 100%;*/
+/*    width: 100%;*/
+/*    margin-top: calc(-1 * var(--bw));*/
+/*    margin-left: calc(-1 * var(--bw));*/
+/*    background: transparent;*/
+/*    transform: translateX(-60px) rotateY(-30deg) rotateX(15deg) scale(1.03);*/
+/*    pointer-events: none;*/
+/*    border: var(--bw) solid #555;*/
+/*    box-sizing: content-box;*/
+/*}*/
+
+
+/*.wrapper1:hover > div,*/
+/*.wrapper1:hover:before {*/
+/*    transform: none;*/
+/*}*/
+
+
+/*.wrapper1 > div,*/
+/*.wrapper1:before {*/
+/*    will-change: transform;*/
+/*    transition: .3s transform cubic-bezier(.25,.46,.45,1);*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*    justify-content: center;*/
+/*}*/
+
+.cards-religious-trips {
+    z-index: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.cards-religious-trips .card-religious {
+    margin: 30px auto;
+    width: 300px;
+    height: 300px;
+    border-radius: 40px;
+    box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.22);
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+
+
+.cards-religious-trips .card-religious .card-religious_image {
+    width: inherit;
+    height: inherit;
+    border-radius: 40px;
+}
+
+.cards-religious-trips .card-religious_image img:before {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(230, 131, 71, 1) 75%);
+    z-index: 1;
+    transform: translate3d(0, 0, 0) translateY(50%);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+}
+
+.cards-religious-trips .card-religious .card-religious_image img {
+    width: inherit;
+    height: inherit;
+    border-radius: 40px;
+    object-fit: cover;
+}
+
+.cards-religious-trips .card-religious .card-religious_title {
+    text-align: center;
+    border-radius: 0px 0px 40px 40px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: -80px;
+    height: 40px;
+}
+
+.cards-religious-trips .card-religious .card-religious_title a{
+    color: #fff;
+}
+
+.cards-religious-trips .card-religious:hover {
+    transform: scale(0.9, 0.9);
+    box-shadow: 5px 5px 30px 15px rgba(0,0,0,0.25),
+    -5px -5px 30px 15px rgba(0,0,0,0.22);
+}
+
+@media all and (max-width: 500px) {
+    .cards-religious-trips {
+        /* On small screens, we are no longer using row direction but column */
+        flex-direction: column;
+    }
 }
