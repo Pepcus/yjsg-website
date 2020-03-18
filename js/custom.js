@@ -69,3 +69,15 @@ $('.close').click(function (e) {
 $('.round').click(function(e) {
     $('.arrow1').toggleClass('bounceAlpha');
 });
+
+$(function () {
+    var html = "<div class='outer'>" +
+      "<div id='big' class='owl-carousel owl-theme'>"+
+      "</div>"+
+      "<div id='thumbs' class='owl-carousel owl-theme'>"+
+      "</div>"+
+      "</div>"
+    $('#photoGallery').append(html);
+});
+
+
