@@ -400,6 +400,7 @@ function balphoto2019() {
         autoplay: true,
         dots: false,
         loop: true,
+        autoHeight:true,
         responsiveRefreshRate: 200,
         navText: [
           '<i class="fa fa-arrow-left" aria-hidden="true"></i>',
@@ -532,6 +533,7 @@ function balphoto2018() {
         autoplay: true,
         dots: false,
         loop: true,
+        autoHeight:true,
         responsiveRefreshRate: 200,
         navText: [
           '<i class="fa fa-arrow-left" aria-hidden="true"></i>',
@@ -664,6 +666,7 @@ function balphoto2017() {
         autoplay: true,
         dots: false,
         loop: true,
+        autoHeight:true,
         responsiveRefreshRate: 200,
         navText: [
           '<i class="fa fa-arrow-left" aria-hidden="true"></i>',
@@ -792,6 +795,7 @@ function balphoto2016() {
         slideSpeed: 2000,
         nav: true,
         autoplay: true,
+        autoHeight:true,
         dots: false,
         loop: true,
         responsiveRefreshRate: 200,
@@ -927,6 +931,7 @@ function balgrpphoto2019() {
         autoplay: true,
         dots: false,
         loop: true,
+        autoHeight:true,
         responsiveRefreshRate: 200,
         navText: [
           '<i class="fa fa-arrow-left" aria-hidden="true"></i>',
@@ -1059,6 +1064,7 @@ function balgrpphoto2018() {
         autoplay: true,
         dots: false,
         loop: true,
+        autoHeight:true,
         responsiveRefreshRate: 200,
         navText: [
           '<i class="fa fa-arrow-left" aria-hidden="true"></i>',
@@ -1191,6 +1197,7 @@ function balgrpphoto2016() {
         nav: true,
         autoplay: true,
         dots: false,
+        autoHeight:true,
         loop: true,
         responsiveRefreshRate: 200,
         navText: [
@@ -1325,6 +1332,7 @@ function baltoppersphoto2019() {
         autoplay: true,
         dots: false,
         loop: true,
+        autoHeight:true,
         responsiveRefreshRate: 200,
         navText: [
           '<i class="fa fa-arrow-left" aria-hidden="true"></i>',
@@ -1455,6 +1463,7 @@ function baltoppersphoto2018() {
         nav: true,
         autoplay: true,
         dots: false,
+        autoHeight:true,
         loop: true,
         responsiveRefreshRate: 200,
         navText: [
@@ -1587,6 +1596,7 @@ function baltoppersphoto2017() {
         autoplay: true,
         dots: false,
         loop: true,
+        autoHeight:true,
         responsiveRefreshRate: 200,
         navText: [
           '<i class="fa fa-arrow-left" aria-hidden="true"></i>',
@@ -1718,6 +1728,7 @@ function baltoppersphoto2016() {
         autoplay: true,
         dots: false,
         loop: true,
+        autoHeight:true,
         responsiveRefreshRate: 200,
         navText: [
           '<i class="fa fa-arrow-left" aria-hidden="true"></i>',
@@ -1852,6 +1863,7 @@ function balvideosphoto2019() {
         autoplay: true,
         dots: false,
         loop: true,
+        autoHeight:true,
         responsiveRefreshRate: 200,
         navText: [
           '<i class="fa fa-arrow-left" aria-hidden="true"></i>',
@@ -1983,6 +1995,7 @@ function gommatsaarShivir() {
         nav: true,
         autoplay: true,
         dots: false,
+        autoHeight:true,
         loop: true,
         responsiveRefreshRate: 200,
         navText: [
@@ -2116,6 +2129,7 @@ function monDhyanShivir() {
         autoplay: true,
         dots: false,
         loop: true,
+        autoHeight:true,
         responsiveRefreshRate: 200,
         navText: [
           '<i class="fa fa-arrow-left" aria-hidden="true"></i>',
@@ -2249,6 +2263,7 @@ function mahavirJayantiJulus() {
         dots: false,
         loop: true,
         responsiveRefreshRate: 200,
+        autoHeight:true,
         navText: [
           '<i class="fa fa-arrow-left" aria-hidden="true"></i>',
           '<i class="fa fa-arrow-right" aria-hidden="true"></i>'
@@ -2380,6 +2395,7 @@ function diwaliAwarenessCampaign() {
         autoplay: true,
         dots: false,
         loop: true,
+        autoHeight:true,
         responsiveRefreshRate: 200,
         navText: [
           '<i class="fa fa-arrow-left" aria-hidden="true"></i>',
@@ -2513,6 +2529,7 @@ function sonagirji() {
         dots: false,
         loop: true,
         responsiveRefreshRate: 200,
+        autoHeight:true,
         navText: [
           '<i class="fa fa-arrow-left" aria-hidden="true"></i>',
           '<i class="fa fa-arrow-right" aria-hidden="true"></i>'
@@ -2645,6 +2662,7 @@ function sidhwarkut() {
         dots: false,
         loop: true,
         responsiveRefreshRate: 200,
+        autoHeight:true,
         navText: [
           '<i class="fa fa-arrow-left" aria-hidden="true"></i>',
           '<i class="fa fa-arrow-right" aria-hidden="true"></i>'
@@ -2776,6 +2794,7 @@ function muktagirji() {
         autoplay: true,
         dots: false,
         loop: true,
+        autoHeight:true,
         responsiveRefreshRate: 200,
         navText: [
           '<i class="fa fa-arrow-left" aria-hidden="true"></i>',
@@ -2909,6 +2928,7 @@ function kunthalgirji() {
         dots: false,
         loop: true,
         responsiveRefreshRate: 200,
+        autoHeight:true,
         navText: [
           '<i class="fa fa-arrow-left" aria-hidden="true"></i>',
           '<i class="fa fa-arrow-right" aria-hidden="true"></i>'
@@ -3041,6 +3061,7 @@ function kundalpur() {
         dots: false,
         loop: true,
         responsiveRefreshRate: 200,
+        autoHeight:true,
         navText: [
           '<i class="fa fa-arrow-left" aria-hidden="true"></i>',
           '<i class="fa fa-arrow-right" aria-hidden="true"></i>'
