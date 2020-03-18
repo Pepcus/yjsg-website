@@ -365,8 +365,8 @@ a:hover{
 .registerDetail{
     background-color: rgba(255,255,255,1);
     position: fixed;
-    bottom: 0;
-    left: 5px;
+    top: 124px;
+    right: 0px;
     height: 380px;
     width: 300px;
     z-index: 5000;
@@ -477,8 +477,8 @@ a:hover{
 }
 #panel{
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
-    -webkit-animation-name: slideInUp;
-    animation-name: slideInUp;
+    -webkit-animation-name: slideInRight;
+    animation-name: slideInRight;
     -webkit-animation-duration: 1s;
     animation-duration: 1s;
     -webkit-animation-fill-mode: both;
@@ -708,7 +708,7 @@ article.card .infos {
 }
 article.card .infos .title {
     position: relative;
-    margin: 6px 0;
+    margin: 10px 0;
     letter-spacing: 1px;
     color: #e3722e;
     /* font-family: 'Grotesque Black', sans-serif; */
@@ -792,16 +792,6 @@ article.card:hover .infos .seats, article.card:hover .infos .txt, article.card:h
     opacity: 1;
 }
 
-
-/*@keyframes bounce {*/
-/*    0%, 20%, 50%, 80%, 100% {transform: translateY(0);}*/
-/*    40% {transform: translateY(-30px);}*/
-/*    60% {transform: translateY(-15px);}*/
-/*}*/
-/*.bounce {*/
-/*    animation-name: bounce;*/
-/*}*/
-
 @media all and (max-width: 680px) {
     .wrap {
         width: 100%;
@@ -843,17 +833,6 @@ article.card:hover .infos .seats, article.card:hover .infos .txt, article.card:h
     }
 }
 @media(min-width: 768px) and (max-width: 1023px){
-    .card .infos p {
-        font-size: 20px;
-        padding-top: 15px;
-    }
-    article.card .infos .details {
-        left: 288px;
-    }
-
-
-}
-@media(max-width: 768px){
     .cardss{
         display: block!important;
     }
@@ -867,8 +846,465 @@ article.card:hover .infos .seats, article.card:hover .infos .txt, article.card:h
     .card .infos p {
         padding-top: 40px;
     }
+    article.card .infos .details {
+        left: 300px;
+        bottom: 35px
+    }
+    /*.card .infos p {*/
+    /*    font-size: 20px;*/
+    /*    padding-top: 15px;*/
+    /*}*/
+    /*article.card .infos .details {*/
+    /*    left: 300px;*/
+    /*}*/
+
 
 }
+@media(max-width: 767px){
+    .cardss{
+        display: block!important;
+    }
+    article.card {
+        margin-top: 10px;
+        padding-top: 0px!important;
+        width: calc(100% - 60px);
+        margin: 30px;
+
+    }
+    .card .infos p {
+        padding-top: 40px;
+    }
+    article.card .infos .details {
+        left: 111px;
+        bottom: 35px
+    }
+    article.card .infos .title{
+        margin: 8px 0;
+    }
+
+}
+@media (max-width: 340px) {
+    article.card .infos .details {
+        left: 81px;
+        bottom: 35px;
+    }
+}
+
+/*---------------------activity cards css------------------------------*/
+.activityCards figure a {
+    color: #fff;
+    text-decoration: none;
+}
+.activityCards figure {
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    width: 260px;
+    height: 365px;
+    padding: 20px 20px;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px 0 rgba(162, 162, 162, 0.75);
+    transition: all 0.5s cubic-bezier(0.25, 0.8, 0.25, 1);
+    overflow: hidden;
+}
+.activityCards .julus{
+    background-image: url('../assets/images/activities/RAM_8194.JPG');
+}
+.activityCards .shivir{
+    background-image: url('../assets/images/activities/balyuva.jpg');
+}
+.activityCards .trip{
+    background-image: url('../assets/images/activities/rel.jpg');
+}
+.activityCards .diwali{
+    background-image: url('../assets/images/activities/diwali.jpg');
+}
+.activityCards figure:before, .activityCards figure:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.activityCards figure:before {
+    content: '';
+    background-color: rgba(0, 0, 0, 0.1);
+    z-index: 0;
+}
+.activityCards figure:after {
+    content: '';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s cubic-bezier(0.25, 0.8, 0.25, 1);
+    /*overflow: hidden;*/
+}
+.activityCards figure:hover {
+    background-size: cover;
+}
+.activityCards figure:hover:after {
+    background-color: rgba(227, 114, 46, 0.9);
+}
+.activityCards figure:hover .date {
+    bottom: -59px;
+}
+.activityCards figure .date {
+    width: 100%;
+    height:50px;
+    position: absolute;
+    bottom: 0;
+    /*right: 30px;*/
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*flex-direction: column;*/
+    padding: 10px;
+    background-color: rgba(227, 114, 46, 0.8);
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.7);
+    transition: all 0.5s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+.activityCards figure .date span {
+    color: white;
+    line-height: 1;
+}
+.activityCards figure .date span:first-child {
+    /*font-family: 'Source Code Pro', sans-serif;*/
+    font-size: 20px;
+    font-weight: 900;
+}
+.activityCards figure .date span:last-child {
+    font-size: 20px;
+    font-weight: 400;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.activityCards figure figcaption {
+    color: white;
+    transition: all 0.5s cubic-bezier(0.25, 0.8, 0.25, 1);
+    z-index: 50;
+    display: none;
+}
+.activityCards figure:hover figcaption {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+}
+.activityCards figcaption h4 {
+    height: 100%;
+    font-size: 22px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 65px;
+}
+.activityCards figcaption .button{
+    width: 100%;
+    align-self: flex-end;
+    position: relative;
+    bottom: 50px;
+}
+.activityCards figure figcaption p {
+    margin: 0;
+    line-height: 1.5;
+}
+.activityCards .detailBtn{
+    background-color: rgba(255,255,255,.7);
+    color: #555;
+    border-radius: 30px;
+    font-size: 18px;
+    padding: 10px 40px;
+    width: 100px;
+}
+.activityCards .detailBtn:hover{
+    color: white;
+    background-color: #e3a97f;
+}
+/*#slider-act .owl-stage-outer {*/
+/*    overflow: inherit!important;*/
+/*}*/
+.activities-slider{
+    display: block;
+    margin: 0 auto;
+    float: none;
+}
+@media(min-width: 1024px) and (max-width: 1366px) {
+    .activityCards figcaption h4 {
+        font-size: 17px;
+    }
+    .activityCards figure{
+        width: 100%;
+    }
+    /*#slider-act .owl-stage-outer {*/
+    /*    overflow: auto;*/
+    /*}*/
+}
+@media(min-width: 768px) and (max-width: 1023px){
+    /*.activityCards figure{*/
+    /*    width: auto;*/
+    /*}*/
+    .activityCards figure{
+        width: 100%;
+    }
+}
+@media(max-width: 767px){
+    .activityCards figcaption h4 {
+        font-size: 16px;
+    }
+    .activityCards figure{
+        width: 100%;
+        overflow: hidden;
+    }
+}
+
+/*--------------------------registerButton new css-----------------------------------*/
+.reg-button-container .buttons  {
+    margin: 10%;
+    text-align: center;
+}
+.reg-button-container .btn-hover {
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    /* margin: 20px; */
+    height: 55px;
+    text-align: center;
+    border: none;
+    background-size: 300% 100%;
+    border-radius: 50px;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    transform: rotate(-90deg);
+    padding: 20px;
+    position: fixed;
+    z-index: 2147483640;
+    top: 120px;
+    right: -30px;
+    border-radius: 20px 20px 0 0;
+}
+
+.reg-button-container .btn-hover:hover {
+    background-position: 100% 0;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    /*right: -90px;*/
+}
+
+.reg-button-container button.active {
+    right: -90px;
+}
+
+.reg-button-container .btn-hover:focus {
+    outline: none;
+}
+.reg-button-container .btn-hover.color-2 {
+    background-image: linear-gradient(to right, #f5ce62, #e43603, #fa7199, #e85a19);
+    box-shadow: 0 4px 15px 0 rgba(229, 66, 10, 0.75);
+}
+/*------------------------------registr button overlay css--------------------------------*/
+.reg-overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 50000;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(227,114,46, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.reg-overlay-content {
+    position: relative;
+    top: 5%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.reg-closebtn {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #fff;
+    display: block;
+    transition: 0.3s;
+}
+
+.reg-overlay a:hover, .reg-overlay a:focus {
+    color: #f1f1f1;
+}
+
+.reg-overlay .reg-closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+    z-index: 5000;
+    color: #fff;
+}
+.reg-overlay .reg-closebtn:hover {
+    color: #f1f0ed;
+}
+
+@media screen and (max-height: 450px) {
+    .reg-overlay a {
+        font-size: 20px;
+    }
+    .reg-overlay .reg-closebtn {
+        font-size: 40px;
+        top: 15px;
+        right: 35px;
+    }
+}
+
+/*------------------Register detail Card css----------------------------------------*/
+.reg-cardDetails {
+    background: white;
+    height: 400px;
+    width: 600px;
+    margin: 3em auto;
+    box-shadow: 0 2.5em 0.9em -2em #555;
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    -webkit-backface-visibility: hidden;
+    border-radius: 10px;
+}
+
+.registerLink a{
+    background-color: rgba(255,255,255,.7);
+    color: #555;
+    /*padding: 14px;*/
+    border-radius: 30px;
+    font-size: 18px;
+    padding: 10px 40px;
+    width: 100px;
+}
+.reg-overlay-content .button{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.reg-overlay-content .button{
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    /* margin: 20px; */
+    width: 200px;
+    height: 55px;
+    text-align: center;
+    border: none;
+    background-size: 300% 100%;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    padding: 20px;
+    z-index: 2147483640;
+    background-image: linear-gradient(to right, #f5ce62, #e43603, #fa7199, #e85a19);
+    box-shadow: 0 4px 15px 0 rgba(229, 66, 10, 0.75);
+    border-radius: 40px;
+    margin: 0 auto;
+}
+.reg-overlay-content .button:hover {
+        background-position: 100% 0;
+        moz-transition: all .4s ease-in-out;
+        -o-transition: all .4s ease-in-out;
+        -webkit-transition: all .4s ease-in-out;
+        transition: all .4s ease-in-out;
+}
+
+.reg-overlay-content .button a {
+color: #fff;
+}
+.title-registrations{
+    background-image: linear-gradient(to right, #f5ce62, #e85a19);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.title-registrations .regTitle{
+    font-size: 21px;
+    color: #ffffff;
+    font-weight: 700;
+}
+.title-registrations p{
+    font-size: 25px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.venueDetails{
+    margin-bottom: 30px;
+}
+.venueDetails p{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+.venueDetails .head-1{
+    font-weight: 700;
+    font-size: 30px;
+    color: #e3722e;
+    padding-top: 40px;
+}
+.venueDetails .head-2{
+    font-weight: 700;
+    font-size: 23px;
+    color: #818080;
+}
+.venueDetails .head-3 {
+    font-weight: 700;
+    font-size: 21px;
+    color: #818080;
+}
+
+@media(max-width: 480px){
+    .reg-cardDetails{
+        width: 90%;
+    }
+    .venueDetails .head-1 {
+        font-size: 28px;
+    }
+    .reg-overlay .reg-closebtn {
+        font-size: 40px;
+    }
+}
+@media (max-width: 380px) {
+    .venueDetails .head-1 {
+        font-size: 21px;
+    }
+    .title-registrations .regTitle {
+        font-size: 19px;
+    }
+    .venueDetails .head-2 {
+        font-size: 20px;
+    }
+    .venueDetails .head-3 {
+        font-size: 19px;
+    }
+    .reg-overlay .reg-closebtn {
+        top: 20px;
+        right: 20px;
+        font-size: 29px;
+    }
+}
+
+
+
+
 
 
 .inner-services-description {
@@ -3994,9 +4430,13 @@ input.contactForm-input, textarea.contactForm-input {
 }
 
 /*------------------------------------------thumbnail carousel----------------------------------------------------*/
+
+#thumbs .owl-item img {
+    height: 100%;
+}
 .outer {
     margin:0 auto;
-    max-width:800px;
+    max-width:600px;
 }
 
 @media (max-width:768px) {
@@ -4012,7 +4452,7 @@ input.contactForm-input, textarea.contactForm-input {
     color: #FFF;
     border-radius: 3px;
     text-align: center;
-    height: 400px;
+    min-height: 200px;
 }
 
 @media (max-width:768px) {
@@ -6647,13 +7087,13 @@ a:active, a:focus{
 .photoGallery {
     position: relative;
     padding-top: 80px;
-    padding-bottom: 80px;
+    padding-bottom: 40px;
 }
 
 @media(max-width:768px) {
     .photoGallery {
-        padding-top: 60px;
-        padding-bottom: 60px;
+        padding-top: 20px;
+        padding-bottom: 20px;
     }
 }
 
@@ -6953,3 +7393,290 @@ a:active, a:focus{
         flex-direction: column;
     }
 }
+
+/*------------------------------------------------------------------*/
+
+
+/*--------------------------registerButton new css-----------------------------------*/
+.reg-button-container .buttons  {
+    margin: 10%;
+    text-align: center;
+}
+.reg-button-container .btn-hover {
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    /* margin: 20px; */
+    height: 55px;
+    text-align: center;
+    border: none;
+    background-size: 300% 100%;
+    border-radius: 50px;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    transform: rotate(-90deg);
+    padding: 20px;
+    position: fixed;
+    z-index: 2147483640;
+    top: 155px;
+    right: -35px;
+    border-radius: 20px 20px 0 0;
+    background-image: linear-gradient(to right, #f5ce62, #e43603, #fa7199, #e85a19);
+    box-shadow: 0 4px 15px 0 rgba(229, 66, 10, 0.75);
+}
+.reg-button-container .btn-hover:hover {
+    background-position: 100% 0;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    /*right: -90px;*/
+}
+.reg-button-container button.active {
+    right: -90px;
+}
+.reg-button-container .btn-hover:focus {
+    outline: none;
+}
+/*------------------------------registr button overlay css--------------------------------*/
+.reg-overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 50000;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(227,114,46, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+.reg-overlay-content {
+    position: relative;
+    top: 5%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+.reg-closebtn {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #fff;
+    display: block;
+    transition: 0.3s;
+}
+.reg-overlay a:hover, .reg-overlay a:focus {
+    color: #f1f1f1;
+}
+.reg-overlay .reg-closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+    z-index: 5000;
+    color: #fff;
+}
+.reg-overlay .reg-closebtn:hover {
+    color: #f1f0ed;
+}
+@media screen and (max-height: 450px) {
+    .reg-overlay a {
+        font-size: 20px;
+    }
+    .reg-overlay .reg-closebtn {
+        font-size: 40px;
+        top: 15px;
+        right: 35px;
+    }
+}
+/*------------------Register detail Card css----------------------------------------*/
+.reg-cardDetails {
+    background: white;
+    height: 400px;
+    width: 600px;
+    margin: 3em auto;
+    box-shadow: 0 2.5em 0.9em -2em #555;
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    -webkit-backface-visibility: hidden;
+    border-radius: 10px;
+}
+.registerLink a{
+    background-color: rgba(255,255,255,.7);
+    color: #555;
+    /*padding: 14px;*/
+    border-radius: 30px;
+    font-size: 18px;
+    padding: 10px 40px;
+    width: 100px;
+}
+.reg-overlay-content .button{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.reg-overlay-content .button{
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    /* margin: 20px; */
+    width: 200px;
+    height: 55px;
+    text-align: center;
+    border: none;
+    background-size: 300% 100%;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    padding: 20px;
+    z-index: 2147483640;
+    background-image: linear-gradient(to right, #f5ce62, #e43603, #fa7199, #e85a19);
+    box-shadow: 0 4px 15px 0 rgba(229, 66, 10, 0.75);
+    border-radius: 40px;
+    margin: 0 auto;
+}
+.reg-overlay-content .button:hover {
+    background-position: 100% 0;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+.reg-overlay-content .button a {
+    color: #fff;
+}
+
+#gegPopUP {
+    font-size: 18px;
+moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    position: fixed;
+    z-index: 2147483640;
+    top: 120px;
+    right: -360px;
+}
+
+#gegPopUP.active {
+    right: -30px;
+}
+
+#gegPopUP > div {
+    width: 330px;
+    height: 300px;
+    border-radius: 30px;
+    /* border-radius: 20px 20px 0 0; */
+    background: #ffffff;
+    box-shadow: 0 4px 15px 0 rgba(162, 162, 162, 0.75);
+}
+#gegPopUP .header {
+    padding: 20px;
+    background: #e37330;
+    box-shadow: 0 4px 15px 0 rgba(162, 162, 162, 0.75);
+    color: #fff;
+    text-align: center;
+    margin-right: 28px;
+}
+
+.reg-pop-body {
+    margin-right: 30px;
+}
+
+#gegPopUP .reg-pop-body p {
+    text-align: center;
+    color: #e3722e;
+    font-size: 20px;
+    line-height: 1.6;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 18px;
+}
+
+#gegPopUP .register-button {
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    width: 180px;
+    height: 40px;
+    text-align: center;
+    border: none;
+    background-size: 300% 100%;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    padding: 20px;
+    z-index: 2147483640;
+    background-image: linear-gradient(to right, #f5ce62, #e43603, #fa7199, #e85a19);
+    box-shadow: 0 4px 15px 0 rgba(229, 66, 10, 0.75);
+    border-radius: 40px;
+    margin: 0 auto;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#gegPopUP .register-button:hover {
+    background-position: 100% 0;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+#gegPopUP .register-button a {
+    color: #fff;
+}
+
+
+#gegPopUP .reg-pop-body span {
+    text-align: center;
+    color: #e3722e;
+    font-size: 16px;
+    line-height: 1.6;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 18px;
+    display: block;
+}
+
+#gegPopUP .reg-close {
+    position: absolute;
+    right: 32px;
+    top: 32px;
+    width: 32px;
+    height: 32px;
+    opacity: 1;
+    left: -10px;
+    top: -10px;
+    background: #e3732f;
+    border-radius: 100%;
+}
+#gegPopUP .reg-close:hover {
+    opacity: 1;
+}
+#gegPopUP .reg-close:before, #gegPopUP .reg-close:after {
+    position: absolute;
+    left: 14px;
+    top: 8px;
+    content: ' ';
+    height: 15px;
+    width: 2px;
+    background-color: #fff;
+}
+#gegPopUP .reg-close:before {
+    transform: rotate(45deg);
+}
+#gegPopUP .reg-close:after {
+    transform: rotate(-45deg);
+}
+
