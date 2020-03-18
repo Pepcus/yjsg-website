@@ -70,14 +70,19 @@ $('.round').click(function(e) {
     $('.arrow1').toggleClass('bounceAlpha');
 });
 
-$(function () {
-    var html = "<div class='outer'>" +
-      "<div id='big' class='owl-carousel owl-theme'>"+
-      "</div>"+
-      "<div id='thumbs' class='owl-carousel owl-theme'>"+
-      "</div>"+
-      "</div>"
-    $('#photoGallery').append(html);
-});
 
+
+function regopenNav() {
+
+    document.getElementById("regmyNav").style.width = "100%";
+}
+
+function regcloseNav() {
+    document.getElementById("regmyNav").style.width = "0%";
+}
+
+$('.rreg-button-container11').on('click',function () {
+    $(this).addClass("change-height");
+    console.log('tets');
+})
 
