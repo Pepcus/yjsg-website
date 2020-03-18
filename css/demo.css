@@ -3994,9 +3994,13 @@ input.contactForm-input, textarea.contactForm-input {
 }
 
 /*------------------------------------------thumbnail carousel----------------------------------------------------*/
+
+#thumbs .owl-item img {
+    height: 100%;
+}
 .outer {
     margin:0 auto;
-    max-width:800px;
+    max-width:600px;
 }
 
 @media (max-width:768px) {
@@ -4012,7 +4016,7 @@ input.contactForm-input, textarea.contactForm-input {
     color: #FFF;
     border-radius: 3px;
     text-align: center;
-    height: 400px;
+    min-height: 200px;
 }
 
 @media (max-width:768px) {
@@ -6953,3 +6957,5 @@ a:active, a:focus{
         flex-direction: column;
     }
 }
+
+/*------------------------------------------------------------------*/
