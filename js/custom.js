@@ -34,6 +34,18 @@ $(document).ready(function(e) {
     });
 });
 
+function openRegPopUp() {
+    $('#regSideButton').addClass('active');
+    $('#gegPopUP').addClass('active');
+}
+
+function closeRegPopUp() {
+    $('#regSideButton').removeClass('active');
+    $('#gegPopUP').removeClass('active');
+}
+
+
+
 var page = document.getElementById('page');
 
 function slideDown(e) {
@@ -86,3 +98,12 @@ $('.rreg-button-container11').on('click',function () {
     console.log('tets');
 })
 
+$(function () {
+    var html = "<div class='outer'>" +
+      "<div id='big' class='owl-carousel owl-theme'>"+
+      "</div>"+
+      "<div id='thumbs' class='owl-carousel owl-theme'>"+
+      "</div>"+
+      "</div>"
+    $('#photoGallery').append(html);
+});
