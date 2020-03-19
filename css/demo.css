@@ -4259,7 +4259,8 @@ footer ul.simple li:before {
     font-family: Raleway,Arial,Helvetica,sans-serif;
 }
 .title-heading-thankyou h1{
-    margin-top: 80px;
+    margin-top: 150px;
+    padding-bottom: 50px;
     font-size: 55px;
     font-weight: 600;
     text-align: center;
@@ -4267,8 +4268,9 @@ footer ul.simple li:before {
     align-items: center;
 }
 .title-heading-thankyou p{
+    padding-top: 40px;
     color: #4e4e4e;
-    font-size: 50px;
+    font-size: 40px;
     font-family: Raleway,Arial,Helvetica,sans-serif;
 }
 .title-content-thankyou{
@@ -4356,7 +4358,7 @@ footer ul.simple li:before {
     color: #ffffff;
 }
 .pooja-mam{
-    background-image: url("../assets/images/original deletd/newpooja_chabra.JPG");
+    background-image: url("../assets/images/team-members/newpooja_chabra.JPG");
 }
 .sarika-mam{
     background-image: url("../assets/images/team-members/newsarika_chabra.jpg");
