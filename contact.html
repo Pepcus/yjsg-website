@@ -28,48 +28,41 @@
 <section id="contact">
     <div class="headbg contact-bgimage">
         <div class="contactus-container">
-
             <div class="col-md-12">
-
                 <form class="form-horizontal padding-50-25 xxs-padding-20-10" method="post" id="contact_form">
                     <h1>CONTACT US</h1>
                     <!-- Text input-->
                     <div class="row">
                         <div class="col-sm-12 col-xs-12">
-                            <div class="first-name-box">
-                                <input class="form-control contactForm-input" placeholder="Full Name*" name="first_name" id="first_name" maxlength="60" required="required">
-                                <!--                                                <input name="first_name" id="first_name" type="text" required>-->
-                                <div class="pull-right mar-top-10 padding-right-15 error"><span>First name should be of minimum 3 letter</span></div>
+                            <div class="full-name-box">
+                                <input class="form-control contactForm-input" placeholder="Full Name*" name="full_name" id="full_name" maxlength="60" required="required">
+                                <div class="pull-right mar-top-10 padding-right-15 error">
+                                    <span>Name should be of minimum 3 letter</span>
+                                </div>
                             </div>
                         </div>
                         <div class="col-sm-6 col-xs-12">
-                            <div class="last-name-box">
-                                <input class="form-control contactForm-input" placeholder="Phone Number*" name="last_name" id="last_name" maxlength="60" required="required">
-
-                                <!--                                                <input name="last_name" id="last_name" class="form-control" type="text" required>-->
-                                <div class="pull-right mar-top-10 padding-right-15 error"><span>Last name should be of minimum 3 letter</span></div>
+                            <div class="phone-box">
+                                <input class="form-control contactForm-input" placeholder="Phone Number*" name="phone" id="phone" maxlength="10" required="required">
+                                <div class="pull-right mar-top-10 padding-right-15 error">
+                                    <span>Phone No. should be of 10 digits</span>
+                                </div>
                             </div>
                         </div>
                         <div class="col-sm-6 col-xs-12">
                             <div class="email-box">
                                 <input class="form-control contactForm-input" placeholder="Email*" name="email" id="email" maxlength="60" required="required">
-
-                                <!--                                        <label class="control-label xxs-margin-bot-10">E-Mail <span class="primary-color font-size-20">*</span></label>-->
-                                <!--                                                <input name="email" id="email" class="form-control" type="text" required>-->
-                                <div class="pull-right mar-top-10 padding-right-15 error"><span>Email format should be like <span class="font-bold">test@test.com</span></span></div>
+                                <div class="pull-right mar-top-10 padding-right-15 error">
+                                    <span>Email format should be like <span class="font-bold">test@test.com</span></span>
+                                </div>
                             </div>
                         </div>
-
-
-
                         <div class="col-sm-12 col-xs-12">
                             <div class="cover-letter-box">
-                                <input class="form-control contactForm-input" placeholder="Message" name="comment" id="comment" maxlength="60" required="required">
-
+                                <input class="form-control contactForm-input" placeholder="Message" name="comment" id="comment" maxlength="1000" required="required">
                             </div>
                         </div>
                     </div>
-
                     <div class="row">
                         <div class="form-group mar-top-15 captcha-box">
                             <label class="col-md-12 mar-bot-15 font-size-14 captcha-label text-center">Please complete the security check <span class="primary-color font-size-20">*</span></label>
@@ -102,11 +95,7 @@
     </div>
 </section>
 
-
-<script
-  src="https://code.jquery.com/jquery-2.2.4.js"
-  integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="
-  crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
 <script type="text/javascript">
     var a = Math.ceil(Math.random() * 9) + " ";
     var b = Math.ceil(Math.random() * 9) + " ";
@@ -130,24 +119,15 @@
         sendForm();
     });
     function verifyForm (){
-        var first_name = document.getElementById("first_name");
-        var last_name = document.getElementById("last_name");
+        var full_name = document.getElementById("full_name");
+        var phone = document.getElementById("phone");
         var email = document.getElementById("email");
-        // var phone = document.getElementById("phone");
-        // var company = document.getElementById("company");
         var comment = document.getElementById("comment");
-        $('#first_name').keyup(function() {
-            if (!(first_name.value.length >= 3)) {
-                $(".first-name-box .error").addClass("redColor");
+        $('#full_name').keyup(function() {
+            if (!(full_name.value.length >= 3)) {
+                $(".full-name-box .error").addClass("redColor");
             } else {
-                $(".first-name-box .error").removeClass("redColor");
-            }
-        });
-        $('#last_name').keyup(function() {
-            if (!(last_name.value.length >= 3)) {
-                $(".last-name-box .error").addClass("redColor");
-            } else {
-                $(".last-name-box .error").removeClass("redColor");
+                $(".full-name-box .error").removeClass("redColor");
             }
         });
         $('#phone').keyup(function() {
@@ -165,7 +145,7 @@
             }
         });
 
-        if(first_name.value.length >= 3 && last_name.value.length>=3 && /*company.value.length>=2 && comment.value.length>=10 &&*/ phone.value.match(/^\d{10}$/) && email.value.match(/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/)) {
+        if(full_name.value.length >= 7 && phone.value.match(/^\d{10}$/) && email.value.match(/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/)) {
             validForm = true;
             $('#submit').prop('disabled',false);
         } else {

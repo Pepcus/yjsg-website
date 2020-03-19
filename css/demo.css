@@ -685,7 +685,7 @@ article .b3{
 
 }
 article .b4{
-    background: url("../assets/images/activities/diwali.jpg") no-repeat center;
+    background: url("../assets/images/original deletd/diwali.jpg") no-repeat center;
 
 }
 article{
@@ -912,7 +912,7 @@ article.card:hover .infos .seats, article.card:hover .infos .txt, article.card:h
     overflow: hidden;
 }
 .activityCards .julus{
-    background-image: url('../assets/images/activities/RAM_8194.JPG');
+    background-image: url('../assets/images/activities/julus.jpg');
 }
 .activityCards .shivir{
     background-image: url('../assets/images/activities/balyuva.jpg');
@@ -996,12 +996,22 @@ article.card:hover .infos .seats, article.card:hover .infos .txt, article.card:h
 }
 .activityCards figcaption h4 {
     height: 100%;
-    font-size: 22px;
-    line-height: 36px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    /* font-size: 22px; */
     padding-bottom: 65px;
+    height: 50px;
+    font-size: 16px;
+    /* line-height: 28px; */
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* padding-bottom: 72px; */
+    text-overflow: ellipsis;
+    /* flex-wrap: wrap; */
+    white-space: nowrap;
+    overflow: hidden;
+    width: 250px;
+    padding: 10px 10px;
+    content: ". . . . . . . . . . . . . . . . . . . . ";
 }
 .activityCards figcaption .button{
     width: 100%;
@@ -1061,6 +1071,61 @@ article.card:hover .infos .seats, article.card:hover .infos .txt, article.card:h
         overflow: hidden;
     }
 }
+
+
+/*---------------team inner pages css--------------------*/
+
+.teacher-img{
+    background-image: url("../assets/images/team-links/skye-studios-NDLLFxTELrU-unsplash.jpg");
+}
+.teams-inner-links{
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #e68347;
+    position: relative;
+    margin-top: 80px;
+}
+
+@media(max-width:768px) {
+    .teams-inner-links {
+        margin-top: 52px;
+        margin-bottom: 50px;
+    }
+
+}
+
+.teams-inner-links h1 {
+    font-size: 36px;
+    margin-bottom: 30px;
+    color: #fff;
+}
+
+@media(max-width:768px) {
+    .teams-inner-links h1 {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+}
+
+.teams-inner-links > div {
+    background: #fff;
+    position: absolute;
+    bottom: -50px;
+    z-index: 60;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+@media(max-width:768px) {
+    .teams-inner-links > div {
+        bottom: -30px;
+    }
+}
+
+
+
 
 /*--------------------------registerButton new css-----------------------------------*/
 .reg-button-container .buttons  {
@@ -1311,21 +1376,22 @@ color: #fff;
     padding-top: 15px;
 }
 .inner-services-title.principles_banner {
-    background-image: url(../assets/images/inner-pages-bg/background-balance-beach-boulder-289586.jpg);
+    background-image: url(../assets/images/inner-pages-bg/principle.jpg);
     background-size: cover;
+    background-position: 50% 18%;
 }
 .inner-services-title.philosophy_banner {
-    background-image: url(../assets/images/inner-pages-bg/scenic-view-of-beach-during-dawn-977737.jpg);
+    background-image: url(../assets/images/inner-pages-bg/philosophy.jpg);
     background-size: cover;
     background-position: center;
 }
 .inner-services-title.preachings_banner {
-    background-image: url(../assets/images/inner-pages-bg/aaron-burden-535Npq1wFG8-unsplash.jpg);
+    background-image: url(../assets/images/inner-pages-bg/preachings.jpg);
     background-size: cover;
     background-position: center;
 }
 .inner-services-title.ourteachers_banner {
-    background-image: url(../assets/images/inner-pages-bg/providence-doucet-mE5MBZX5sko-unsplash.jpg);
+    background-image: url(../assets/images/inner-pages-bg/teambanner.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -1352,8 +1418,11 @@ color: #fff;
             .inner-services-title h1 {
                 margin-bottom: 15px;
                 padding: 40px 20px;
-                font-size: 52px;
+                font-size: 64px;
                 color: #fff;
+                letter-spacing: 6px;
+                font-weight: bold;
+                text-transform: uppercase;
                 text-shadow: 0 1px 5px rgba(0,0,0,.7);
                 text-align: center;
                 -webkit-align-content: center;
@@ -1392,7 +1461,7 @@ color: #fff;
     margin: 0 0 40px;
 
 
-    padding-left: 100px;
+    /*padding-left: 100px;*/
     /*padding-right: 50px;*/
 }
 .inner-services-content ul li{
@@ -1428,7 +1497,7 @@ color: #fff;
         padding-right: 0px;
     }
     .inner-services-content p{
-        font-size: 30px;
+        font-size: 21px;
     }
 }
 @media (max-width: 992px) {
@@ -1438,26 +1507,53 @@ color: #fff;
     .inner-services-content-shivir{
         padding-left: 0;
     }
+    .inner-services-title h1 {
+        font-size: 54px;
+        line-height: 65px;
+    }
+    .inner-services-content {
+         padding-left: 0px;
+         padding-right: 0px;
+        margin-top: 80px;
+        margin-bottom: 80px;
+    }
 }
 @media (max-width: 767px) {
     .inner-section-container {
         width: 100%;
     }
+
     .inner-services-description {
         padding-top: 0px;
     }
-    .inner-services-content{
-        padding: 0!important;
+
+    .inner-services-content {
+        padding: 0 !important;
     }
+
     .inner-services-title .inner-section-container {
         width: 100%;
     }
-    .inner-services-content-shivir{
+
+    .inner-services-content-shivir {
         padding-right: 5px;
     }
-    .inner-services-content-shivir ul{
+
+    .inner-services-content-shivir ul {
         padding-left: 30px;
     }
+
+    .inner-services-title h1 {
+        font-size: 34px;
+    }
+    .inner-services-content p {
+        font-size: 16px;
+    }
+    .inner-services-content ul {
+        font-size: 16px;
+    }
+
+
 }
 /*section p {*/
 /*    line-height: 1.8em;*/
@@ -1499,7 +1595,8 @@ color: #fff;
     line-height: 1.8em;
     font-size: 18px;
     font-weight: 100;
-    text-align: center;
+    text-align: left;
+    justify-content: center;
     /*-webkit-align-content: center;*/
     padding: 0 20px;
     margin: 0 0 10px;
@@ -1593,7 +1690,7 @@ color: #fff;
     opacity: 1;
 }
 li.anim-slide:nth-of-type(3){
-    background:#fff url("../assets/images/sliders/religious-tour-banner.jpg") center;
+    background:#fff url("../assets/images/sliders/religioustrip1.jpg") center;
     -webkit-background-size: cover;
     background-size: cover;
 }
@@ -1796,13 +1893,13 @@ h1#goal{
     -o-transition: all .5s;
     transition: all .5s;
 }
-.shivirbg-balyuva {background-image: url(../assets/images/shivirs/shivir.jpg);}
-.shivirbg-gommatsaar {background-image: url(../assets/images/shivirs/IMG_0381.JPG);}
-.shivirbg-mondhyan {background-image: url(../assets/images/shivirs/2019.JPG);}
-.shivirbg-one {background-image: url(../assets/images/shivirs/2019.JPG);}
-.shivirbg-two {background-image: url(../assets/images/shivirs/2018.JPG);}
-.shivirbg-three {background-image: url(../assets/images/shivirs/2017.JPG);}
-.shivirbg-four {background-image: url(../assets/images/shivirs/2016.jpg);}
+.shivirbg-balyuva {background-image: url(../assets/images/deleted/shivirs/shivir.jpg);}
+.shivirbg-gommatsaar {background-image: url(../assets/images/deleted/shivirs/IMG_0381.JPG);}
+.shivirbg-mondhyan {background-image: url(../assets/images/deleted/shivirs/2019.JPG);}
+.shivirbg-one {background-image: url(../assets/images/deleted/shivirs/2019.JPG);}
+.shivirbg-two {background-image: url(../assets/images/deleted/shivirs/2018.JPG);}
+.shivirbg-three {background-image: url(../assets/images/deleted/shivirs/2017.JPG);}
+.shivirbg-four {background-image: url(../assets/images/deleted/shivirs/2016.jpg);}
 .shivirparent a {
     display: none;
     font-size: 21px;
@@ -3791,21 +3888,21 @@ footer ul.simple li:before {
     }
 }
 .diwali-img{
-    background-image: url(../assets/images/activities/diwali.jpg);
+    background-image: url(../assets/images/original deletd/diwali.jpg);
     background-size: cover;
 }
 .trip-image{
-    background-image: url(../assets/images/activities/religious.jpg);
+    background-image: url(../assets/images/original deletd/religious.jpg);
     background-size: cover;
 }
 .julus-image{
-    background-image: url(../assets/images/activities/Mj.jpg);
+    background-image: url(../assets/images/original deletd/Mj.jpg);
     background-size: cover;
 }
-.shivir-image{
-    background-image: url(../assets/images/activities/gommat.jpg);
-    background-size: cover;
-}
+/*.shivir-image{*/
+/*    background-image: url(../assets/images/activities/gommat.jpg);*/
+/*    background-size: cover;*/
+/*}*/
 .dummy{
     left: 0;
     padding: 0;
@@ -3829,28 +3926,28 @@ footer ul.simple li:before {
 /*}*/
 /*full banner*/
 .aboutus-bgimage{
-    background-image: url(../assets/images/backgrounds/1frank-mckenna-4V8JxijgZ_c-unsplash.jpg);
+    background-image: url(../assets/images/backgrounds/aboutbanner.jpg);
 }
 .activities-bgimage{
-    background-image: url(../assets/images/backgrounds/photo-of-ocean-waves-near-seashore-during-sunset-982673.jpg);
+    background-image: url(../assets/images/backgrounds/activitiesBanner.jpg);
 }
 .studymaterial-bgimage{
-    background-image: url(../assets/images/backgrounds/study-material.jpg);
+    background-image: url(../assets/images/backgrounds/study.jpg);
 }
 .contact-bgimage{
-    background-image: url(../assets/images/backgrounds/plant-2004483_1920.jpg);
+    background-image: url(../assets/images/backgrounds/contactBanner.jpg);
 }
 .event-bgimage{
-    background-image: url(../assets/images/backgrounds/event-banner.jpg);
+    background-image: url(../assets/images/backgrounds/eventpage-banner.jpg);
 }
 .ourclasses-bgimage{
-    background-image: url(../assets/images/backgrounds/amanda-phung-1w2xsyc2wwI-unsplash.jpg);
+    background-image: url(../assets/images/backgrounds/classBanner.jpg);
 }
 .activities-detail-bgimage{
     background-color: #a9acad;
 }
 .thankyou-bgimage{
-    background-image: url(../assets/images/backgrounds/henry-be-IicyiaPYGGI-unsplash.jpg);
+    background-image: url(../assets/images/backgrounds/thankyou.jpg);
 
 }
 .card-heading{
@@ -4075,10 +4172,16 @@ footer ul.simple li:before {
     border-radius: 10px;
     text-align: center;
 }
-.list-tour ul{
-
-    padding-left: 180px;
+.title-bg-thankyou{
+    border-radius: 0!important;
+    background: rgba(202, 200, 200, 0.4);
+    /*padding: 40px !important;*/
+    text-align: center;
+    /*top: 0;*/
 }
+/*.list-tour ul{*/
+/*    padding-left: 180px;*/
+/*}*/
 .list-tour p{
     text-align: left;
 }
@@ -4156,20 +4259,20 @@ footer ul.simple li:before {
     font-family: Raleway,Arial,Helvetica,sans-serif;
 }
 .title-heading-thankyou h1{
-    margin-top: 60px;
-    font-size: 70px;
+    margin-top: 80px;
+    font-size: 55px;
     font-weight: 600;
     text-align: center;
     justify-content: center;
     align-items: center;
 }
 .title-heading-thankyou p{
-    color: oldlace;
-    font-size: 60px;
+    color: #4e4e4e;
+    font-size: 50px;
     font-family: Raleway,Arial,Helvetica,sans-serif;
 }
 .title-content-thankyou{
-    top: 100px;
+    top: 80px;
     position: absolute;
     width: 100%;
     left: 0;
@@ -4253,7 +4356,7 @@ footer ul.simple li:before {
     color: #ffffff;
 }
 .pooja-mam{
-    background-image: url("../assets/images/team-members/newpooja_chabra.JPG");
+    background-image: url("../assets/images/original deletd/newpooja_chabra.JPG");
 }
 .sarika-mam{
     background-image: url("../assets/images/team-members/newsarika_chabra.jpg");
@@ -4784,19 +4887,22 @@ input.contactForm-input, textarea.contactForm-input {
 .activity-desciption-mj{
     font-size: 20px;
     line-height: 1.4;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    padding-bottom: 20px;
+    /*justify-content: center;*/
+    /*align-items: center;*/
+    /*text-align: center;*/
+    padding: 10px 40px 50px 40px;
 }
-.activity-desciption .study{
-    padding: 0 150px 0px 150px;
-}
+/*.activity-desciption .study{*/
+/*    padding: 10px 40px 50px 40px;*/
+/*}*/
 .activity-desciption-mj h1{
     font-weight: bold;
 }
 .activity-desciption h1{
     font-weight: bold;
+    text-align: left;
+    justify-content: center;
+    align-items: baseline;
 }
 .activity-desciption-mj .theme1 h1{
     color: #e3722e;
@@ -4806,6 +4912,16 @@ input.contactForm-input, textarea.contactForm-input {
 }
 .activity-desciption-mj .theme3 h1{
     color: #e3722e;
+}
+.activity-desciption ul{
+    display: inline-flex;
+    width: 100%;
+    line-height: 1.7;
+}
+.activity-desciption ul li {
+    /*padding-left: 5px;*/
+    /*padding-right: 35px;*/
+    /*width: 200px;*/
 }
 .theme1 p, .theme2 p, .theme3 p{
     padding-top: 20px;
@@ -4827,9 +4943,19 @@ input.contactForm-input, textarea.contactForm-input {
 .activity-desciption ul li{
     list-style-image: url("../assets/images/button/check.png");
     text-align: left;
+    width: 200px;
+    padding-left: 5px;
+    padding-right: 35px;
 }
 .activity-desciption p, h1{
     line-height: 1.8;
+}
+.activity-desciption p{
+    padding-top: 10px;
+    padding-bottom: 20px;
+    text-align: left;
+    justify-content: center;
+    align-items: center;
 }
 .activity-desciption-it {
     font-size: 20px;
@@ -4856,8 +4982,40 @@ input.contactForm-input, textarea.contactForm-input {
     .activity-desciption .study {
         padding: 0px;
     }
+    .activity-desciption ul{
+        display: block!important;
+    }
+    .activity-desciption ul li{
+        width:100%;
+    }
 }
-
+.inner-services-content-it {
+    padding-left: 120px;
+    padding-right: 120px;
+    /* margin-top: 80px; */
+    /* margin-bottom: 80px; */
+}
+.it-initiatives{
+    font-size: 20px;
+    line-height: 1.9;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    /*padding-bottom: 50px;*/
+    /*padding: 10px 40px 50px 40px;*/
+}
+@media(max-width: 767px){
+    .it-initiatives{
+        padding-left:20px;
+    }
+}
+.it-initiatives li{
+    list-style-image: url("../assets/images/button/check.png");
+    text-align: left;
+    width: 100%;
+    padding-left: 5px;
+    padding-right: 35px;
+}
  /*-----------------------------YJSG IT INITIATIVES CSS------------------------------*/
 .fa-book:before {
     content: "\f02d";
@@ -6877,7 +7035,7 @@ a:active, a:focus{
     color: #fff;
     display: block;
     transition: 0.25s ease;
-    background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),url(../assets/images/shivirs/shivir.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),url(../assets/images/deleted/shivirs/shivir.jpg);
     background-position: center;
     display: flex;
     align-items: center;
@@ -7427,6 +7585,11 @@ a:active, a:focus{
     background-image: linear-gradient(to right, #f5ce62, #e43603, #fa7199, #e85a19);
     box-shadow: 0 4px 15px 0 rgba(229, 66, 10, 0.75);
 }
+/*@media(max-width: 767px){*/
+/*    .reg-button-container .btn-hover{*/
+/*        top: 187px;*/
+/*    }*/
+/*}*/
 .reg-button-container .btn-hover:hover {
     background-position: 100% 0;
     moz-transition: all .4s ease-in-out;
