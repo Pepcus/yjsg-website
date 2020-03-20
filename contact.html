@@ -68,7 +68,9 @@
                             <div class="col-md-12 col-sm-8 col-xxs-12 inputGroupContainer">
                                 <div class="row">
                                     <div class="col-md-4 col-sm-6 col-xxs-12 text-right font-size-40 xxs-align-center xxs-margin-bot-15">
-                                        <div class="captcha-label Fascinate-font-family" id="txtCaptchaDiv"></div>
+                                        <div class="captcha-label Fascinate-font-family" id="txtCaptchaDiv">
+                                            <span></span>
+                                        </div>
                                     </div>
                                     <div class="col-md-4 col-sm-6 col-xxs-12">
                                         <input type="hidden" id="txtCaptcha">
@@ -93,6 +95,14 @@
 </section>
 
 <script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
+
+
+<section>
+    <div id="footerContent"></div>
+</section>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
 <script type="text/javascript">
     var a = Math.ceil(Math.random() * 9) + " ";
     var b = Math.ceil(Math.random() * 9) + " ";
@@ -104,9 +114,7 @@
     RemovedSpaceCode = code.replace(/\s/g, '');
     $("#txtCaptchaDiv > span").html(code);
     $("input#txtCaptcha").val(RemovedSpaceCode);
-</script>
 
-<script type='text/javascript'>
     var validForm = false;
     var validCaptcha = false;
     $('#contact_form').keyup(function() {
@@ -150,43 +158,41 @@
         }
     }
     function captch_call () {
-    $('#txt_captcha_input').keyup(function() {
-        var captchaVal = $('#txtCaptcha').val();
-        if(this.value === captchaVal){
-            $(".captcha-box .error").removeClass("redColor");
-            validCaptcha = true;
-            $('#submit').prop('disabled',false);
-        }else{
-            $(".captcha-box .error").addClass("redColor");
-            validCaptcha = false;
-            $('#submit').prop('disabled',true);
-        }
-    });
-}
+        $('#txt_captcha_input').keyup(function() {
+            var captchaVal = $('#txtCaptcha').val();
+            if(this.value === captchaVal){
+                $(".captcha-box .error").removeClass("redColor");
+                validCaptcha = true;
+                $('#submit').prop('disabled',false);
+            }else{
+                $(".captcha-box .error").addClass("redColor");
+                validCaptcha = false;
+                $('#submit').prop('disabled',true);
+            }
+        });
+    }
     function sendForm () {
-        console.log('----',sendForm);
         if (validForm && validCaptcha) {
             $('#submit').prop('disabled',false);
         } else {
             $('#submit').prop('disabled',true);
         }
     }
-</script>
-
-<section>
-    <div id="footerContent"></div>
-</section>
-
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-<script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
-<script type="text/javascript">
     (function(){
+
         emailjs.init("user_piNGO9Jt39e9rFxCicKNT");
 
         var myform = $("form#contact_form");
         $("#submit").click(function() {
-            $('.loading').show();
-            return true;
+            if (validForm && validCaptcha) {
+                $('#submit').prop('disabled',false);
+                $('.loading').show();
+                return true;
+            } else {
+                $('#submit').prop('disabled',true);
+                return false;
+            }
+
           });
         myform.submit(function(event){
           event.preventDefault();
