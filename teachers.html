@@ -77,18 +77,12 @@
 
 <div class="teams-inner-links teacher-img">
   <h1>Our Teachers</h1>
-  <div>
-<!--    <ul>-->
-<!--      <li><a href="bal-2016-photo.html" onclick="balphoto2016();">Photos</a></li>-->
-<!--      <li class="active"><a href="bal-2016-groupPhoto.html" onclick="balgrpphoto2016();">Group Photos</a></li>-->
-<!--      <li><a href="bal-2016-toppers.html" onclick="baltoppersphoto2016();">Toppers</a></li>-->
-<!--      &lt;!&ndash;      <li><a href="bal-2016-videos.html" onclick="balvideosphoto2016();">Videos</a></li>&ndash;&gt;-->
-<!--      &lt;!&ndash;      <li><a href="bal-2016-ansSheets.html" onclick="balanssheetphoto2016();">Answer Sheets</a></li>&ndash;&gt;-->
-<!--    </ul>-->
-  </div>
 </div>
 
-<section class="photoGallery" id="photoGallery">
+<section class="teamGallery">
+  <div class="container" id="teamGallery">
+
+  </div>
 </section>
 
 <section>
@@ -101,7 +95,7 @@
 <script src="https://sdk.amazonaws.com/js/aws-sdk-2.623.0.min.js"></script>
 <script src="js/photoViewer.js"></script>
 <script src="js/custom.js"></script>
-<script>balgrpphoto2016();</script>
+<script>teams('teachers');</script>
 <script>
   $(function () {
     $("#headerContent").load("header.html", function() {

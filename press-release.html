@@ -9,7 +9,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" href="assets/images/logos/favicon-yjsg.ico" type="image/x-icon">
-  <title>YJSG: IT Team</title>
+  <title>YJSG: Press Release</title>
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" crossorigin="anonymous">
@@ -75,43 +75,12 @@
   <div id="headerContent"></div>
 </section>
 
-<div class="teams-inner-links teacher-img">
-  <h1>IT Team</h1>
+<div class="gallery-sub-tab">
+  <h1>Press Release</h1>
 </div>
 
-<section class="teamGallery">
-  <div class="container" id="teamGallery">
-
-  </div>
+<section class="photoGallery" id="photoGallery">
 </section>
-<!--    <div class="col-md-4 col-xs-12">-->
-<!--      <div class="image-team team-pic-1"></div>-->
-<!--      <div class="Designation">-->
-<!--        <h2>Palak Agrawal</h2>-->
-<!--      </div>-->
-<!--      <div class="memberDetail">-->
-<!--        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>-->
-<!--      </div>-->
-<!--    </div>-->
-<!--    <div class="col-md-4 col-xs-12">-->
-<!--      <div class="image-team team-pic-2"></div>-->
-<!--      <div class="Designation">-->
-<!--        <h2>Palak Agrawal</h2>-->
-<!--      </div>-->
-<!--      <div class="memberDetail">-->
-<!--        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>-->
-<!--      </div>-->
-<!--    </div>-->
-<!--    <div class="col-md-4 col-xs-12">-->
-<!--      <div class="image-team team-pic-3"></div>-->
-<!--      <div class="Designation">-->
-<!--        <h2>Palak Agrawal</h2>-->
-<!--      </div>-->
-<!--      <div class="memberDetail">-->
-<!--        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>-->
-<!--      </div>-->
-<!--    </div>-->
-
 
 <section>
   <div id="footerContent"></div>
@@ -123,7 +92,7 @@
 <script src="https://sdk.amazonaws.com/js/aws-sdk-2.623.0.min.js"></script>
 <script src="js/photoViewer.js"></script>
 <script src="js/custom.js"></script>
-<script>teams('it-team');</script>
+<script>pressRelease();</script>
 <script>
   $(function () {
     $("#headerContent").load("header.html", function() {
@@ -133,33 +102,6 @@
   $(function () {
     $("#footerContent").load("footer.html")
   });
-  function TeamImages(ItTeamImages) {
-    $.each(ItTeamImages, function(key, value) {
-      console.log("-----",ItTeamImages);
-      var htmlRender = "<div class=\"col-md-4 col-xs-12\">"+
-        "<div class=\"image-team\" style='background-image: url("+ value.memberImg +")'></div>"+
-       "<div class=\"Designation\">" +
-        "<h2>"+value.headingIt+"</h2>" +
-        "</div>"+
-        "<div class=\"memberDetail\">" +
-      "<p>"+value.Details+"</p>" +
-      "</div>"+
-      "</div>";
-      $(htmlRender).appendTo("#teamdata");
-    });
-  }
-  $.ajax({
-    url: 'it-team.json',
-    dataType: 'json',
-    success: function( data ) {
-      TeamImages(data.ItTeamImages);
-    },
-    error: function( data ) {
-      console.error("ERROR: Not received JSON file  " + data );
-    }
-  });
 </script>
 </body>
 </html>
-
-

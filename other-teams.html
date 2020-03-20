@@ -9,7 +9,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" href="assets/images/logos/favicon-yjsg.ico" type="image/x-icon">
-  <title>YJSG: Food Team</title>
+  <title>YJSG: Other team</title>
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" crossorigin="anonymous">
@@ -76,19 +76,12 @@
 </section>
 
 <div class="teams-inner-links teacher-img">
-  <h1>Food Team</h1>
-  <div>
-    <!--    <ul>-->
-    <!--      <li><a href="bal-2016-photo.html" onclick="balphoto2016();">Photos</a></li>-->
-    <!--      <li class="active"><a href="bal-2016-groupPhoto.html" onclick="balgrpphoto2016();">Group Photos</a></li>-->
-    <!--      <li><a href="bal-2016-toppers.html" onclick="baltoppersphoto2016();">Toppers</a></li>-->
-    <!--      &lt;!&ndash;      <li><a href="bal-2016-videos.html" onclick="balvideosphoto2016();">Videos</a></li>&ndash;&gt;-->
-    <!--      &lt;!&ndash;      <li><a href="bal-2016-ansSheets.html" onclick="balanssheetphoto2016();">Answer Sheets</a></li>&ndash;&gt;-->
-    <!--    </ul>-->
-  </div>
+  <h1>Other team</h1>
 </div>
 
-<section class="photoGallery" id="photoGallery">
+<section class="teamGallery">
+  <div class="container" id="teamGallery">
+  </div>
 </section>
 
 <section>
@@ -101,7 +94,7 @@
 <script src="https://sdk.amazonaws.com/js/aws-sdk-2.623.0.min.js"></script>
 <script src="js/photoViewer.js"></script>
 <script src="js/custom.js"></script>
-<script>balgrpphoto2016();</script>
+<script>teams('other');</script>
 <script>
   $(function () {
     $("#headerContent").load("header.html", function() {
