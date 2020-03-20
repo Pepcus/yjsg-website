@@ -82,17 +82,20 @@
       <li><a href="bal-2019-photo.html" onclick="balphoto2019();">Photos</a></li>
       <li><a href="bal-2019-groupPhoto.html" onclick="balgrpphoto2019();">Group Photos</a></li>
       <li><a href="bal-2019-toppers.html" onclick="baltoppersphoto2019();">Toppers</a></li>
-      <li><a href="bal-2019-videos.html" onclick="balvideosphoto2019();">Videos</a></li>
+      <li><a href="bal-2019-videos.html">Videos</a></li>
+<!--      <li class="active"><a href="bal-2019-ansSheets.html" onclick="balanssheetphoto(2019);">Answer Sheets</a></li>-->
     </ul>
   </div>
 </div>
 
-<div class="container coming-soon">
-  <h1>Coming soon..</h1>
-</div>
-<!--<section class="photoGallery" id="photoGallery">-->
-<!--</section>-->
-
+<section>
+  <div class="container">
+    <div class="row study-card-row with-sub-menu" id="ansSheetData">
+    </div>
+    <div class="row" id="ansSheetNoData">
+    </div>
+  </div>
+</section>
 <section>
   <div id="footerContent"></div>
 </section>
@@ -103,7 +106,7 @@
 <script src="https://sdk.amazonaws.com/js/aws-sdk-2.623.0.min.js"></script>
 <script src="js/photoViewer.js"></script>
 <script src="js/custom.js"></script>
-<script>balgrpphoto2019();</script>
+<script>balanssheetphoto(2019);</script>
 <script>
   $(function () {
     $("#headerContent").load("header.html", function() {
