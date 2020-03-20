@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]><html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--><html class="no-js"><!--<![endif]-->
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="assets/images/logos/favicon-yjsg.ico" type="image/x-icon">
+  <title>YJSG: Baal and Yuva Sanskar Shivir</title>
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.3/assets/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/demo.css">
+  <style>
+    .owl-dots{
+      text-align: center;
+    }
+    .owl-nav{
+      margin-top: 8px;
+      text-align: center;
+    }
+    .owl-next, .owl-prev{
+      display: inline-block;
+      position: relative;
+    }
+    .owl-prev{
+      left: -20px;
+    }
+
+    #viewAlbum.active {
+      display: block !important;
+    }
+
+    .owl-carousel .owl-nav [class*='owl-'] {
+      -webkit-transition: all .3s ease;
+      transition: all .3s ease;
+    }
+    .owl-carousel .owl-nav [class*='owl-'].disabled:hover {
+      background-color: #D6D6D6;
+    }
+    .owl-carousel {
+      position: relative;
+    }
+    .owl-carousel .owl-next,
+    .owl-carousel .owl-prev {
+      width: 50px;
+      height: 50px;
+      line-height: 50px;
+      border-radius: 50%;
+      position: absolute;
+      top: 30%;
+      font-size: 20px;
+      color: #fff;
+      border: 1px solid #ddd;
+      text-align: center;
+    }
+    .owl-carousel .owl-prev {
+      left: -70px;
+    }
+    .owl-carousel .owl-next {
+      right: -70px;
+    }
+
+  </style>
+</head>
+<body>
+<div class="loading">
+  <div class="loading-image"><img src="assets/images/loader/yjsg-loader.gif" alt="loader" /></div>
+</div>
+<section>
+  <div id="headerContent"></div>
+</section>
+
+<div class="gallery-sub-tab">
+  <h1>Baal and Yuva Sanskar Shivir</h1>
+  <div>
+    <ul>
+      <li><a href="bal-2017-photo.html" onclick="balphoto2017();">Photos</a></li>
+      <li><a href="bal-2017-toppers.html" onclick="baltoppersphoto2017();">Toppers</a></li>
+      <li><a href="bal-2017-videos.html">Videos</a></li>
+<!--      <li class="active"><a href="bal-2017-ansSheets.html" onclick="balanssheetphoto(2017);">Answer Sheets</a></li>-->
+    </ul>
+  </div>
+</div>
+
+<section>
+  <div class="container">
+    <div class="row study-card-row with-sub-menu" id="ansSheetData">
+    </div>
+    <div class="row" id="ansSheetNoData">
+    </div>
+  </div>
+</section>
+<section>
+  <div id="footerContent"></div>
+</section>
+
+<script src="js/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.3/owl.carousel.min.js"></script>
+<script src="https://sdk.amazonaws.com/js/aws-sdk-2.623.0.min.js"></script>
+<script src="js/photoViewer.js"></script>
+<script src="js/custom.js"></script>
+<script>balanssheetphoto(2017);</script>
+<script>
+  $(function () {
+    $("#headerContent").load("header.html", function() {
+      $('.liShivir').addClass('active');
+    });
+  });
+  $(function () {
+    $("#footerContent").load("footer.html")
+  });
+</script>
+</body>
+</html>
