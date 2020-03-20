@@ -14,7 +14,6 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" crossorigin="anonymous">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/demo.css">
-
 </head>
 <body>
 <div class="loading">
@@ -69,9 +68,7 @@
                             <div class="col-md-12 col-sm-8 col-xxs-12 inputGroupContainer">
                                 <div class="row">
                                     <div class="col-md-4 col-sm-6 col-xxs-12 text-right font-size-40 xxs-align-center xxs-margin-bot-15">
-                                        <div class="captcha-label Fascinate-font-family" id="txtCaptchaDiv">
-                                            <span></span>
-                                        </div>
+                                        <div class="captcha-label Fascinate-font-family" id="txtCaptchaDiv"></div>
                                     </div>
                                     <div class="col-md-4 col-sm-6 col-xxs-12">
                                         <input type="hidden" id="txtCaptcha">
@@ -109,7 +106,6 @@
     $("input#txtCaptcha").val(RemovedSpaceCode);
 </script>
 
-<!--<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCIMp6rwcAOunaTDtLT2oLQMzJJgheFobw"></script>-->
 <script type='text/javascript'>
     var validForm = false;
     var validCaptcha = false;
@@ -168,6 +164,7 @@
     });
 }
     function sendForm () {
+        console.log('----',sendForm);
         if (validForm && validCaptcha) {
             $('#submit').prop('disabled',false);
         } else {
