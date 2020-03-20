@@ -3202,3 +3202,53 @@ function  balanssheetphoto(year) {
     }
   });
 }
+
+var teamList = [];
+var teamListSize = '';
+function teams(item) {
+  s3.listObjects({Delimiter: '/', Prefix: 'assets/gallary/team/'+item+'/'}, function (err, data) {
+    teamListSize = data.Contents.length;
+    var teamListData = data.Contents;
+    href = this.request.httpRequest.endpoint.href;
+    bucketUrl = href + albumBucketName + '/';
+
+    if (err) {
+      return alert('There was an error listing your albums: ' + err.message);
+    } else if(teamListSize > 1) {
+      for (var j = 1; j < teamListData.length; j++) {
+        teamListData[j].name = (teamListData[j].Key).split('/')[4].split('_')[1].split('.')[0].replace('-', ' ');
+        teamListData[j].number = parseInt(teamListData[j].Key.split('/')[4]);
+        teamList.push(teamListData[j]);
+      }
+    }
+    else {
+      var html = $(
+        "<div class='container coming-soon'>"+
+        "<h1>Coming soon..</h1>"+
+        "</div>"
+      );
+      $("#teamGallery").append(htmlRender);
+    }
+    viewTeamList(teamList);
+  })
+}
+
+function viewTeamList(teamList){
+  if(teamList.length === teamListSize - 1) {
+    var teamListSorted = teamList.slice(0);
+    teamListSorted.sort(function(a,b) {
+      return a.number - b.number;
+    });
+    for (var q = 0; q < teamListSorted.length; q++) {
+      var teamsMemberImageUrl = teamListSorted[q].Key;
+      var teamsMemberName = teamListSorted[q].name;
+      var htmlRender = "<div class=\"col-md-4 col-xs-12 image-column\">"+
+        "<div class=\"image-team\" style='background-image: url("+ bucketUrl + teamsMemberImageUrl +")'></div>"+
+        "<div class=\"Designation\">" +
+        "<h2>"+teamsMemberName+"</h2>" +
+        "</div>"+
+        "</div>";
+      $("#teamGallery").append(htmlRender);
+    }
+  }
+}
