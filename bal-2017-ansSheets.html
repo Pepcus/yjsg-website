@@ -79,18 +79,22 @@
   <h1>Baal and Yuva Sanskar Shivir</h1>
   <div>
     <ul>
-      <li class="active"><a href="bal-2018-photo.html" onclick="balphoto2018();">Photos</a></li>
-      <li><a href="bal-2018-groupPhoto.html" onclick="balgrpphoto2018();">Group Photos</a></li>
-      <li><a href="bal-2018-toppers.html" onclick="baltoppersphoto2018();">Toppers</a></li>
-      <li><a href="bal-2018-videos.html">Videos</a></li>
-<!--      <li><a href="bal-2018-ansSheets.html" onclick="balanssheetphoto2018();">Answer Sheets</a></li>-->
+      <li><a href="bal-2017-photo.html" onclick="balphoto2017();">Photos</a></li>
+      <li><a href="bal-2017-toppers.html" onclick="baltoppersphoto2017();">Toppers</a></li>
+      <li><a href="bal-2017-videos.html">Videos</a></li>
+<!--      <li class="active"><a href="bal-2017-ansSheets.html" onclick="balanssheetphoto(2017);">Answer Sheets</a></li>-->
     </ul>
   </div>
 </div>
 
-<section class="photoGallery" id="photoGallery">
+<section>
+  <div class="container">
+    <div class="row study-card-row with-sub-menu" id="ansSheetData">
+    </div>
+    <div class="row" id="ansSheetNoData">
+    </div>
+  </div>
 </section>
-
 <section>
   <div id="footerContent"></div>
 </section>
@@ -101,7 +105,7 @@
 <script src="https://sdk.amazonaws.com/js/aws-sdk-2.623.0.min.js"></script>
 <script src="js/photoViewer.js"></script>
 <script src="js/custom.js"></script>
-<script>balphoto2018();</script>
+<script>balanssheetphoto(2017);</script>
 <script>
   $(function () {
     $("#headerContent").load("header.html", function() {
