@@ -84,6 +84,34 @@
 
   </div>
 </section>
+<!--    <div class="col-md-4 col-xs-12">-->
+<!--      <div class="image-team team-pic-1"></div>-->
+<!--      <div class="Designation">-->
+<!--        <h2>Palak Agrawal</h2>-->
+<!--      </div>-->
+<!--      <div class="memberDetail">-->
+<!--        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>-->
+<!--      </div>-->
+<!--    </div>-->
+<!--    <div class="col-md-4 col-xs-12">-->
+<!--      <div class="image-team team-pic-2"></div>-->
+<!--      <div class="Designation">-->
+<!--        <h2>Palak Agrawal</h2>-->
+<!--      </div>-->
+<!--      <div class="memberDetail">-->
+<!--        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>-->
+<!--      </div>-->
+<!--    </div>-->
+<!--    <div class="col-md-4 col-xs-12">-->
+<!--      <div class="image-team team-pic-3"></div>-->
+<!--      <div class="Designation">-->
+<!--        <h2>Palak Agrawal</h2>-->
+<!--      </div>-->
+<!--      <div class="memberDetail">-->
+<!--        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>-->
+<!--      </div>-->
+<!--    </div>-->
+
 
 <section>
   <div id="footerContent"></div>
@@ -104,6 +132,31 @@
   });
   $(function () {
     $("#footerContent").load("footer.html")
+  });
+  function TeamImages(ItTeamImages) {
+    $.each(ItTeamImages, function(key, value) {
+      console.log("-----",ItTeamImages);
+      var htmlRender = "<div class=\"col-md-4 col-xs-12\">"+
+        "<div class=\"image-team\" style='background-image: url("+ value.memberImg +")'></div>"+
+       "<div class=\"Designation\">" +
+        "<h2>"+value.headingIt+"</h2>" +
+        "</div>"+
+        "<div class=\"memberDetail\">" +
+      "<p>"+value.Details+"</p>" +
+      "</div>"+
+      "</div>";
+      $(htmlRender).appendTo("#teamdata");
+    });
+  }
+  $.ajax({
+    url: 'it-team.json',
+    dataType: 'json',
+    success: function( data ) {
+      TeamImages(data.ItTeamImages);
+    },
+    error: function( data ) {
+      console.error("ERROR: Not received JSON file  " + data );
+    }
   });
 </script>
 </body>
