@@ -4410,6 +4410,8 @@ input.contactForm-input, textarea.contactForm-input {
     border: 2px solid orange;
 }
 
+
+
 /*------------------------------------------thumbnail carousel----------------------------------------------------*/
 
 #thumbs .owl-item img {
@@ -5193,8 +5195,9 @@ a.readMore {
     visibility: hidden;
 }
 .error.redColor{
-    color: #e3722e;
+    color: #c10b0b;
     visibility: visible;
+    width: 100%;
 }
 .footer-desc-head h6{
     text-transform: uppercase;
@@ -5714,9 +5717,9 @@ a:active, a:focus{
     }
 }
 @media only screen and (max-width: 1280px) {
-    .cover-letter-box{
-        margin-top: 14px;
-    }
+    /*.cover-letter-box{*/
+    /*    margin-top: 14px;*/
+    /*}*/
     .scrollup {
         right: 32px;
     }
