@@ -35,7 +35,7 @@
                         <div class="col-sm-12 col-xs-12">
                             <div class="full-name-box">
                                 <input class="form-control contactForm-input" placeholder="Full Name*" name="full_name" id="full_name" maxlength="60" required="required">
-                                <div class="pull-right mar-top-10 padding-right-15 error">
+                                <div class="pull-right mar-top-10 mar-bot-15 padding-right-15 error">
                                     <span>Name should be of minimum 3 letter</span>
                                 </div>
                             </div>
@@ -43,7 +43,7 @@
                         <div class="col-sm-6 col-xs-12">
                             <div class="phone-box">
                                 <input class="form-control contactForm-input" placeholder="Phone Number*" name="phone" id="phone" maxlength="10" required="required">
-                                <div class="pull-right mar-top-10 padding-right-15 error">
+                                <div class="pull-right mar-top-10 mar-bot-15 padding-right-15 error">
                                     <span>Phone No. should be of 10 digits</span>
                                 </div>
                             </div>
@@ -51,7 +51,7 @@
                         <div class="col-sm-6 col-xs-12">
                             <div class="email-box">
                                 <input class="form-control contactForm-input" placeholder="Email*" name="email" id="email" maxlength="60" required="required">
-                                <div class="pull-right mar-top-10 padding-right-15 error">
+                                <div class="pull-right mar-top-10 mar-bot-15 padding-right-15 error">
                                     <span>Email format should be like <span class="font-bold">test@test.com</span></span>
                                 </div>
                             </div>
@@ -149,7 +149,7 @@
             }
         });
 
-        if(full_name.value.length >= 7 && phone.value.match(/^\d{10}$/) && email.value.match(/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/)) {
+        if(full_name.value.length >= 3 && phone.value.match(/^\d{10}$/) && email.value.match(/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/)) {
             validForm = true;
             $('#submit').prop('disabled',false);
         } else {
