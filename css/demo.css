@@ -4005,11 +4005,11 @@ footer ul.simple li:before {
     position: absolute;
     top: 50%;
     right: 90px;
-    transform: translate(50%,-50%);
+    transform: translate(0,-50%);
     -webkit-transform: translate(0,-50%);
-    -moz-transform: translate(50%,-50%);
-    -ms-transform: translate(50%,-50%);
-    -o-transform: translate(50%,-50%);
+    -moz-transform: translate(0,-50%);
+    -ms-transform: translate(0,-50%);
+    -o-transform: translate(0,-50%);
     margin: 0 auto;
     margin-top: 50px;
     max-height: 400px;
@@ -4020,11 +4020,11 @@ footer ul.simple li:before {
         position: absolute;
         top: 50%;
         left: 50%;
-        transform: translate(50%,-50%);
+        transform: translate(-50%,-50%);
         -webkit-transform: translate(-50%,-50%);
-        -moz-transform: translate(50%,-50%);
-        -ms-transform: translate(50%,-50%);
-        -o-transform: translate(50%,-50%);
+        -moz-transform: translate(-50%,-50%);
+        -ms-transform: translate(-50%,-50%);
+        -o-transform: translate(-50%,-50%);
         margin: 0 auto;
         width: 300px;
     }
@@ -4135,7 +4135,7 @@ footer ul.simple li:before {
     position: absolute;
     width: 100%;
     left: 0;
-    height: 100vh;
+    height: calc(100vh - 80px);
 }
 @media(min-width: 1024px) and (max-width: 1366px){
     .title-heading-thankyou h1 {
@@ -4409,6 +4409,8 @@ input.contactForm-input, textarea.contactForm-input {
     padding: 20px 40px;
     border: 2px solid orange;
 }
+
+
 
 /*------------------------------------------thumbnail carousel----------------------------------------------------*/
 
@@ -5193,8 +5195,9 @@ a.readMore {
     visibility: hidden;
 }
 .error.redColor{
-    color: #e3722e;
+    color: #c10b0b;
     visibility: visible;
+    width: 100%;
 }
 .footer-desc-head h6{
     text-transform: uppercase;
@@ -5714,9 +5717,9 @@ a:active, a:focus{
     }
 }
 @media only screen and (max-width: 1280px) {
-    .cover-letter-box{
-        margin-top: 14px;
-    }
+    /*.cover-letter-box{*/
+    /*    margin-top: 14px;*/
+    /*}*/
     .scrollup {
         right: 32px;
     }
@@ -6571,11 +6574,9 @@ a:active, a:focus{
     margin-bottom: 0;
 }
 .tab-menu aside div.tab-menu-container {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
     width: 12.5%;
     float: left;
+    display: grid;
 }
 .tab-menu aside .column-6 .tab-menu-icon {
     width: 100%;

@@ -95,7 +95,6 @@ function regcloseNav() {
 
 $('.rreg-button-container11').on('click',function () {
     $(this).addClass("change-height");
-    console.log('tets');
 })
 
 $(function () {

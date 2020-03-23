@@ -6,7 +6,7 @@
         {
           "navHref" : "index.html",
           "navLink": "Home",
-          "class": "active",
+          "class": "liIndex",
           "dropdown": false
         },
         {
@@ -54,16 +54,19 @@
         {
           "navHref" : "study-material.html",
           "navLink": "Study Material",
+          "class": "liStudyMaterial",
           "dropdown": false
         },
         {
           "navHref" : "yjsg-event.html",
           "navLink": "Events",
+          "class": "liEvent",
           "dropdown": false
         },
         {
           "navHref" : "contact.html",
           "navLink": "Contact",
+          "class": "liContact",
           "dropdown": false
         }
       ]
