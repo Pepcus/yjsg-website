@@ -1340,13 +1340,14 @@ color: #fff;
     margin-bottom: 0;
 }
 .inner-services-content p {
-    padding-left: 20px;
+    /*padding-left: 20px;*/
     padding-right: 20px;
     text-align: left;
     font-size: 20px;
     margin-top: 40px;
     line-height: 1.8;
-    margin-bottom: 30px;
+    padding-bottom: 10px;
+    /*margin-bottom: 10px;*/
 }
 .inner-services-content{
     padding-left: 120px;
@@ -1362,7 +1363,8 @@ color: #fff;
 }
 .inner-services-content ul li{
     list-style-image: url("../assets/images/button/check.png");
-    padding: 10px;
+    padding-bottom: 10px;
+    font-size: 18px;
 }
 .inner-services-content-shivir{
     padding-left: 120px;
@@ -1389,6 +1391,7 @@ color: #fff;
     }
     .inner-services-content p{
         font-size: 21px;
+        padding-left: 25px;
     }
 }
 @media (max-width: 992px) {
@@ -1438,9 +1441,10 @@ color: #fff;
         font-size: 34px;
     }
     .inner-services-content p {
-        font-size: 16px;
+        font-size: 18px;
+        padding-left: 25px;
     }
-    .inner-services-content ul {
+    .inner-services-content ul li {
         font-size: 16px;
     }
 
@@ -4780,12 +4784,13 @@ input.contactForm-input, textarea.contactForm-input {
     line-height: 1.7;
 }
 .theme1 p, .theme2 p, .theme3 p{
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     line-height: 1.6;
 }
 .mj-detail{
-    padding-bottom: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 .activity-desciption .para1, .para2{
     padding: 10px 150px;
@@ -4808,7 +4813,7 @@ input.contactForm-input, textarea.contactForm-input {
 }
 .activity-desciption p{
     padding-top: 10px;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
     text-align: left;
     justify-content: center;
     align-items: center;
@@ -4857,6 +4862,15 @@ input.contactForm-input, textarea.contactForm-input {
     align-items: center;
     text-align: left;
 }
+.it-initiatives ul{
+    /*padding-top: 10px;*/
+}
+.it-initiatives ul li{
+    padding-bottom: 10px;
+}
+.it-initiatives p{
+    margin-bottom: 10px;
+}
 @media(max-width: 767px){
     .it-initiatives{
         padding-left:20px;
@@ -4866,7 +4880,7 @@ input.contactForm-input, textarea.contactForm-input {
     list-style-image: url("../assets/images/button/check.png");
     text-align: left;
     width: 100%;
-    padding-left: 5px;
+    /*padding-left: 5px;*/
     padding-right: 35px;
 }
  /*-----------------------------YJSG IT INITIATIVES CSS------------------------------*/
