@@ -113,7 +113,7 @@ function listAlbums3() {
         albumName1Pass = decodeURIComponent(((prefix.split('/'))[3]));
         albumName1 = decodeURIComponent(((prefix.split('/'))[3]).split('_')[1]);
         albumNamePrint = decodeURIComponent((((prefix.split('/'))[3]).split('_')[1]).split('-').join(' '));
-        console.log('prefix', prefix);
+
 
         var htmltest1 = '';
               htmltest1 += "<div class='shivirwrapper'>"+
@@ -137,9 +137,7 @@ var datlist = [];
 var bigimage = '';
 var thumbs = "";
 function viewAlbum1(albumName1Pass){
-  console.log('albumName1Pass', albumName1Pass);
   s3.listObjects({Delimiter: '/', Prefix: 'assets/gallary/shivir/'+ albumName1Pass + '/'}, function(err, data) {
-    console.log('albumName1Pass', data);
     var albumsSize2 = data.CommonPrefixes.length;
     var albumsYear = data.CommonPrefixes;
     albumsYearLength = data.CommonPrefixes.length;
@@ -150,7 +148,6 @@ function viewAlbum1(albumName1Pass){
         albumsList1.push(albumsYearPass);
     }
     if(albumsSize2 === albumsList1.length) {
-      console.log('testing', albumsList1.length);
       var tabSize =  albumsList1.length;
       $('#tab-menu > aside').html('');
       for (var j = 0; j < albumsList1.length; j++) {
@@ -181,15 +178,12 @@ function viewYearData(tabDataItem){
   thumbs = "";
   listItem = "";
   $('#viewAlbum').removeClass('active');
-  console.log('albumName1Pass', tabDataItem);
   s3.listObjects({Delimiter: '/', Prefix: 'assets/gallary/shivir/'+ albumName1Pass + '/' + tabDataItem + '/'}, function(err, data) {
     $('#viewer').html('');
     var albumsYearData = data.CommonPrefixes;
-    console.log('albumsYearData', albumsYearData);
     var bookList = '';
     for (var k = 0; k < albumsYearData.length; k++) {
       listItem = albumsYearData[k].Prefix.split('/')[5];
-      console.log('albumsYearData', listItem);
       bookList += "<li class='technologies-page'>"+
         "<a class='cards-item-technologies' href='#' onclick='viewYearDataItem(\"" + listItem + "\")'>"+
         "<div class='cards-technologies-wrapper'>"+
@@ -219,7 +213,6 @@ function viewYearData(tabDataItem){
 function viewYearDataItem(listItem){
 
   $('#viewAlbum').addClass('active');
-  console.log('albumName1Pass', tabDataItem, albumName1Pass);
   s3.listObjects({Delimiter: '/', Prefix: 'assets/gallary/shivir/'+ albumName1Pass + '/' + tabDataItem + '/' + listItem + '/'}, function(err, data) {
     href = this.request.httpRequest.endpoint.href;
     bucketUrl = href + albumBucketName + '/';
@@ -229,7 +222,6 @@ function viewYearDataItem(listItem){
       insertThumbImages(datlist);
       addCarousel();
     }else {
-      console.error("ERROR: Not received JSON file  " + data );
       addCarousel();
     }
   });
@@ -358,13 +350,11 @@ function balphoto2019() {
     bucketUrl = href + albumBucketName + '/';
 
     datlist = data.Contents;
-    console.log('datlist', datlist);
     if (datlist) {
       insertGalleryImages(datlist);
       insertThumbImages(datlist);
       addCarousel();
     }else {
-      console.error("ERROR: Not received JSON file  " + data );
       addCarousel();
     }
   });
@@ -488,16 +478,12 @@ function balphoto2018() {
   s3.listObjects({Delimiter: '/', Prefix: 'assets/gallary/shivir/1_Baal-&-Yuva-Sanskar-Shivir/2018/photos/'}, function(err, data) {
     href = this.request.httpRequest.endpoint.href;
     bucketUrl = href + albumBucketName + '/';
-
-    console.log('bucketUrl', bucketUrl);
     datlist = data.Contents;
-    console.log('datlist', datlist);
     if (datlist) {
       insertGalleryImages(datlist);
       insertThumbImages(datlist);
       addCarousel();
     }else {
-      console.error("ERROR: Not received JSON file  " + data );
       addCarousel();
     }
   });
@@ -621,16 +607,12 @@ function balphoto2017() {
   s3.listObjects({Delimiter: '/', Prefix: 'assets/gallary/shivir/1_Baal-&-Yuva-Sanskar-Shivir/2017/photos/'}, function(err, data) {
     href = this.request.httpRequest.endpoint.href;
     bucketUrl = href + albumBucketName + '/';
-
-    console.log('bucketUrl', bucketUrl);
     datlist = data.Contents;
-    console.log('datlist', datlist);
     if (datlist) {
       insertGalleryImages(datlist);
       insertThumbImages(datlist);
       addCarousel();
     }else {
-      console.error("ERROR: Not received JSON file  " + data );
       addCarousel();
     }
   });
@@ -755,13 +737,11 @@ function balphoto2016() {
     href = this.request.httpRequest.endpoint.href;
     bucketUrl = href + albumBucketName + '/';
     datlist = data.Contents;
-    console.log('datlist', datlist);
     if (datlist) {
       insertGalleryImages(datlist);
       insertThumbImages(datlist);
       addCarousel();
     }else {
-      console.error("ERROR: Not received JSON file  " + data );
       addCarousel();
     }
   });
@@ -886,16 +866,12 @@ function balgrpphoto2019() {
   s3.listObjects({Delimiter: '/', Prefix: 'assets/gallary/shivir/1_Baal-&-Yuva-Sanskar-Shivir/2019/group-photos/'}, function(err, data) {
     href = this.request.httpRequest.endpoint.href;
     bucketUrl = href + albumBucketName + '/';
-
-    console.log('data', data);
     datlist = data.Contents;
-    console.log('datlist', datlist);
     if (datlist) {
       insertGalleryImages(datlist);
       insertThumbImages(datlist);
       addCarousel();
     }else {
-      console.error("ERROR: Not received JSON file  " + data );
       addCarousel();
     }
   });
@@ -1019,16 +995,12 @@ function balgrpphoto2018() {
   s3.listObjects({Delimiter: '/', Prefix: 'assets/gallary/shivir/1_Baal-&-Yuva-Sanskar-Shivir/2018/group-photos/'}, function(err, data) {
     href = this.request.httpRequest.endpoint.href;
     bucketUrl = href + albumBucketName + '/';
-
-    console.log('data', data);
     datlist = data.Contents;
-    console.log('datlist', datlist);
     if (datlist) {
       insertGalleryImages(datlist);
       insertThumbImages(datlist);
       addCarousel();
     }else {
-      console.error("ERROR: Not received JSON file  " + data );
       addCarousel();
     }
   });
@@ -1153,16 +1125,12 @@ function balgrpphoto2016() {
   s3.listObjects({Delimiter: '/', Prefix: 'assets/gallary/shivir/1_Baal-&-Yuva-Sanskar-Shivir/2016/group-photos/'}, function(err, data) {
     href = this.request.httpRequest.endpoint.href;
     bucketUrl = href + albumBucketName + '/';
-
-    console.log('data', data);
     datlist = data.Contents;
-    console.log('datlist', datlist);
     if (datlist) {
       insertGalleryImages(datlist);
       insertThumbImages(datlist);
   addCarousel();
 }else {
-  console.error("ERROR: Not received JSON file  " + data );
   addCarousel();
 }
 });
@@ -1288,15 +1256,12 @@ function baltoppersphoto2019() {
   s3.listObjects({Delimiter: '/', Prefix: 'assets/gallary/shivir/1_Baal-&-Yuva-Sanskar-Shivir/2019/toppers/'}, function(err, data) {
     href = this.request.httpRequest.endpoint.href;
     bucketUrl = href + albumBucketName + '/'
-    console.log('data', data);
     datlist = data.Contents;
-    console.log('datlist', datlist);
     if (datlist) {
       insertGalleryImages(datlist);
       insertThumbImages(datlist);
       addCarousel();
     }else {
-      console.error("ERROR: Not received JSON file  " + data );
       addCarousel();
     }
   });
@@ -1420,15 +1385,12 @@ function baltoppersphoto2018() {
   s3.listObjects({Delimiter: '/', Prefix: 'assets/gallary/shivir/1_Baal-&-Yuva-Sanskar-Shivir/2018/toppers/'}, function(err, data) {
     href = this.request.httpRequest.endpoint.href;
     bucketUrl = href + albumBucketName + '/'
-    console.log('data', data);
     datlist = data.Contents;
-    console.log('datlist', datlist);
     if (datlist) {
       insertGalleryImages(datlist);
       insertThumbImages(datlist);
       addCarousel();
     }else {
-      console.error("ERROR: Not received JSON file  " + data );
       addCarousel();
     }
   });
@@ -1552,15 +1514,12 @@ function baltoppersphoto2017() {
   s3.listObjects({Delimiter: '/', Prefix: 'assets/gallary/shivir/1_Baal-&-Yuva-Sanskar-Shivir/2017/toppers/'}, function(err, data) {
     href = this.request.httpRequest.endpoint.href;
     bucketUrl = href + albumBucketName + '/'
-    console.log('data', data);
     datlist = data.Contents;
-    console.log('datlist', datlist);
     if (datlist) {
       insertGalleryImages(datlist);
       insertThumbImages(datlist);
       addCarousel();
     }else {
-      console.error("ERROR: Not received JSON file  " + data );
       addCarousel();
     }
   });
@@ -1684,15 +1643,12 @@ function baltoppersphoto2016() {
   s3.listObjects({Delimiter: '/', Prefix: 'assets/gallary/shivir/1_Baal-&-Yuva-Sanskar-Shivir/2016/toppers/'}, function(err, data) {
     href = this.request.httpRequest.endpoint.href;
     bucketUrl = href + albumBucketName + '/'
-    console.log('data', data);
     datlist = data.Contents;
-    console.log('datlist', datlist);
     if (datlist) {
       insertGalleryImages(datlist);
       insertThumbImages(datlist);
       addCarousel();
     }else {
-      console.error("ERROR: Not received JSON file  " + data );
       addCarousel();
     }
   });
@@ -1817,16 +1773,12 @@ function gommatsaarShivir() {
   s3.listObjects({Delimiter: '/', Prefix: 'assets/gallary/shivir/2_Gommatsaar-Shivir/photos/'}, function(err, data) {
     href = this.request.httpRequest.endpoint.href;
     bucketUrl = href + albumBucketName + '/';
-
-    console.log('data', data);
     datlist = data.Contents;
-    console.log('datlist', datlist);
     if (datlist) {
       insertGalleryImages(datlist);
       insertThumbImages(datlist);
       addCarousel();
     }else {
-      console.error("ERROR: Not received JSON file  " + data );
       addCarousel();
     }
   });
@@ -1950,16 +1902,12 @@ function monDhyanShivir() {
   s3.listObjects({Delimiter: '/', Prefix: 'assets/gallary/shivir/3_MonDhyan-Shivir/photos/'}, function(err, data) {
     href = this.request.httpRequest.endpoint.href;
     bucketUrl = href + albumBucketName + '/';
-
-    console.log('data', data);
     datlist = data.Contents;
-    console.log('datlist', datlist);
     if (datlist) {
       insertGalleryImages(datlist);
       insertThumbImages(datlist);
       addCarousel();
     }else {
-      console.error("ERROR: Not received JSON file  " + data );
       addCarousel();
     }
   });
@@ -2083,16 +2031,12 @@ function mahavirJayantiJulus() {
   s3.listObjects({Delimiter: '/', Prefix: 'assets/gallary/Mahavir-Jayanti-Julus/'}, function(err, data) {
     href = this.request.httpRequest.endpoint.href;
     bucketUrl = href + albumBucketName + '/';
-
-    console.log('data', data);
     datlist = data.Contents;
-    console.log('datlist', datlist);
     if (datlist) {
       insertGalleryImages(datlist);
       insertThumbImages(datlist);
       addCarousel();
     }else {
-      console.error("ERROR: Not received JSON file  " + data );
       addCarousel();
     }
   });
@@ -2216,16 +2160,12 @@ function diwaliAwarenessCampaign() {
   s3.listObjects({Delimiter: '/', Prefix: 'assets/gallary/Diwali-Awareness-Campaign/'}, function(err, data) {
     href = this.request.httpRequest.endpoint.href;
     bucketUrl = href + albumBucketName + '/';
-
-    console.log('data', data);
     datlist = data.Contents;
-    console.log('datlist', datlist);
     if (datlist) {
       insertGalleryImages(datlist);
       insertThumbImages(datlist);
       addCarousel();
     }else {
-      console.error("ERROR: Not received JSON file  " + data );
       addCarousel();
     }
   });
@@ -2349,16 +2289,12 @@ function sonagirji() {
   s3.listObjects({Delimiter: '/', Prefix: 'assets/gallary/Religious-Trips/Sonagirji/'}, function(err, data) {
     href = this.request.httpRequest.endpoint.href;
     bucketUrl = href + albumBucketName + '/';
-
-    console.log('data', data);
     datlist = data.Contents;
-    console.log('datlist', datlist);
     if (datlist) {
       insertGalleryImages(datlist);
       insertThumbImages(datlist);
       addCarousel();
     }else {
-      console.error("ERROR: Not received JSON file  " + data );
       addCarousel();
     }
   });
@@ -2482,16 +2418,12 @@ function sidhwarkut() {
   s3.listObjects({Delimiter: '/', Prefix: 'assets/gallary/Religious-Trips/Sidhwarkut/'}, function(err, data) {
     href = this.request.httpRequest.endpoint.href;
     bucketUrl = href + albumBucketName + '/';
-
-    console.log('data', data);
     datlist = data.Contents;
-    console.log('datlist', datlist);
     if (datlist) {
       insertGalleryImages(datlist);
       insertThumbImages(datlist);
       addCarousel();
     }else {
-      console.error("ERROR: Not received JSON file  " + data );
       addCarousel();
     }
   });
@@ -2615,16 +2547,12 @@ function muktagirji() {
   s3.listObjects({Delimiter: '/', Prefix: 'assets/gallary/Religious-Trips/Muktagirji/'}, function(err, data) {
     href = this.request.httpRequest.endpoint.href;
     bucketUrl = href + albumBucketName + '/';
-
-    console.log('data', data);
     datlist = data.Contents;
-    console.log('datlist', datlist);
     if (datlist) {
       insertGalleryImages(datlist);
       insertThumbImages(datlist);
       addCarousel();
     }else {
-      console.error("ERROR: Not received JSON file  " + data );
       addCarousel();
     }
   });
@@ -2748,16 +2676,12 @@ function kunthalgirji() {
   s3.listObjects({Delimiter: '/', Prefix: 'assets/gallary/Religious-Trips/Kunthalgirji & other areas/'}, function(err, data) {
     href = this.request.httpRequest.endpoint.href;
     bucketUrl = href + albumBucketName + '/';
-
-    console.log('data', data);
     datlist = data.Contents;
-    console.log('datlist', datlist);
     if (datlist) {
       insertGalleryImages(datlist);
       insertThumbImages(datlist);
       addCarousel();
     }else {
-      console.error("ERROR: Not received JSON file  " + data );
       addCarousel();
     }
   });
@@ -2881,16 +2805,12 @@ function kundalpur() {
   s3.listObjects({Delimiter: '/', Prefix: 'assets/gallary/Religious-Trips/Kundalpur/'}, function(err, data) {
     href = this.request.httpRequest.endpoint.href;
     bucketUrl = href + albumBucketName + '/';
-
-    console.log('data', data);
     datlist = data.Contents;
-    console.log('datlist', datlist);
     if (datlist) {
       insertGalleryImages(datlist);
       insertThumbImages(datlist);
       addCarousel();
     }else {
-      console.error("ERROR: Not received JSON file  " + data );
       addCarousel();
     }
   });
@@ -3014,16 +2934,12 @@ function bundelkhand() {
   s3.listObjects({Delimiter: '/', Prefix: 'assets/gallary/Religious-Trips/Bundelkhand/'}, function(err, data) {
     href = this.request.httpRequest.endpoint.href;
     bucketUrl = href + albumBucketName + '/';
-
-    console.log('data', data);
     datlist = data.Contents;
-    console.log('datlist', datlist);
     if (datlist) {
       insertGalleryImages(datlist);
       insertThumbImages(datlist);
       addCarousel();
     }else {
-      console.error("ERROR: Not received JSON file  " + data );
       addCarousel();
     }
   });
@@ -3144,18 +3060,14 @@ function bundelkhand() {
 }
 
 function  balanssheetphoto(year) {
-  console.log('year', year);
   s3.listObjects({Delimiter: '/', Prefix: 'assets/gallary/shivir/1_Baal-&-Yuva-Sanskar-Shivir/'+ year +'/answer-sheets/'}, function(err, data) {
     href = this.request.httpRequest.endpoint.href;
     bucketUrl = href + albumBucketName + '/';
-    console.log('data',data);
     var ansSheetDataLength = data.Contents.length;
     var ansSheetData = data.Contents;
     var ansSheetId = '';
     var ansSheetName = '';
     var ansSheetClass = '';
-
-    console.log('data', ansSheetData, ansSheetDataLength);
     if (err) {
       return alert('There was an error listing your albums: ' + err.message);
     } else if(ansSheetDataLength > 1) {
@@ -3165,7 +3077,6 @@ function  balanssheetphoto(year) {
         ansSheetId = decodeURIComponent(((prefix.split('/'))[6]));
         ansSheetName = decodeURIComponent(((prefix.split('/'))[6]).split('_')[1].split('-').join(' '));
         ansSheetClass = decodeURIComponent(((prefix.split('/'))[6]).split('_')[1].split('.')[0]);
-        console.log('ansSheetClass', ansSheetClass);
         var htmlAns = $(
           "<div class='study-card-col'>"+
           "<div class='study-card-item'>"+
@@ -3266,7 +3177,6 @@ function pressRelease() {
       insertThumbImages(datlist);
       addCarousel();
     }else {
-      console.error("ERROR: Not received JSON file  " + data );
       addCarousel();
     }
   });
