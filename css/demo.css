@@ -512,24 +512,6 @@ a:hover{
 .btnSection a{
     color: #fff;
 }
-    /*display: none;*/
-/*.wrapper-AtBcr {*/
-/*    font-size: 1rem;*/
-/*    color: #fff;*/
-/*    fill: #fff;*/
-/*
-/*    padding: 0.92857rem 1.57143rem;*/
-/*    border-radius: 999rem;*/
-/*    bottom: 0;*/
-/*
-/*    font-size: 1.07143rem;*/
-/*}*/
-/*.u-borderNone {*/
-/*    border: none !important;*/
-/*}*/
-/*.u-textBold {*/
-/*    font-weight: 700;*/
-/*}*/
 .u-textNoWrap {
     white-space: nowrap !important;
 }
@@ -916,16 +898,9 @@ article.card:hover .infos .seats, article.card:hover .infos .txt, article.card:h
 .activityCards figcaption h4 {
     height: 100%;
     padding-bottom: 65px;
-    /* height: 50px; */
     font-size: 20px;
      line-height: 28px;
-    /* display: flex; */
-    /* align-items: center; */
-    /* justify-content: center; */
-    /* padding-bottom: 72px; */
     text-overflow: ellipsis;
-    /* flex-wrap: wrap; */
-    /* white-space: nowrap; */
     overflow: hidden;
     padding: 20px 10px;
     text-align: left;
@@ -985,10 +960,6 @@ background-color: #e3a97f;
 
 
 /*---------------team inner pages css--------------------*/
-
-/*.teacher-img{*/
-/*    background-image: url("../assets/images/team-links/skye-studios-NDLLFxTELrU-unsplash.jpg");*/
-/*}*/
 .teams-inner-links{
     padding: 30px;
     display: flex;
@@ -1070,7 +1041,6 @@ background-color: #e3a97f;
     -o-transition: all .4s ease-in-out;
     -webkit-transition: all .4s ease-in-out;
     transition: all .4s ease-in-out;
-    /*right: -90px;*/
 }
 
 .reg-button-container button.active {
@@ -1446,7 +1416,6 @@ color: #fff;
 
 }
 .section-gray {
-    /*padding-top: 78px;*/
     background-color: #f9f9f9;
 }
 .services-image-content {
@@ -1456,7 +1425,6 @@ color: #fff;
     justify-content: center;
     align-items: center;
 }
-
 .services-image-content h1 {
     line-height: 1.8em;
     font-size: 30px;
@@ -1475,6 +1443,13 @@ color: #fff;
     justify-content: center;
     padding: 0 20px;
     margin: 0 0 10px;
+}
+.services-image-content .team-quote{
+    font-weight: 700;
+    font-style: italic;
+    color: darkslategrey;
+    text-align: center;
+    align-items: center;
 }
 .startup-link {
     padding-top: 20px;
@@ -1512,16 +1487,17 @@ color: #fff;
 }
 @media (max-width: 1024px) {
     .services-image-content h1 {
-        font-size: 18px;
+        font-size: 17px;
         margin-bottom: 1px;
     }
     .services-image-content section {
-        padding-top: 20px;
+        padding-top: 11px;
         padding-bottom: 20px;
     }
     .services-image-content p {
             line-height: 1.4em;
-            font-size: 15px;
+            font-size: 13px;
+            padding: 0 10px;
     }
     .startup-link{
         padding-top: 15px;
@@ -1535,6 +1511,12 @@ color: #fff;
 @media (max-width: 767px){
     .services-image-content p{
         font-size: 15px;
+    }
+    .services-image-content section {
+            padding-top: 20px;
+            padding-bottom: 20px;
+            margin-bottom: 20px;
+            margin-top: 20px;
     }
     .services-image-content .index-page1{
         order: 2;
@@ -2416,7 +2398,6 @@ img.techiconColor {
     }
 }
 
-
 /*--------------------------contact form css----------------------------------------*/
 .form-horizontal .form-group{
     margin-right:0;
@@ -2428,6 +2409,7 @@ img.techiconColor {
 }
 .form-group .captcha-label{
     font-weight:700;
+    color: #fff!important;
 }
 
 /*------------------------MEET our team-members section css-------------------------------*/
@@ -4779,6 +4761,13 @@ input.contactForm-input, textarea.contactForm-input {
     width: 100%;
     line-height: 1.7;
 }
+.activity-desciption .team-quote {
+    font-weight: bold;
+    font-style: italic;
+    color: darkslategrey;
+    text-align: center;
+    align-items: center;
+}
 .theme1 p, .theme2 p, .theme3 p{
     padding-top: 20px;
     padding-bottom: 20px;
@@ -4821,6 +4810,7 @@ input.contactForm-input, textarea.contactForm-input {
     text-align: center;
     padding: 10px 90px 50px 90px;
 }
+
 @media(max-width: 767px){
 .activity-desciption-it{
     padding: 10px 10px 50px 10px;
