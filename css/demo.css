@@ -512,57 +512,6 @@ a:hover{
 .btnSection a{
     color: #fff;
 }
-.u-textNoWrap {
-    white-space: nowrap !important;
-}
-.u-textLeft {
-    text-align: left !important;
-}
-.u-isActionable {
-    cursor: pointer !important;
-}
-.u-inlineBlock {
-    display: inline-block !important;
-    max-width: 100%;
-}
-.icon-3E9qF {
-    padding-right: 0.57143rem;
-}
-.Arrange--middle .Arrange-sizeFill, .Arrange--middle .Arrange-sizeFit {
-    vertical-align: middle;
-}
-.u-userLauncherColor:not([disabled]) svg {
-    color: #ffffff;
-    fill: #ffffff;
-}
-.u-userLauncherColor:not([disabled]) svg path {
-    fill: #ffffff;
-}
- .Icon-2SEmO svg {
-     min-width: 1.42857rem;
-     min-height: 1.42857rem;
-     height: 1.42857rem;
-     width: 1.42857rem;
- }
-#Embed iframe {
-    border: none;
-background: transparent;
-z-index: 999998;
-transform: translateZ(0px);
-position: fixed;
-transition-duration: 250ms;
-transition-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1);
-transition-property: opacity, top, bottom;
-opacity: 1;
-height: 50px;
-max-height: 551px;
-min-height: 50px;
-margin: 10px 20px;
-right: 0px;
-bottom: 0px;
-width: 139px;
-}
-
 .coming-soon{
     text-align: center;
 }
@@ -4899,9 +4848,6 @@ input.contactForm-input, textarea.contactForm-input {
     .it-initiatives{
         padding-left:20px;
     }
-    .it-initiatives ul{
-        /*padding-top: 10px;*/
-    }
     .it-initiatives ul li{
         padding-bottom: 10px;
         font-size: 16px;
@@ -5769,9 +5715,6 @@ a:active, a:focus{
     }
 }
 @media only screen and (max-width: 1280px) {
-    /*.cover-letter-box{*/
-    /*    margin-top: 14px;*/
-    /*}*/
     .scrollup {
         right: 32px;
     }

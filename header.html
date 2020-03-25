@@ -50,7 +50,6 @@
       var currentPathSplit = currentPath.split("/");
       var currentPathSplit = currentPathSplit[2];
       $('.nav li a').each(function(){
-          console.log("hiiiieee",currentPath);
         var $this = $(this);
         if($this.attr('href').indexOf(currentPathSplit) !== -1 || $this.attr('href').indexOf(currentPath) !== -1){
           $(this).parent().addClass('active').siblings().removeClass('active');
