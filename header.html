@@ -48,16 +48,20 @@
       $(navBrand).appendTo("#navbar-brand");
       var currentPath = location.pathname;
       var currentPathSplit = currentPath.split("/");
-      var currentPathSplit = currentPathSplit[2];
+      var currentPathSplitChild = currentPathSplit[2];
+      var currentPathSplitParent = currentPathSplit[1];
       $('.nav li a').each(function(){
         var $this = $(this);
-        if($this.attr('href').indexOf(currentPathSplit) !== -1 || $this.attr('href').indexOf(currentPath) !== -1){
+        if($this.attr('href').indexOf(currentPathSplitChild) !== -1 || $this.attr('href').indexOf(currentPath) !== -1){
+          $(this).parent().addClass('active').siblings().removeClass('active');
+        }
+        if($this.attr('href').indexOf(currentPathSplitParent) !== -1 || $this.attr('href').indexOf(currentPath) !== -1){
           $(this).parent().addClass('active').siblings().removeClass('active');
         }
       });
     });
   };
-var renderJOpage = function (data){
+  var renderJOpage = function (data){
         renderNavWrapper(data.navigationWrapper);
     };
      var fetchConfigAndRender = function () {
