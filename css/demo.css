@@ -512,57 +512,6 @@ a:hover{
 .btnSection a{
     color: #fff;
 }
-.u-textNoWrap {
-    white-space: nowrap !important;
-}
-.u-textLeft {
-    text-align: left !important;
-}
-.u-isActionable {
-    cursor: pointer !important;
-}
-.u-inlineBlock {
-    display: inline-block !important;
-    max-width: 100%;
-}
-.icon-3E9qF {
-    padding-right: 0.57143rem;
-}
-.Arrange--middle .Arrange-sizeFill, .Arrange--middle .Arrange-sizeFit {
-    vertical-align: middle;
-}
-.u-userLauncherColor:not([disabled]) svg {
-    color: #ffffff;
-    fill: #ffffff;
-}
-.u-userLauncherColor:not([disabled]) svg path {
-    fill: #ffffff;
-}
- .Icon-2SEmO svg {
-     min-width: 1.42857rem;
-     min-height: 1.42857rem;
-     height: 1.42857rem;
-     width: 1.42857rem;
- }
-#Embed iframe {
-    border: none;
-background: transparent;
-z-index: 999998;
-transform: translateZ(0px);
-position: fixed;
-transition-duration: 250ms;
-transition-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1);
-transition-property: opacity, top, bottom;
-opacity: 1;
-height: 50px;
-max-height: 551px;
-min-height: 50px;
-margin: 10px 20px;
-right: 0px;
-bottom: 0px;
-width: 139px;
-}
-
 .coming-soon{
     text-align: center;
 }
@@ -1310,13 +1259,12 @@ color: #fff;
     margin-bottom: 0;
 }
 .inner-services-content p {
-    padding-left: 20px;
     padding-right: 20px;
     text-align: left;
     font-size: 20px;
     margin-top: 40px;
     line-height: 1.8;
-    margin-bottom: 30px;
+    padding-bottom: 10px;
 }
 .inner-services-content{
     padding-left: 120px;
@@ -1332,7 +1280,8 @@ color: #fff;
 }
 .inner-services-content ul li{
     list-style-image: url("../assets/images/button/check.png");
-    padding: 10px;
+    padding-bottom: 10px;
+    font-size: 18px;
 }
 .inner-services-content-shivir{
     padding-left: 120px;
@@ -1359,6 +1308,7 @@ color: #fff;
     }
     .inner-services-content p{
         font-size: 21px;
+        padding-left: 25px;
     }
 }
 @media (max-width: 992px) {
@@ -1408,9 +1358,10 @@ color: #fff;
         font-size: 34px;
     }
     .inner-services-content p {
-        font-size: 16px;
+        font-size: 18px;
+        padding-left: 25px;
     }
-    .inner-services-content ul {
+    .inner-services-content ul li {
         font-size: 16px;
     }
 
@@ -4799,12 +4750,14 @@ input.contactForm-input, textarea.contactForm-input {
     align-items: center;
 }
 .theme1 p, .theme2 p, .theme3 p{
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     line-height: 1.6;
+    font-size: 18px;
 }
 .mj-detail{
-    padding-bottom: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 .activity-desciption .para1, .para2{
     padding: 10px 150px;
@@ -4827,7 +4780,7 @@ input.contactForm-input, textarea.contactForm-input {
 }
 .activity-desciption p{
     padding-top: 10px;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
     text-align: left;
     justify-content: center;
     align-items: center;
@@ -4842,10 +4795,18 @@ input.contactForm-input, textarea.contactForm-input {
 }
 
 @media(max-width: 767px){
+    .activity-desciption-mj{
+        font-size: 18px;
+        padding: 10px 10px 30px 10px;
+    }
+    .theme1 p, .theme2 p, .theme3 p {
+        font-size: 16px;
+    }
 .activity-desciption-it{
     padding: 10px 10px 50px 10px;
     }
     .activity-desciption{
+        font-size: 18px;
         padding: 0;
     }
     .activity-desciption .para1, .para2{
@@ -4857,6 +4818,7 @@ input.contactForm-input, textarea.contactForm-input {
     }
     .activity-desciption .study {
         padding: 0px;
+        font-size: 18px;
     }
     .activity-desciption ul{
         display: block!important;
@@ -4877,17 +4839,33 @@ input.contactForm-input, textarea.contactForm-input {
     align-items: center;
     text-align: left;
 }
+@media(min-width:768px) and (max-width:1024px){
+    .it-initiatives p{
+        padding-bottom: 10px;
+    }
+}
 @media(max-width: 767px){
     .it-initiatives{
         padding-left:20px;
+    }
+    .it-initiatives ul li{
+        padding-bottom: 10px;
+        font-size: 16px;
+    }
+    .it-initiatives p{
+        font-size: 18px;
+        margin-bottom: 10px;
     }
 }
 .it-initiatives li{
     list-style-image: url("../assets/images/button/check.png");
     text-align: left;
     width: 100%;
-    padding-left: 5px;
     padding-right: 35px;
+    font-size: 18px;
+}
+.it-initiatives p{
+    padding-bottom: 10px;
 }
  /*-----------------------------YJSG IT INITIATIVES CSS------------------------------*/
 .fa-book:before {
@@ -5737,9 +5715,6 @@ a:active, a:focus{
     }
 }
 @media only screen and (max-width: 1280px) {
-    /*.cover-letter-box{*/
-    /*    margin-top: 14px;*/
-    /*}*/
     .scrollup {
         right: 32px;
     }
@@ -7017,6 +6992,12 @@ a:active, a:focus{
 .card-container-shivir .card-shivir.card--dark a .card--hover .link {
     color: #fde74c;
 }
+@media (max-width: 767px) {
+    .card-container-shivir .card-shivir a .card--display i{
+        font-size: 24px;
+    }
+
+}
 /*----------------------------------------------------------*/
 
 #timeline {
@@ -7187,17 +7168,16 @@ a:active, a:focus{
 
 @media(max-width:768px) {
     .gallery-sub-tab {
-        margin-top: 82px;
-        /*margin-top: 52px;*/
-        /*margin-bottom: 50px;*/
+        margin-top: 80px;
+        margin-bottom: 50px;
     }
 }
-@media(max-width:480px) {
+@media (max-width: 480px) {
     .gallery-sub-tab {
-        margin-top: 65px;
+        margin-top: 64px;
+        margin-bottom: 50px;
     }
 }
-
 .gallery-sub-tab h1 {
     font-size: 36px;
     margin-bottom: 30px;
@@ -7256,6 +7236,13 @@ a:active, a:focus{
 
     .gallery-sub-tab ul li a{
         padding: 0;
+    }
+}
+@media(max-width:480px) {
+    .gallery-sub-tab ul li,
+    .gallery-sub-tab ul li a
+    {
+        font-size: 12px;
     }
 }
 
