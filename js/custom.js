@@ -43,7 +43,14 @@ function closeRegPopUp() {
     $('#regSideButton').removeClass('active');
     $('#gegPopUP').removeClass('active');
 }
-
+function myFunction() {
+    var x = document.getElementById("MenuActivitiesTopnavBar");
+    if (x.className === "activitytopnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "activitytopnav";
+    }
+}
 
 
 var page = document.getElementById('page');
