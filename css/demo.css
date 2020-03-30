@@ -7805,6 +7805,29 @@ a:active, a:focus{
 
 /*-----------------------------------------*/
 
+.online-page-header {
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(../assets/images/backgrounds/small-header.svg);
+    position: relative;
+    margin-top: 80px;
+    background-size: cover;
+}
+
+@media(max-width: 768px) {
+    .online-page-header {
+        margin-top: 50px;
+    }
+}
+
+.online-page-header h1
+{
+    font-size: 36px;
+    color: #fff;
+}
+
 .onlineClasses-bgimage {
     background: linear-gradient(
             rgba(250, 141, 25, .3),
@@ -7833,7 +7856,7 @@ a:active, a:focus{
 
 .section-title-detail {
     text-align: center;
-    margin: 40px auto;
+    margin: 0 auto;
     color: #555;
     line-height: 2;
     font-size: 20px;
@@ -8181,7 +8204,7 @@ a:active, a:focus{
 
 .onlineClass-card-row {
     margin: 0 auto;
-    margin-top: 74px;
+    margin-top: 50px;
     display: flex;
     flex-wrap: wrap;
     width: 100%;
@@ -8270,6 +8293,9 @@ a:active, a:focus{
 }
 .onlineClass-card-row .onlineClass-card-header.level-7 {
     background: #51c336!important;
+}
+.onlineClass-card-row .onlineClass-card-header.level-8 {
+    background: #26bfb5!important;
 }
 .onlineClass-card-row .onlineClass-card-header.chadhala {
     background: #c552bf!important;
