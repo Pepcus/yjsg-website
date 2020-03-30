@@ -979,7 +979,7 @@ background-color: #e3a97f;
     padding: 20px;
     position: fixed;
     z-index: 2147483640;
-    top: 240px;
+    top: 400px;
     right: -30px;
     border-radius: 20px 20px 0 0;
 }
@@ -7379,7 +7379,7 @@ a:active, a:focus{
     padding: 20px;
     position: fixed;
     z-index: 2147483640;
-    top: 220px;
+    top: 440px;
     right: -35px;
     border-radius: 20px 20px 0 0;
     background-image: linear-gradient(to right, #f5ce62, #e43603, #fa7199, #e85a19);
@@ -7521,7 +7521,7 @@ a:active, a:focus{
     transition: all .4s ease-in-out;
     position: fixed;
     z-index: 2147483640;
-    top: 180px;
+    top: 400px;
     right: -360px;
 }
 
@@ -7739,10 +7739,10 @@ a:active, a:focus{
 
 .onlineClasses-bgimage {
     background: linear-gradient(
-            rgba(0, 0, 0, 0.75),
-            rgba(0, 0, 0, 0.75)
+            rgba(250, 141, 25, .3),
+            rgba(250, 141, 25, .8)
     ),
-    url(../assets/images/onlineClasses/onlineClassess.jpeg);
+    url(../assets/images/onlineClasses/onlineClassess-with-student.jpg);
     position: relative;
     color: #fff;
     text-align: center;
@@ -7800,12 +7800,13 @@ a:active, a:focus{
 .onlineClasses-title p {
     font-size: 20px;
     line-height: 40px;
+    text-shadow: 0 0 15px rgb(51, 29, 5);
 }
 
 @media (max-width: 768px) {
     .onlineClasses-title p{
         font-size: 18px;
-        padding: 0 30px;
+        padding: 0 40px;
     }
 }
 
@@ -7990,16 +7991,7 @@ a:active, a:focus{
 .announcement a{
     color: #fa8d19;
 }
-.italic {
-    font: italic;
-    position: relative;
-    top: 15px;
-    border: 2px solid orange;
-    border-radius: 50px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    width: 50%;
-}
+
 .Onlinecard{
     position: relative;
     margin: auto;
@@ -8055,6 +8047,55 @@ a:active, a:focus{
     right: -3px;
 }
 
+
+
+
+.go-online-btn {
+    display: inline-block;
+    padding: .75rem 1.25rem;
+    border-radius: 10rem;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1rem;
+    letter-spacing: .15rem;
+    transition: all .3s;
+    position: absolute;
+    overflow: hidden;
+    z-index: 1;
+    bottom: 20px;
+    border: 2px solid orange;
+}
+.go-online-btn:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    border-radius: 10rem;
+    z-index: -2;
+}
+.go-online-btn:before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background-color: #fa8d19;
+    transition: all .3s;
+    border-radius: 10rem;
+    z-index: -1;
+}
+.go-online-btn:hover {
+    color: #fff;
+}
+.go-online-btn:hover:before {
+    width: 100%;
+}
+
+
 .onlineClasses-btn {
     font-size: 18px;
     font-weight: 600;
@@ -8069,21 +8110,24 @@ a:active, a:focus{
     -o-transition: all .4s ease-in-out;
     -webkit-transition: all .4s ease-in-out;
     transition: all .4s ease-in-out;
-    transform: rotate(-360deg);
+    transform: rotate(-90deg);
     padding: 20px;
     position: fixed;
     z-index: 2147483640;
-    bottom: -10px;
-    left: 30px;
+    top: 220px;
+    right: -80px;
     border-radius: 20px 20px 0 0;
-    background: rgba(255, 152, 0, 0.45);
-    box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.45);
-    text-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
+    background-image: linear-gradient(to right, #f5ce62, #e43603, #fa7199, #e85a19);
+    box-shadow: 0 4px 15px 0 rgba(229, 66, 10, 0.75);
+    text-transform: uppercase;
 }
 
 .onlineClasses-btn:hover {
-    bottom: 0px;
-    background: rgb(255, 152, 0);
+    background-position: 100% 0;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
 }
 
 .onlineClasses-btn a {
@@ -8091,46 +8135,9 @@ a:active, a:focus{
     padding: 12px;
 }
 
-
-.italic {
-    display: inline-block;
-    padding: .75rem 1.25rem;
-    border-radius: 10rem;
-    color: #fff;
-    text-transform: uppercase;
-    font-size: 1rem;
-    letter-spacing: .15rem;
-    transition: all .3s;
-    position: relative;
-    overflow: hidden;
-    z-index: 1;
-}
-.italic:after {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: #fff;
-    border-radius: 10rem;
-    z-index: -2;
-}
-.italic:before {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 0%;
-    height: 100%;
-    background-color: #fa8d19;
-    transition: all .3s;
-    border-radius: 10rem;
-    z-index: -1;
-}
-.italic:hover {
-    color: #fff;
-}
-.italic:hover:before {
-    width: 100%;
+@media (max-width: 768px) {
+    .onlineClasses-btn {
+        font-size: 14px;
+        right: -68px;
+    }
 }
