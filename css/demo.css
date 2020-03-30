@@ -7972,3 +7972,82 @@ a:active, a:focus{
     border: 1px solid rgba(0,0,0,.125);
     border-radius: .25rem;
 }
+
+
+
+
+.announcement h1 {
+    font-size: 25px;
+}
+.announcement h3 {
+    font-size: 18px;
+    padding-bottom: 30px;
+    line-height: 1.8;
+}
+.announcement h2 {
+    font-size: 18px;
+}
+.announcement a{
+    color: #fff;
+}
+.italic {
+    font: italic;
+    position: relative;
+    top: 15px;
+    border: 2px solid orange;
+    border-radius: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 50%;
+}
+.Onlinecard{
+    position: relative;
+    margin: auto;
+    height: 350px;
+    width: 300px;
+    text-align: center;
+    background: linear-gradient(#e3772e, #cecc04, #f36505);
+    border-radius: 2px;
+    box-shadow: 0 6px 12px -3px rgba(0,0,0,.3);
+    color: #fff;
+    padding: 12px;
+}
+.Onlinecard header {
+    font-size: 25px;
+    font-weight: 700;
+    position: absolute;
+    top: 31px;
+    left: 0;
+    width: 100%;
+    padding: 0 10%;
+    transform: translateY(-50%);
+    display: grid;
+    /*grid-template-columns: 1fr 1fr 1fr;*/
+    align-items: center;
+}
+.announcement {
+    position: relative;
+    border: 3px solid currentColor;
+    border-top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.announcement:before,
+.announcement:after {
+    content: '';
+    position: absolute;
+    top: 0px;
+    border-top: 3px solid currentColor;
+    height: 0;
+    width: 15px;
+}
+.announcement:before {
+    left: -3px;
+}
+.announcement:after {
+    right: -3px;
+}
