@@ -7415,6 +7415,7 @@ a:active, a:focus{
 @media(max-width: 768px) {
     .reg-button-container .btn-hover {
         font-size: 14px;
+        top: 320px;
     }
 }
 .reg-button-container .btn-hover:hover {
@@ -7549,6 +7550,12 @@ a:active, a:focus{
     z-index: 2147483640;
     top: 400px;
     right: -360px;
+}
+
+@media(max-width: 768px) {
+    #gegPopUP {
+        top: 300px;
+    }
 }
 
 #gegPopUP.active {
@@ -8106,6 +8113,12 @@ a:active, a:focus{
     background-image: linear-gradient(to right, #f5ce62, #e43603, #fa7199, #e85a19);
     box-shadow: 0 4px 15px 0 rgba(229, 66, 10, 0.75);
     text-transform: uppercase;
+}
+
+@media(max-width: 768px) {
+    .onlineClasses-btn {
+        top: 150px;
+    }
 }
 
 .onlineClasses-btn:hover {
