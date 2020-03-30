@@ -7415,6 +7415,7 @@ a:active, a:focus{
 @media(max-width: 768px) {
     .reg-button-container .btn-hover {
         font-size: 14px;
+        top: 320px;
     }
 }
 .reg-button-container .btn-hover:hover {
@@ -7551,6 +7552,12 @@ a:active, a:focus{
     right: -360px;
 }
 
+@media(max-width: 768px) {
+    #gegPopUP {
+        top: 300px;
+    }
+}
+
 #gegPopUP.active {
     right: -30px;
 }
@@ -7675,6 +7682,41 @@ a:active, a:focus{
     }
 }
 
+.footer-small {
+    font-size: 10px;
+    display: flex;
+}
+
+.footer-small p:first-child {
+    flex-grow: 1;
+    text-align: left;
+    padding-left: 60px;
+}
+
+.footer-small p:last-child {
+    flex-grow: 1;
+    text-align: right;
+    padding-right: 60px;
+}
+
+@media(max-width: 768px) {
+    .footer-small {
+        font-size: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    .footer-small p {
+        text-align: center !important;
+        padding: 0!important;
+    }
+}
+
+.footer-small p a {
+    text-decoration: underline;
+    color: #c1c1c1;
+}
 
 .video-container {
     position: relative;
@@ -7763,6 +7805,29 @@ a:active, a:focus{
 
 /*-----------------------------------------*/
 
+.online-page-header {
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(../assets/images/backgrounds/small-header.svg);
+    position: relative;
+    margin-top: 80px;
+    background-size: cover;
+}
+
+@media(max-width: 768px) {
+    .online-page-header {
+        margin-top: 50px;
+    }
+}
+
+.online-page-header h1
+{
+    font-size: 36px;
+    color: #fff;
+}
+
 .onlineClasses-bgimage {
     background: linear-gradient(
             rgba(250, 141, 25, .3),
@@ -7791,7 +7856,7 @@ a:active, a:focus{
 
 .section-title-detail {
     text-align: center;
-    margin: 40px auto;
+    margin: 0 auto;
     color: #555;
     line-height: 2;
     font-size: 20px;
@@ -8108,6 +8173,12 @@ a:active, a:focus{
     text-transform: uppercase;
 }
 
+@media(max-width: 768px) {
+    .onlineClasses-btn {
+        top: 150px;
+    }
+}
+
 .onlineClasses-btn:hover {
     background-position: 100% 0;
     moz-transition: all .4s ease-in-out;
@@ -8133,7 +8204,7 @@ a:active, a:focus{
 
 .onlineClass-card-row {
     margin: 0 auto;
-    margin-top: 74px;
+    margin-top: 50px;
     display: flex;
     flex-wrap: wrap;
     width: 100%;
