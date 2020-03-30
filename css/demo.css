@@ -7988,7 +7988,7 @@ a:active, a:focus{
     font-size: 18px;
 }
 .announcement a{
-    color: #fff;
+    color: #fa8d19;
 }
 .italic {
     font: italic;
@@ -8004,9 +8004,10 @@ a:active, a:focus{
     position: relative;
     margin: auto;
     height: 350px;
-    width: 300px;
+    margin: 10px;
     text-align: center;
-    background: linear-gradient(#e3772e, #cecc04, #f36505);
+    background: #fa8d19;
+    margin-bottom: 30px;
     border-radius: 2px;
     box-shadow: 0 6px 12px -3px rgba(0,0,0,.3);
     color: #fff;
@@ -8035,6 +8036,8 @@ a:active, a:focus{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 20px;
+    padding-top: 40px;
 }
 .announcement:before,
 .announcement:after {
@@ -8050,4 +8053,84 @@ a:active, a:focus{
 }
 .announcement:after {
     right: -3px;
+}
+
+.onlineClasses-btn {
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    height: 55px;
+    text-align: center;
+    border: none;
+    background-size: 300% 100%;
+    border-radius: 50px;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    transform: rotate(-360deg);
+    padding: 20px;
+    position: fixed;
+    z-index: 2147483640;
+    bottom: -10px;
+    left: 30px;
+    border-radius: 20px 20px 0 0;
+    background: rgba(255, 152, 0, 0.45);
+    box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.45);
+    text-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
+}
+
+.onlineClasses-btn:hover {
+    bottom: 0px;
+    background: rgb(255, 152, 0);
+}
+
+.onlineClasses-btn a {
+    color: #fff;
+    padding: 12px;
+}
+
+
+.italic {
+    display: inline-block;
+    padding: .75rem 1.25rem;
+    border-radius: 10rem;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1rem;
+    letter-spacing: .15rem;
+    transition: all .3s;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+.italic:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    border-radius: 10rem;
+    z-index: -2;
+}
+.italic:before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background-color: #fa8d19;
+    transition: all .3s;
+    border-radius: 10rem;
+    z-index: -1;
+}
+.italic:hover {
+    color: #fff;
+}
+.italic:hover:before {
+    width: 100%;
 }
