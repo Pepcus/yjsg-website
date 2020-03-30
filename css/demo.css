@@ -7753,6 +7753,13 @@ a:active, a:focus{
     background-size: cover;
 }
 
+@media (max-width: 768px) {
+    .onlineClasses-bgimage {
+        margin-top: 50px;
+    }
+}
+
+
 .onlineClasses-title {
     color: #fff;
     text-align: center;
@@ -7760,6 +7767,14 @@ a:active, a:focus{
     top: 30%;
     position: relative;
 }
+
+@media (max-width: 768px) {
+    .onlineClasses-title {
+        top: 10%;
+    }
+}
+
+
 
 .onlineClasses-title-con {
     top: 50%;
@@ -7776,9 +7791,22 @@ a:active, a:focus{
     font-size: 62px;
 }
 
+@media (max-width: 768px) {
+    .onlineClasses-title h1{
+        font-size: 42px;
+    }
+}
+
 .onlineClasses-title p {
     font-size: 20px;
     line-height: 40px;
+}
+
+@media (max-width: 768px) {
+    .onlineClasses-title p{
+        font-size: 18px;
+        padding: 0 30px;
+    }
 }
 
 .onlineClasses {
@@ -7811,6 +7839,12 @@ a:active, a:focus{
     background-size: cover;
 }
 
+@media (max-width: 768px) {
+    .onlineClasses-footer {
+        background: #fa8d19;
+    }
+}
+
 .onlineClasses-footer p {
     margin-bottom: 20px;
     font-size: 22px;
@@ -7826,6 +7860,13 @@ a:active, a:focus{
     margin: 0 20px 20px 0;
     -webkit-perspective: 1000;
     perspective: 1000;
+}
+
+@media (max-width: 768px) {
+    .card-classes {
+        width: 100%;
+        margin-bottom: 40px;
+    }
 }
 
 .card-classes__flipper {
@@ -7915,4 +7956,19 @@ a:active, a:focus{
 .card-classes__button a {
     color: #db6623;
     font-size: 20px;
+}
+
+
+.card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
 }
