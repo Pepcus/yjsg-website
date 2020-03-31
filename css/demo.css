@@ -7199,13 +7199,13 @@ a:active, a:focus{
 @media(max-width:768px) {
     .gallery-sub-tab {
         margin-top: 80px;
-        margin-bottom: 50px;
+        /*margin-bottom: 50px;*/
     }
 }
 @media (max-width: 480px) {
     .gallery-sub-tab {
         margin-top: 64px;
-        margin-bottom: 50px;
+        /*margin-bottom: 50px;*/
     }
 }
 .gallery-sub-tab h1 {
