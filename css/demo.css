@@ -956,171 +956,6 @@ background-color: #e3a97f;
     }
 }
 
-/*--------------------------registerButton new css-----------------------------------*/
-.reg-button-container .buttons  {
-    margin: 10%;
-    text-align: center;
-}
-.reg-button-container .btn-hover {
-    font-size: 16px;
-    font-weight: 600;
-    color: #fff;
-    cursor: pointer;
-    height: 55px;
-    text-align: center;
-    border: none;
-    background-size: 300% 100%;
-    border-radius: 50px;
-    moz-transition: all .4s ease-in-out;
-    -o-transition: all .4s ease-in-out;
-    -webkit-transition: all .4s ease-in-out;
-    transition: all .4s ease-in-out;
-    transform: rotate(-90deg);
-    padding: 20px;
-    position: fixed;
-    z-index: 2147483640;
-    top: 350px;
-    right: -30px;
-    border-radius: 20px 20px 0 0;
-}
-
-.reg-button-container .btn-hover:hover {
-    background-position: 100% 0;
-    moz-transition: all .4s ease-in-out;
-    -o-transition: all .4s ease-in-out;
-    -webkit-transition: all .4s ease-in-out;
-    transition: all .4s ease-in-out;
-}
-
-.reg-button-container button.active {
-    right: -90px;
-}
-
-.reg-button-container .btn-hover:focus {
-    outline: none;
-}
-.reg-button-container .btn-hover.color-2 {
-    background-image: linear-gradient(to right, #f5ce62, #e43603, #fa7199, #e85a19);
-    box-shadow: 0 4px 15px 0 rgba(229, 66, 10, 0.75);
-}
-/*------------------------------registr button overlay css--------------------------------*/
-.reg-overlay {
-    height: 100%;
-    width: 0;
-    position: fixed;
-    z-index: 50000;
-    top: 0;
-    left: 0;
-    background-color: rgb(0,0,0);
-    background-color: rgba(227,114,46, 0.9);
-    overflow-x: hidden;
-    transition: 0.5s;
-}
-
-.reg-overlay-content {
-    position: relative;
-    top: 5%;
-    width: 100%;
-    text-align: center;
-    margin-top: 30px;
-}
-
-.reg-closebtn {
-    padding: 8px;
-    text-decoration: none;
-    font-size: 36px;
-    color: #fff;
-    display: block;
-    transition: 0.3s;
-}
-
-.reg-overlay a:hover, .reg-overlay a:focus {
-    color: #f1f1f1;
-}
-
-.reg-overlay .reg-closebtn {
-    position: absolute;
-    top: 20px;
-    right: 45px;
-    font-size: 60px;
-    z-index: 5000;
-    color: #fff;
-}
-.reg-overlay .reg-closebtn:hover {
-    color: #f1f0ed;
-}
-
-@media screen and (max-height: 450px) {
-    .reg-overlay a {
-        font-size: 20px;
-    }
-    .reg-overlay .reg-closebtn {
-        font-size: 40px;
-        top: 15px;
-        right: 35px;
-    }
-}
-
-/*------------------Register detail Card css----------------------------------------*/
-.reg-cardDetails {
-    background: white;
-    height: 400px;
-    width: 600px;
-    margin: 3em auto;
-    box-shadow: 0 2.5em 0.9em -2em #555;
-    position: absolute;
-    left: 50%;
-    -webkit-transform: translateX(-50%);
-    transform: translateX(-50%);
-    -webkit-backface-visibility: hidden;
-    border-radius: 10px;
-}
-
-.registerLink a{
-    background-color: rgba(255,255,255,.7);
-    color: #555;
-    border-radius: 30px;
-    font-size: 18px;
-    padding: 10px 40px;
-    width: 100px;
-}
-.reg-overlay-content .button{
-    padding-top: 40px;
-    padding-bottom: 40px;
-}
-
-.reg-overlay-content .button{
-    font-size: 18px;
-    font-weight: 600;
-    color: #fff;
-    cursor: pointer;
-    width: 200px;
-    height: 55px;
-    text-align: center;
-    border: none;
-    background-size: 300% 100%;
-    moz-transition: all .4s ease-in-out;
-    -o-transition: all .4s ease-in-out;
-    -webkit-transition: all .4s ease-in-out;
-    transition: all .4s ease-in-out;
-    padding: 20px;
-    z-index: 2147483640;
-    background-image: linear-gradient(to right, #f5ce62, #e43603, #fa7199, #e85a19);
-    box-shadow: 0 4px 15px 0 rgba(229, 66, 10, 0.75);
-    border-radius: 40px;
-    margin: 0 auto;
-}
-.reg-overlay-content .button:hover {
-        background-position: 100% 0;
-        moz-transition: all .4s ease-in-out;
-        -o-transition: all .4s ease-in-out;
-        -webkit-transition: all .4s ease-in-out;
-        transition: all .4s ease-in-out;
-}
-
-.reg-overlay-content .button a {
-color: #fff;
-}
 .title-registrations{
     background-image: linear-gradient(to right, #f5ce62, #e85a19);
     border-top-left-radius: 10px;
@@ -1396,11 +1231,8 @@ color: #fff;
     margin: 0 0 10px;
 }
 .services-image-content .team-quote{
-    font-weight: 700;
-    font-style: italic;
-    color: darkslategrey;
-    text-align: center;
-    align-items: center;
+    font-weight: bold;
+    text-align: left;
 }
 .startup-link {
     padding-top: 20px;
@@ -1851,9 +1683,6 @@ h1#goal{
 .bg-trips {
     background-image: url(../assets/images/activities/rel.jpg);
 }
-/*.bg-diwali {*/
-/*    background-image: url(../assets/images/activities/IMG_1420.JPG);*/
-/*}*/
 
 .center-con {
     display: flex;
@@ -3017,13 +2846,15 @@ h1.loader-pepcus:before {
 }
 
 .navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
-    border-color: #e3722e;
-    background-color: #e3722e;
+    border-color: transparent;
+    background-color: transparent;
 }
-
+.navbar-inverse .navbar-toggle .icon-bar{
+    background-color:#e3722e;
+}
 .navbar-inverse .navbar-toggle {
-    border-color: #fa8d19;
-    background-color: #fa8d19;
+    border-color: transparent;
+    background-color: transparent;
 }
 .header-menu.change-height{
     top: 0;
@@ -4629,7 +4460,6 @@ input.contactForm-input, textarea.contactForm-input {
 
 /*YJSG activitiess comiited soft serv css*/
 .section-content{
-    /*padding-bottom: 100px;*/
     background-color: #f6f6f6;
 }
 .committed-services-content {
@@ -4753,10 +4583,9 @@ input.contactForm-input, textarea.contactForm-input {
 }
 .activity-desciption .team-quote {
     font-weight: bold;
-    font-style: italic;
-    color: darkslategrey;
     text-align: center;
     align-items: center;
+    line-height: 1.8;
 }
 .theme1 p, .theme2 p, .theme3 p{
     padding-top: 10px;
@@ -7199,13 +7028,11 @@ a:active, a:focus{
 @media(max-width:768px) {
     .gallery-sub-tab {
         margin-top: 80px;
-        /*margin-bottom: 50px;*/
     }
 }
 @media (max-width: 480px) {
     .gallery-sub-tab {
         margin-top: 64px;
-        /*margin-bottom: 50px;*/
     }
 }
 .gallery-sub-tab h1 {
@@ -7381,14 +7208,12 @@ a:active, a:focus{
 
 /*------------------------------------------------------------------*/
 
-
-/*--------------------------registerButton new css-----------------------------------*/
-.reg-button-container .buttons  {
+.online-classes-button .a  {
     margin: 10%;
     text-align: center;
 }
-.reg-button-container .btn-hover {
-    font-size: 16px;
+.online-classes-button .btn-hover {
+    font-size: 18px;
     font-weight: 600;
     color: #fff;
     cursor: pointer;
@@ -7405,7 +7230,58 @@ a:active, a:focus{
     padding: 20px;
     position: fixed;
     z-index: 2147483640;
-    top: 330px;
+    top: 214px;
+    right: -66px;
+    border-radius: 20px 20px 0 0;
+    background-image: linear-gradient(to right, #f5ce62, #e43603, #fa7199, #e85a19);
+    box-shadow: 0 4px 15px 0 rgba(229, 66, 10, 0.75);
+}
+
+@media(max-width: 768px) {
+    .online-classes-button .btn-hover {
+        font-size: 12px;
+        top: 185px;
+        right: -55px;
+        padding: 10px 10px 0px 10px;
+    }
+}
+.online-classes-button .btn-hover:hover {
+    background-position: 100% 0;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+.online-classes-button a.active {
+    right: -90px;
+}
+.online-classes-button .btn-hover:focus {
+    outline: none;
+}
+/*--------------------------registerButton new css-----------------------------------*/
+.reg-button-container .buttons  {
+    margin: 10%;
+    text-align: center;
+}
+.reg-button-container .btn-hover {
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    height: 55px;
+    text-align: center;
+    border: none;
+    background-size: 300% 100%;
+    border-radius: 50px;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    transform: rotate(-90deg);
+    padding: 20px;
+    position: fixed;
+    z-index: 2147483640;
+    top: 390px;
     right: -35px;
     border-radius: 20px 20px 0 0;
     background-image: linear-gradient(to right, #f5ce62, #e43603, #fa7199, #e85a19);
@@ -7472,6 +7348,13 @@ a:active, a:focus{
 }
 .reg-overlay .reg-closebtn:hover {
     color: #f1f0ed;
+}
+@media(max-width: 768px) {
+    .reg-button-container .btn-hover {
+        font-size: 12px;
+        top: 300px;
+        padding: 10px 10px 30px 10px;
+    }
 }
 @media screen and (max-height: 450px) {
     .reg-overlay a {
@@ -7671,10 +7554,6 @@ a:active, a:focus{
 }
 
 /*---------------------------------------------- footer --------------------------------------*/
-
-.footer-logo-container {
-
-}
 
 @media (max-width: 768px) {
     .footer-logo-container {
@@ -7946,12 +7825,10 @@ a:active, a:focus{
     left: 0;
     width: 100%;
     height: 340px;
-
     -webkit-transform: rotateY(0);
     transform: rotateY(0);
     z-index: 2;
     overflow: hidden;
-
     background: #db6623;
 
 }
@@ -8353,6 +8230,9 @@ a:active, a:focus{
     .onlineClass-card-row .onlineClass-card-body ul li {
         margin-bottom: 10px;
     }
+    .xs-padding-bottom-20{
+        padding-bottom: 20px;
+    }
 }
 
 
@@ -8485,3 +8365,4 @@ a:active, a:focus{
 .online-btn:hover span {
     color: #fa8d19;
 }
+
