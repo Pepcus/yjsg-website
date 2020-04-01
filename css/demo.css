@@ -7415,7 +7415,7 @@ a:active, a:focus{
 @media(max-width: 768px) {
     .reg-button-container .btn-hover {
         font-size: 14px;
-        top: 320px;
+        top: 360px;
     }
 }
 .reg-button-container .btn-hover:hover {
@@ -7554,7 +7554,7 @@ a:active, a:focus{
 
 @media(max-width: 768px) {
     #gegPopUP {
-        top: 300px;
+        top: 340px;
     }
 }
 
@@ -8163,7 +8163,7 @@ a:active, a:focus{
 
 @media(max-width: 768px) {
     .onlineClasses-btn {
-        top: 150px;
+        top: 190px;
     }
 }
 
