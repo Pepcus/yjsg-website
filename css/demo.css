@@ -962,7 +962,7 @@ background-color: #e3a97f;
     text-align: center;
 }
 .reg-button-container .btn-hover {
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 600;
     color: #fff;
     cursor: pointer;
@@ -979,7 +979,7 @@ background-color: #e3a97f;
     padding: 20px;
     position: fixed;
     z-index: 2147483640;
-    top: 400px;
+    top: 350px;
     right: -30px;
     border-radius: 20px 20px 0 0;
 }
@@ -7388,7 +7388,7 @@ a:active, a:focus{
     text-align: center;
 }
 .reg-button-container .btn-hover {
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 600;
     color: #fff;
     cursor: pointer;
@@ -7405,7 +7405,7 @@ a:active, a:focus{
     padding: 20px;
     position: fixed;
     z-index: 2147483640;
-    top: 440px;
+    top: 330px;
     right: -35px;
     border-radius: 20px 20px 0 0;
     background-image: linear-gradient(to right, #f5ce62, #e43603, #fa7199, #e85a19);
@@ -7415,7 +7415,7 @@ a:active, a:focus{
 @media(max-width: 768px) {
     .reg-button-container .btn-hover {
         font-size: 14px;
-        top: 360px;
+        top: 340px;
     }
 }
 .reg-button-container .btn-hover:hover {
@@ -7548,13 +7548,13 @@ a:active, a:focus{
     transition: all .4s ease-in-out;
     position: fixed;
     z-index: 2147483640;
-    top: 400px;
+    top: 300px;
     right: -360px;
 }
 
 @media(max-width: 768px) {
     #gegPopUP {
-        top: 340px;
+        top: 320px;
     }
 }
 
@@ -8136,7 +8136,7 @@ a:active, a:focus{
 
 
 .onlineClasses-btn {
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 600;
     color: #fff;
     cursor: pointer;
@@ -8153,8 +8153,8 @@ a:active, a:focus{
     padding: 20px;
     position: fixed;
     z-index: 2147483640;
-    top: 220px;
-    right: -80px;
+    top: 160px;
+    right: -70px;
     border-radius: 20px 20px 0 0;
     background-image: linear-gradient(to right, #f5ce62, #e43603, #fa7199, #e85a19);
     box-shadow: 0 4px 15px 0 rgba(229, 66, 10, 0.75);
