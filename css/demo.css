@@ -8419,6 +8419,7 @@ a:active, a:focus{
     text-align: center;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .onlineClass-card-row .onlineClass-password-button.hide-button-password {
@@ -8432,22 +8433,15 @@ a:active, a:focus{
 }
 
 .onlineClass-card-row .onlineClass-password-button input {
-     pointer-events: none;
+    pointer-events: none;
     width: 100%;
-    color: transparent;
-    border: transparent;
-    text-size:1px;
-    height: 2px;
+    text-size: 1px;
+    text-align: center;
  }
 
-.onlineClass-card-row .onlineClass-password-button input::selection {
-    background: transparent;
-    outline: none;
-}
 
 .onlineClass-card-row .onlineClass-password-button input:focus {
     background: transparent;
-    outline: transparent;
 }
 
 .onlineClass-card-row .onlineClass-password-button button {
