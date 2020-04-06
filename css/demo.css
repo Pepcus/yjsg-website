@@ -8413,6 +8413,46 @@ a:active, a:focus{
     margin-top: 20px;
 }
 
+.onlineClass-card-row .onlineClass-password-button {
+    font-size: 16px;
+    margin-top: 5px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.onlineClass-card-row .onlineClass-password-button.hide-button-password {
+    visibility: hidden;
+}
+
+.onlineClass-card-row .onlineClass-password-button a {
+    margin: 0 auto;
+    margin-bottom: 10px;
+
+}
+
+.onlineClass-card-row .onlineClass-password-button input {
+    pointer-events: none;
+    width: 100%;
+    text-size: 1px;
+    text-align: center;
+ }
+
+
+.onlineClass-card-row .onlineClass-password-button input:focus {
+    background: transparent;
+}
+
+.onlineClass-card-row .onlineClass-password-button button {
+    width: 180px;
+    margin-top: 30px;
+}
+
+
+
+
 
 .onlineClass-card-row .onlineClass-card-footer {
     display: inline-block;
@@ -8440,9 +8480,9 @@ a:active, a:focus{
     justify-content: center;
 }
 
-.onlineClass-card-row .onlineClass-card-footer .online-btn-container a {
-    position: absolute;
-}
+/*.onlineClass-card-row .onlineClass-card-footer .online-btn-container a {*/
+/*    position: absolute;*/
+/*}*/
 
 .online-btn {
     width: 150px;
