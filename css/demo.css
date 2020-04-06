@@ -8420,6 +8420,7 @@ a:active, a:focus{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin-bottom: 30px;
 }
 
 .onlineClass-card-row .onlineClass-password-button.hide-button-password {
