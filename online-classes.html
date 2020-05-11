@@ -400,7 +400,30 @@
     // var safariAgent = userAgentString.indexOf("Safari") > -1;
     var isSafari = /constructor/i.test(window.HTMLElement) || (function (p) { return p.toString() === "[object SafariRemoteNotification]"; })(!window['safari'] || (typeof safari !== 'undefined' && safari.pushNotification));
 
-    if (!isSafari) {
+    var isSafarimobile = navigator.vendor && navigator.vendor.indexOf('Apple') > -1 &&
+      navigator.userAgent &&
+      navigator.userAgent.indexOf('CriOS') == -1 &&
+      navigator.userAgent.indexOf('FxiOS') == -1;
+
+
+    if (isSafari || isSafarimobile) {
+      if (!$('#iframe').length) {
+        if (item === 'level1') {
+          window.open('https://www.classmarker.com/online-test/start/?quiz=hc65eac01e768e58&iframe=1', '_blank');
+        }
+        if (item === 'level2') {
+          window.open('https://www.classmarker.com/online-test/start/?quiz=yjc5ea9abd880991&iframe=1', '_blank');
+        }
+        if (item === 'level3') {
+          window.open('https://www.classmarker.com/online-test/start/?quiz=prd5eb14a1f64181&iframe=1', '_blank');
+        }
+        if (item === 'level7') {
+          window.open('https://www.classmarker.com/online-test/start/?quiz=3af5eb14dc08dc9e&iframe=1', '_blank');
+        }
+      }
+    }
+
+    else {
       $(window).scrollTop(0);
       $('#onlineClasses').addClass('hidden');
       $('#onlineExam').addClass('show');
@@ -416,22 +439,6 @@
         }
         if (item === 'level7') {
           $('#iframeHolder').html('<iframe class="onlineExamFrame" src="https://www.classmarker.com/online-test/start/?quiz=3af5eb14dc08dc9e&iframe=1"></iframe>');
-        }
-      }
-    }
-    else {
-      if (!$('#iframe').length) {
-        if (item === 'level1') {
-          window.open('https://www.classmarker.com/online-test/start/?quiz=hc65eac01e768e58&iframe=1', '_blank');
-        }
-        if (item === 'level2') {
-          window.open('https://www.classmarker.com/online-test/start/?quiz=yjc5ea9abd880991&iframe=1', '_blank');
-        }
-        if (item === 'level3') {
-          window.open('https://www.classmarker.com/online-test/start/?quiz=prd5eb14a1f64181&iframe=1', '_blank');
-        }
-        if (item === 'level7') {
-          window.open('https://www.classmarker.com/online-test/start/?quiz=3af5eb14dc08dc9e&iframe=1', '_blank');
         }
       }
     }
