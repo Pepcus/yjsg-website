@@ -8230,6 +8230,7 @@ a:active, a:focus{
 .onlineClass-card-row .onlineClass-card-item {
     min-height: 50px;
     position: relative;
+
 }
 @media screen and (max-width: 768px) {
     .onlineClass-card-row .onlineClass-card-item {
@@ -8480,12 +8481,12 @@ a:active, a:focus{
     justify-content: center;
 }
 
-/*.onlineClass-card-row .onlineClass-card-footer .online-btn-container a {*/
-/*    position: absolute;*/
-/*}*/
+.onlineClass-card-row .onlineClass-card-footer .online-btn-container a {
+    position: relative;
+}
 
 .online-btn {
-    width: 150px;
+    width: 100px;
     height: 50px;
     cursor: pointer;
     background: transparent;
@@ -8493,6 +8494,11 @@ a:active, a:focus{
     outline: none;
     transition: 1s ease-in-out;
     border-radius: 40px;
+}
+
+.online-btn-exam {
+    margin-left: 20px;
+    width: 150px;
 }
 
 .online-btn svg {
@@ -8524,4 +8530,58 @@ a:active, a:focus{
 
 .online-btn:hover span {
     color: #fa8d19;
+}
+
+
+#onlineClasses {
+    display: block;
+}
+
+#onlineClasses.hidden {
+    display: none;
+}
+
+#onlineExam {
+    display: none;
+}
+
+#onlineExam iframe {
+    min-height: 440px;
+    height: 100%;
+    frameborder:0;
+    width:100%;
+}
+
+@media (max-width: 768px) {
+    #onlineExam iframe {
+        min-height: 400px;
+    }
+}
+#onlineExam.show {
+    display: block;
+}
+
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 20px;
+}
+
+.button-container button {
+    border: 0;
+    padding: 20px 25px;
+    background: #fa8d19;
+    color: #fff;
+    border-radius: 30px;
+    font-size: 18px;
+    filter: brightness(1);
+}
+
+.button-container button:hover,
+.button-container button:focus
+{
+    filter: brightness(.8);
+    outline: none;
 }
