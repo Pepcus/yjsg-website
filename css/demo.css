@@ -7685,6 +7685,8 @@ a:active, a:focus{
 .footer-small {
     font-size: 10px;
     display: flex;
+    padding-left:3px;
+    padding-right:3px;
 }
 
 .footer-small p:first-child {
@@ -8563,7 +8565,7 @@ a:active, a:focus{
 @media (max-width: 768px) {
     #onlineExam iframe {
         min-height: 400px;
-        height: calc(100vh - 202px);
+        height: calc(100vh - 205px);
     }
 }
 #onlineExam.show {
