@@ -284,6 +284,9 @@
                       <span>Join</span>
                     </button>
                   </a>
+                    <button class="online-btn online-btn-exam" onclick="onlineExam('level4');">
+                    <span>Online Exam</span>
+                  </button>
                 </div>
               </div>
             </div>
@@ -571,6 +574,9 @@
         if (item === 'level7') {
           window.open('https://www.classmarker.com/online-test/start/?quiz=d445ec0f60e2614b&iframe=1', '_blank');
         }
+        if (item === 'level4') {
+            window.open('https://www.classmarker.com/online-test/start/?quiz=na75ee72fc45e55e&iframe=1', '_blank');
+         }
       }
     }
 
@@ -597,6 +603,9 @@
         if (item === 'level7') {
           $('#iframeHolder').html('<iframe class="onlineExamFrame" src="https://www.classmarker.com/online-test/start/?quiz=jta5ed4b45c6af92&iframe=1"></iframe>');
         }
+        if (item === 'level4') {
+            $('#iframeHolder').html('<iframe class="onlineExamFrame" src="https://www.classmarker.com/online-test/start/?quiz=na75ee72fc45e55e&iframe=1"></iframe>');
+          }
       }
     }
   }
