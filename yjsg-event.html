@@ -43,7 +43,7 @@
     <div id="opening-title-wrapper"></div>
     <div id="modal-content-wrapper"></div>
     <div>
-        <div id="jobopening"></div>
+<!--<div id="jobopening"></div>-->
     </div>
 </section>
 
@@ -79,12 +79,10 @@
     };
     var renderOpeningHeader = function(openingTitle) {
       $.each(openingTitle, function(key, value) {
-        var htmlRender = "<div class = \"heading-section\">" +
+        var htmlRender = "<div class = \"heading-section no-data-message\">" +
           "<h2>" +
-          value.openingSectionTitle +
+            "No upcoming events are available, <br/> however, you can check <a title=\"\" href=\"online-classes.html\">Online Classes</a> for information daily classes <br/> conducted on various topics." +
           "</h2>" +
-          "<img src='assets/images/logos/under-heading.png'>"+
-
           "</div>";
         $(htmlRender).appendTo("#opening-title-wrapper");
       });

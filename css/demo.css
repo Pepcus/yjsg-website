@@ -4924,6 +4924,22 @@ input.contactForm-input, textarea.contactForm-input {
     text-align: center;
     padding: 50px 0 50px 0;
 }
+
+.heading-section.no-data-message {
+    padding-bottom: 0;
+}
+
+.heading-section.no-data-message h2 {
+    line-height: 40px;
+    padding-bottom: 0;
+}
+
+.heading-section.no-data-message h2 a {
+    white-space: nowrap;
+    color: #fa8d19;
+}
+
+
 @media(min-width: 768px) and (max-width: 1023px){
     .section-content .mar-bot-50{
         margin-bottom: 5px;
