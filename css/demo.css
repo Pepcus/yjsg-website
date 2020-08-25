@@ -6938,6 +6938,8 @@ a:active, a:focus{
     transform: translate(-50%, 0);
 }
 
+
+
 /*---------------------------------------- study card end -----------------------------------*/
 
 
@@ -8281,7 +8283,7 @@ a:active, a:focus{
 
 @media screen and (max-width: 768px) {
     .onlineClass-card-row .onlineClass-card-col-firstrow {
-        width: 96%;
+        width: 98%;
         margin-bottom: 50px;
     }
 }
@@ -8588,27 +8590,76 @@ a:active, a:focus{
 }
 
 .online-btn {
-    width: 100px;
-    height: 50px;
+    min-width: 100px;
+    min-height: 40px;
+    padding: 5px;
     cursor: pointer;
     background: transparent;
     border: 1px solid #fa8d19;
     outline: none;
     transition: 1s ease-in-out;
     border-radius: 40px;
+    margin-left: 10px;
 }
 
 .onlineClass-card-col-firstrow .onlineClass-card-footer .online-btn {
     width: auto;
     min-width: 100px;
-    margin-top: 30px;
+    margin-top: 10px;
     margin-bottom: 20px;
     padding: 0 20px;
 }
 
-.online-btn-exam {
-    margin-left: 20px;
-    width: 150px;
+.onlineClass-card-col-firstrow .onlineClass-card-col-firstrow__section-heading {
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+}
+
+.onlineClass-card-col-firstrow .onlineClass-card-col-firstrow__section-body {
+    margin-bottom: 30px;
+}
+
+.onlineClass-card-col-firstrow
+.onlineClass-card-col-firstrow__section-body
+.onlineClass-card-col-firstrow__section-zoom-button{
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.onlineClass-card-col-firstrow
+.onlineClass-card-col-firstrow__section-body
+.onlineClass-card-col-firstrow__section-zoom-button p {
+    font-weight: 600;
+}
+
+.onlineClass-card-col-firstrow
+.onlineClass-card-col-firstrow__section-body
+.onlineClass-card-col-firstrow__section-zoom-button > div{
+    max-width: 200px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.onlineClass-card-col-firstrow .onlineClass-card-body__heading{
+    line-height: 30px;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 300;
+    text-align: center;
+    font-size: 17px;
+}
+
+.onlineClass-card-footer {
+
+}
+
+.onlineClass-card-col-firstrow .youtube-button__container img{
+    width: 100%;
+    max-width: 100px;
+    margin-bottom: 20px;
+    margin-top: 10px;
 }
 
 .online-btn svg {
