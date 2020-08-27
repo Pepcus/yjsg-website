@@ -8651,6 +8651,10 @@ a:active, a:focus{
     font-size: 17px;
 }
 
+.onlineClass-card-col-firstrow .onlineClass-card-body__heading .bold{
+    font-weight: 600;
+}
+
 .onlineClass-card-footer {
 
 }
