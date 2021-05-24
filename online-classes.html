@@ -161,6 +161,9 @@
                       <span>Join</span>
                     </button>
                   </a>
+                  <button class="online-btn online-btn-exam" onclick="onlineExam('level1');">
+                       <span>Online Exam</span>
+                  </button>
                 </div>
               </div>
             </div>
@@ -299,9 +302,9 @@
                       <span>Join</span>
                     </button>
                   </a>
-                  <!--          <button class="online-btn online-btn-exam" onclick="onlineExam('level3');">
-                             <span>Online Exam</span>
-                           </button> -->
+                  <button class="online-btn online-btn-exam" onclick="onlineExam('level2');">
+                    <span>Online Exam</span>
+                  </button>
                 </div>
               </div>
 
@@ -337,9 +340,9 @@
                       <span>Join</span>
                     </button>
                   </a>
-                  <!--          <button class="online-btn online-btn-exam" onclick="onlineExam('level3');">
-                             <span>Online Exam</span>
-                           </button> -->
+                  <button class="online-btn online-btn-exam" onclick="onlineExam('level3-swati');">
+                    <span>Online Exam</span>
+                  </button>
                 </div>
               </div>
 
@@ -374,9 +377,9 @@
                       <span>Join</span>
                     </button>
                   </a>
-                  <!--          <button class="online-btn online-btn-exam" onclick="onlineExam('level3');">
-                             <span>Online Exam</span>
-                           </button> -->
+                  <button class="online-btn online-btn-exam" onclick="onlineExam('level3-divya');">
+                    <span>Online Exam</span>
+                  </button>
                 </div>
               </div>
 
@@ -411,9 +414,9 @@
                       <span>Join</span>
                     </button>
                   </a>
-                  <!--          <button class="online-btn online-btn-exam" onclick="onlineExam('level3');">
-                             <span>Online Exam</span>
-                           </button> -->
+                   <button class="online-btn online-btn-exam" onclick="onlineExam('level4');">
+                     <span>Online Exam</span>
+                   </button>
                 </div>
               </div>
 
@@ -479,9 +482,9 @@
                       <span>Join</span>
                     </button>
                   </a>
-                  <!--          <button class="online-btn online-btn-exam" onclick="onlineExam('level3');">
-                             <span>Online Exam</span>
-                           </button> -->
+                  <button class="online-btn online-btn-exam" onclick="onlineExam('level5');">
+                    <span>Online Exam</span>
+                  </button>
                 </div>
 
               </div>
@@ -854,23 +857,23 @@
     if (isSafari || isSafarimobile) {
       if (!$('#iframe').length) {
         if (item === 'level1') {
-          window.open('https://www.classmarker.com/online-test/start/?quiz=fg95ec3c2032b070&iframe=1', '_blank');
+          window.open('https://www.classmarker.com/online-test/start/?quiz=k4k60aa9fd8c6e69&iframe=1', '_blank');
         }
         if (item === 'level2') {
-          window.open('https://www.classmarker.com/online-test/start/?quiz=yjc5ea9abd880991&iframe=1', '_blank');
+          window.open('https://www.classmarker.com/online-test/start/?quiz=7b660aa81065f6e0&iframe=1', '_blank');
         }
-        if (item === 'level3') {
-          window.open('https://www.classmarker.com/online-test/start/?quiz=prd5eb14a1f64181&iframe=1', '_blank');
+        if (item === 'level3-divya') {
+          window.open('https://www.classmarker.com/online-test/start/?quiz=nym60aa3b384e578&iframe=1', '_blank');
         }
-        if (item === 'level5') {
-            window.open('https://www.classmarker.com/online-test/start/?quiz=vdy5edd9cee85644&iframe=1', '_blank');
-          }
-        if (item === 'level7') {
-          window.open('https://www.classmarker.com/online-test/start/?quiz=d445ec0f60e2614b&iframe=1', '_blank');
+        if (item === 'level3-swati') {
+          window.open('https://www.classmarker.com/online-test/start/?quiz=rbj60aa353162b98&iframe=1', '_blank');
         }
         if (item === 'level4') {
-            window.open('https://www.classmarker.com/online-test/start/?quiz=na75ee72fc45e55e&iframe=1', '_blank');
-         }
+          window.open('https://www.classmarker.com/online-test/start/?quiz=g7360aa838a8314e&iframe=1', '_blank');
+        }
+        if (item === 'level5') {
+            window.open('https://www.classmarker.com/online-test/start/?quiz=gnf60aa861325c30&iframe=1', '_blank');
+          }
       }
     }
 
@@ -882,24 +885,23 @@
       $('#footerSmall').addClass('show');
       if (!$('#iframe').length) {
         if (item === 'level1') {
-          $('#iframeHolder').html('<iframe class="onlineExamFrame"  src="https://www.classmarker.com/online-test/start/?quiz=fg95ec3c2032b070&iframe=1"></iframe>');
+          $('#iframeHolder').html('<iframe class="onlineExamFrame" src="https://www.classmarker.com/online-test/start/?quiz=k4k60aa9fd8c6e69&iframe=1"></iframe>');
         }
         if (item === 'level2') {
-          $('#iframeHolder').html('<iframe class="onlineExamFrame" src="https://www.classmarker.com/online-test/start/?quiz=yjc5ea9abd880991&iframe=1"></iframe>');
+          $('#iframeHolder').html('<iframe class="onlineExamFrame" src="https://www.classmarker.com/online-test/start/?quiz=7b660aa81065f6e0&iframe=1"></iframe>');
         }
-        if (item === 'level3') {
-          $('#iframeHolder').html('<iframe class="onlineExamFrame" src="https://www.classmarker.com/online-test/start/?quiz=prd5eb14a1f64181&iframe=1"></iframe>');
+        if (item === 'level3-divya') {
+          $('#iframeHolder').html('<iframe class="onlineExamFrame" src="https://www.classmarker.com/online-test/start/?quiz=nym60aa3b384e578&iframe=1"></iframe>');
         }
-        if (item === 'level5') {
-            $('#iframeHolder').html('<iframe class="onlineExamFrame" src="https://www.classmarker.com/online-test/start/?quiz=vdy5edd9cee85644&iframe=1"></iframe>');
-          }
-
-        if (item === 'level7') {
-          $('#iframeHolder').html('<iframe class="onlineExamFrame" src="https://www.classmarker.com/online-test/start/?quiz=jta5ed4b45c6af92&iframe=1"></iframe>');
+        if (item === 'level3-swati') {
+          $('#iframeHolder').html('<iframe class="onlineExamFrame" src="https://www.classmarker.com/online-test/start/?quiz=rbj60aa353162b98&iframe=1"></iframe>');
         }
         if (item === 'level4') {
-            $('#iframeHolder').html('<iframe class="onlineExamFrame" src="https://www.classmarker.com/online-test/start/?quiz=na75ee72fc45e55e&iframe=1"></iframe>');
-          }
+          $('#iframeHolder').html('<iframe class="onlineExamFrame" src="https://www.classmarker.com/online-test/start/?quiz=g7360aa838a8314e&iframe=1"></iframe>');
+        }
+        if (item === 'level5') {
+          $('#iframeHolder').html('<iframe class="onlineExamFrame" src="https://www.classmarker.com/online-test/start/?quiz=gnf60aa861325c30&iframe=1"></iframe>');
+        }
       }
     }
   }
