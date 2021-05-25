@@ -520,9 +520,9 @@
                       <span>Join</span>
                     </button>
                   </a>
-                  <!--          <button class="online-btn online-btn-exam" onclick="onlineExam('level3');">
-                             <span>Online Exam</span>
-                           </button> -->
+                  <button class="online-btn online-btn-exam" onclick="onlineExam('level6');">
+                    <span>Online Exam</span>
+                  </button>
                 </div>
 
               </div>
@@ -622,6 +622,9 @@
                       <span>Join</span>
                     </button>
                   </a>
+                  <button class="online-btn online-btn-exam" onclick="onlineExam('level7.2');">
+                    <span>Online Exam</span>
+                  </button>
                 </div>
               </div>
             </div>
@@ -872,11 +875,16 @@
           window.open('https://www.classmarker.com/online-test/start/?quiz=g7360aa838a8314e&iframe=1', '_blank');
         }
         if (item === 'level5') {
-            window.open('https://www.classmarker.com/online-test/start/?quiz=gnf60aa861325c30&iframe=1', '_blank');
-          }
+          window.open('https://www.classmarker.com/online-test/start/?quiz=gnf60aa861325c30&iframe=1', '_blank');
+        }
+        if (item === 'level6') {
+          window.open('https://www.classmarker.com/online-test/start/?quiz=ypr60ab5dea4397d&iframe=1', '_blank');
+        }
+        if (item === 'level7.2') {
+          window.open('https://www.classmarker.com/online-test/start/?quiz=c4460ab96f69bac9&iframe=1', '_blank');
+        }
       }
     }
-
     else {
       $(window).scrollTop(0);
       $('#onlineClasses').addClass('hidden');
@@ -901,6 +909,12 @@
         }
         if (item === 'level5') {
           $('#iframeHolder').html('<iframe class="onlineExamFrame" src="https://www.classmarker.com/online-test/start/?quiz=gnf60aa861325c30&iframe=1"></iframe>');
+        }
+        if (item === 'level6') {
+          $('#iframeHolder').html('<iframe class="onlineExamFrame" src="https://www.classmarker.com/online-test/start/?quiz=ypr60ab5dea4397d&iframe=1"></iframe>');
+        }
+        if (item === 'level7.2') {
+          $('#iframeHolder').html('<iframe class="onlineExamFrame" src="https://www.classmarker.com/online-test/start/?quiz=c4460ab96f69bac9&iframe=1"></iframe>');
         }
       }
     }
